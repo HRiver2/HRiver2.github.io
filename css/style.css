@@ -13810,6 +13810,10 @@ print {
     src: url('/source/font/Formula1-Bold_web_0.ttf');
 }
 
-body {
+body,
+button,
+input,
+select,
+textarea {
     font-family: 'Formula1 Display Regular', 'Formula1 Display Bold', 'Ubuntu', 'Roboto', 'Open Sans', 'Microsoft YaHei', 'sans-serif' !important;
 }
