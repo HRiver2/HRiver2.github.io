@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Formula1 Display Regular';
+  src: url("/source/font/Formula1-Regular_web_0.ttf");
+}
+@font-face {
+  font-family: 'Formula1 Display Bold';
+  src: url("/source/font/Formula1-Bold_web_0.ttf");
+}
 @-moz-keyframes spinAround {
   from {
     transform: rotate(0deg);
