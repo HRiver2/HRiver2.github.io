@@ -1,0 +1,1100 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>Note18 : 杂题一 - Heriko Deltana&#039;s Blog</title><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#d3dbe4"><meta name="application-name" content="Heriko Deltana&#039;s Blog"><meta name="msapplication-TileImage" content="https://s2.loli.net/2022/05/21/WniEcsqYdjoTlg4.png"><meta name="msapplication-TileColor" content="#d3dbe4"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Heriko Deltana&#039;s Blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="第一堆持续更新的杂题"><meta property="og:type" content="blog"><meta property="og:title" content="Note18 : 杂题一"><meta property="og:url" content="http://hriver2.github.io/2021/12/06/Note18/"><meta property="og:site_name" content="Heriko Deltana&#039;s Blog"><meta property="og:description" content="第一堆持续更新的杂题"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://pic.imgdb.cn/item/60b05b7a08f74bc159235638.jpg"><meta property="og:image" content="https://pic.imgdb.cn/item/60b9d2658355f7f718625016.jpg"><meta property="og:image" content="https://pic.imgdb.cn/item/60b9d2958355f7f718664775.jpg"><meta property="og:image" content="https://pic.imgdb.cn/item/60cb01e4844ef46bb2a2045a.jpg"><meta property="og:image" content="https://pic.imgdb.cn/item/60cda57e844ef46bb20fa51f.jpg"><meta property="og:image" content="https://pic.imgdb.cn/item/60e167545132923bf88201f6.jpg"><meta property="og:image" content="https://pic.imgdb.cn/item/60e420f55132923bf8590e39.jpg"><meta property="og:image" content="https://pic.imgdb.cn/item/60e5a9d95132923bf8afc4ec.jpg"><meta property="og:image" content="https://pic.imgdb.cn/item/60e5a9f45132923bf8b05ce6.jpg"><meta property="og:image" content="https://pic.imgdb.cn/item/60e5aa045132923bf8b0b428.jpg"><meta property="og:image" content="https://pic.imgdb.cn/item/60e5aa115132923bf8b0fafc.jpg"><meta property="og:image" content="https://i.loli.net/2021/08/20/ucwprl81sWqzVhd.png"><meta property="og:image" content="https://i.loli.net/2021/08/21/XtNbGv7Imcj2BsP.png"><meta property="og:image" content="https://i.loli.net/2021/08/24/ol1QNj2gOUBcEzn.png"><meta property="og:image" content="https://i.loli.net/2021/08/24/dgeaNlis7k3AbS2.png"><meta property="article:published_time" content="2021-12-06T09:16:00.000Z"><meta property="article:modified_time" content="2022-05-21T13:26:04.516Z"><meta property="article:author" content="Heriko Delatna"><meta property="article:tag" content="OI"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://pic.imgdb.cn/item/60b05b7a08f74bc159235638.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://hriver2.github.io/"},"headline":"Note18 : 杂题一","image":["https://pic.imgdb.cn/item/60b05b7a08f74bc159235638.jpg","https://pic.imgdb.cn/item/60b9d2658355f7f718625016.jpg","https://pic.imgdb.cn/item/60b9d2958355f7f718664775.jpg","https://pic.imgdb.cn/item/60cb01e4844ef46bb2a2045a.jpg","https://pic.imgdb.cn/item/60cda57e844ef46bb20fa51f.jpg","https://pic.imgdb.cn/item/60e167545132923bf88201f6.jpg","https://pic.imgdb.cn/item/60e420f55132923bf8590e39.jpg","https://pic.imgdb.cn/item/60e5a9d95132923bf8afc4ec.jpg","https://pic.imgdb.cn/item/60e5a9f45132923bf8b05ce6.jpg","https://pic.imgdb.cn/item/60e5aa045132923bf8b0b428.jpg","https://pic.imgdb.cn/item/60e5aa115132923bf8b0fafc.jpg","https://i.loli.net/2021/08/20/ucwprl81sWqzVhd.png","https://i.loli.net/2021/08/21/XtNbGv7Imcj2BsP.png","https://i.loli.net/2021/08/24/ol1QNj2gOUBcEzn.png","https://i.loli.net/2021/08/24/dgeaNlis7k3AbS2.png"],"datePublished":"2021-12-06T09:16:00.000Z","dateModified":"2022-05-21T13:26:04.516Z","author":{"@type":"Person","name":"Heriko Deltana"},"publisher":{"@type":"Organization","name":"Heriko Deltana's Blog","logo":{"@type":"ImageObject","url":"https://s2.loli.net/2022/05/21/WniEcsqYdjoTlg4.png"}},"description":"第一堆持续更新的杂题"}</script><link rel="canonical" href="http://hriver2.github.io/2021/12/06/Note18/"><link rel="icon" href="https://s2.loli.net/2022/05/21/WniEcsqYdjoTlg4.png"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.15.2/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><meta name="generator" content="Hexo 5.4.2"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="https://s2.loli.net/2022/05/21/WniEcsqYdjoTlg4.png" alt="Heriko Deltana&#039;s Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a><a class="navbar-item" href="/friends">Friends</a><a class="navbar-item" href="/HD-Social-Behavior-Note">HDSBNI</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Bilibili" href="https://space.bilibili.com/507947803"><i class="fa fa-ban"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-12-06T09:16:00.000Z" title="2021/12/6 下午5:16:00">2021-12-06</time>发表</span><span class="level-item"><time dateTime="2022-05-21T13:26:04.516Z" title="2022/5/21 下午9:26:04">2022-05-21</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/OI-Solutions/">OI-Solutions</a></span><span class="level-item">3 小时读完 (大约28176个字)</span></div></div><h1 class="title is-3 is-size-4-mobile">Note18 : 杂题一</h1><div class="content"><p>第一堆持续更新的杂题</p>
+<span id="more"></span>
+
+<!-- toc -->
+
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
+<p>这里是我从 2021.4.12 开始的做题记录，每个题目都有大约的讲解思路（<del>有些偷懒就直接放的题解的链接</del>）</p>
+<p>这里的每一个题目都没有标程，但是都有题目的链接，可以根据右面的目录点到对应的题目去</p>
+<p>这里的题目是按照我做的时间顺序排放的，难度主要是 黄 $\to$ 绿 $\to$ 蓝的样子。</p>
+<p>因为好像篇幅好长的样子所以就开了<a target="_blank" rel="noopener" href="https://www.cnblogs.com/HRiver2/p/HR2note18-2.html">第二堆杂题</a>，这里就到 200 吧（</p>
+</blockquote>
+<p>2021.12.6 UPD</p>
+<h1 id="1-P1144-最短路计数"><a href="#1-P1144-最短路计数" class="headerlink" title="1 | P1144 最短路计数"></a>1 | P1144 最短路计数</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1144">P1144最短路计数</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>由于这道题的特殊性（所有边的边权都是1），所以我们可以只进行简单的BFS</p>
+<p>由于要求最短路，所以当前在求的点$i$的上一个点在搜索树种一定是来自于上一层，不可能来自同一层，所以到点$i$的<strong>当前路径的长度</strong>只需要让上一层的那个点对他进行更新即可</p>
+<p>再因为本题的$ans$要求的是到$i$点的最短路的个数，所以如果<strong>到点$i$的当前路径的长度</strong>等于上一层的每一个点的路径+1，那么这肯定是到点$i$的最短路</p>
+<h1 id="2-P1352-没有上司的舞会"><a href="#2-P1352-没有上司的舞会" class="headerlink" title="2 | P1352 没有上司的舞会"></a>2 | P1352 没有上司的舞会</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1352">P1352没有上司的舞会</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>这是我第一次做有关树形DP的题目，因为题目难度不高，所以还是比较好想的<br>S<br>设$f_{i0}$是当第$i$个人不参加舞会时的$max$，$f_{i1}$是他参加舞会时的$max$</p>
+<p>根据题目所给到的关系，当一个结点（人）的父节点（领导）来的时候，这个人是不参加舞会的，所以对于$i$的下属$j$就有，$\begin{cases} f_{i0}&#x3D;max{ f_{j0},f_{j1}} \ f_{i1}&#x3D;a_i+f_{j0}\end{cases}$</p>
+<p>这里的$a_i$是每个人的欢乐值（结点的权值）</p>
+<p>可以显然得到的是，上述柿子只有从<strong>根节点开始</strong>才能计算出对于每个节点的$f_{i0} , f_{i1}$，从而才能算出对于根节点的$f_{root0},f_{root1}$，最后$ans&#x3D;max{f_{root0},f_{root1}}$即可</p>
+<p>那么我们就需要找到$root$的编号，根据本题的特殊性，$root$结点即为没有上司的结点，在输入关系的时候我们用一个$bool$数组来标记即可，全部输入完毕之后，再根据标记来判断$root$</p>
+<h1 id="3-P1015-回文数"><a href="#3-P1015-回文数" class="headerlink" title="3 | P1015 回文数"></a>3 | P1015 回文数</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1015">P1015回文数</a> <font color=orange>[普及-]</font></p>
+<p><del>其实做这道题的初衷是为了让橙题AC数量凑个整数</del></p>
+<p>这道题其实按照题目的要求进行模拟即可，每次将一个数的位数正序与逆序相加，需要用到高精。对于大于10进制的情况，将其每一个用字母来表示的位对应的转化为一个十进制数即可</p>
+<h1 id="4-P1158-导弹拦截-NOIP2010PJ"><a href="#4-P1158-导弹拦截-NOIP2010PJ" class="headerlink" title="4 | P1158 导弹拦截[NOIP2010PJ]"></a>4 | P1158 导弹拦截[NOIP2010PJ]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1158">P1158导弹拦截[NOIP2010PJ]</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>看似这道题是和另外一道DP题重名，实际上这个题是一个排序+模拟，因为只有两个导弹系统，所以我们考虑用第一套拦截较小范围的，第二套拦截较大范围的</p>
+<p>在用到第一套系统的距离进行排序，然后依次枚举即可</p>
+<h1 id="5-P1190-接水问题-NOIP2011PJ"><a href="#5-P1190-接水问题-NOIP2011PJ" class="headerlink" title="5 | P1190 接水问题[NOIP2011PJ]"></a>5 | P1190 接水问题[NOIP2011PJ]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1190">P1190接水问题[NOIP2021PJ]</a> <font color=orange>[普及-]</font></p>
+<p>这题就真的是老水题了，模拟一下接水过程即可</p>
+<h1 id="6-P1309-瑞士轮-NOIP2011PJ"><a href="#6-P1309-瑞士轮-NOIP2011PJ" class="headerlink" title="6 | P1309 瑞士轮[NOIP2011PJ]"></a>6 | P1309 瑞士轮[NOIP2011PJ]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1309">P1309瑞士轮[NOIP2011PJ]</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>这道题是一个很典型的归并排序</p>
+<p>主要思路就是每次维护赢家和输家两个数组，然后在每次比赛之后进行归并</p>
+<p>在最一开始使用sort排序一遍，然后每次比赛完之后merge即可</p>
+<p>PS：STL中是有merge的：</p>
+<p>merge函数的作用是：将两个<strong>已经排好序</strong>的序列合并为一个有序的序列</p>
+<p>函数参数：merge(first1,last1,first2,last2,result,compare);</p>
+<p>实际上就可以这样用：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">bool</span> <span class="title">cmp</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y)</span></span>&#123;<span class="keyword">return</span> x&lt;y;&#125;</span><br><span class="line"><span class="type">int</span> a[<span class="number">114514</span>],b[<span class="number">114514</span>],c[<span class="number">114514</span>];</span><br><span class="line">...</span><br><span class="line"><span class="built_in">merge</span>(a+<span class="number">1</span>,a+<span class="number">114514</span>,b+<span class="number">1</span>,b+<span class="number">114514</span>,c+<span class="number">1</span>,cmp);</span><br></pre></td></tr></table></figure>
+
+<h1 id="7-P1982-小朋友的数字-NOIP2013PJ"><a href="#7-P1982-小朋友的数字-NOIP2013PJ" class="headerlink" title="7 | P1982 小朋友的数字[NOIP2013PJ]"></a>7 | P1982 小朋友的数字[NOIP2013PJ]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1982">P1982小朋友的数字[NOIP2013PJ]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>我直接推荐<a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/solution/P1982">第一篇题解</a></p>
+<h1 id="8-P1095-守望者的逃离-NOIP2007PJ"><a href="#8-P1095-守望者的逃离-NOIP2007PJ" class="headerlink" title="8 | P1095 守望者的逃离[NOIP2007PJ]"></a>8 | P1095 守望者的逃离[NOIP2007PJ]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1309">P1095守望者的逃离[NOIP2007PJ]</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>能闪则闪，否则就走，若能力值够了就恢复，最后将本次的值进行比对，</p>
+<p>看是这次 走 快还是 停下来恢复 或 闪 快</p>
+<h1 id="9-P2398-GCD-SUM"><a href="#9-P2398-GCD-SUM" class="headerlink" title="9 | P2398 GCD SUM"></a>9 | P2398 GCD SUM</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2398">P2398 GCD SUM <font color=#1E90FF>[提高+&#x2F;省选-]</font></a></p>
+<p>设$f_i&#x3D;\gcd(i,j)&#x3D;k$</p>
+<p> $g_k$为能被k整除的$\gcd(i,j)$的个数</p>
+<p>很明显就有$g_k&#x3D;\sum\limits_{t&#x3D;1}^nf_{t*k}$，因此$g_k&#x3D;\lfloor\frac{n}{k}\rfloor^2$(对于i有floor（n&#x2F;k）种，对于j也一样)</p>
+<h1 id="10-P1390-公约数的和"><a href="#10-P1390-公约数的和" class="headerlink" title="10 | P1390 公约数的和"></a>10 | P1390 公约数的和</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1390">P1390公约数的和 <font color=purple>[省选+&#x2F;NOI-]</font></a></p>
+<p>思路和上一题基本一致，最后答案输出时$\frac{ans-k}{2}$即可，其中$k&#x3D;\frac{n(1+n)}{2}$</p>
+<h1 id="11-P1541-乌龟棋-NOIP2010TG"><a href="#11-P1541-乌龟棋-NOIP2010TG" class="headerlink" title="11 | P1541 乌龟棋[NOIP2010TG]"></a>11 | P1541 乌龟棋[NOIP2010TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1541">P1541乌龟棋[NOIP2010TG]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>很明显的一个DP题，且方程是比较好推的</p>
+<p>由于题目中说了一共只有4种卡牌，且对于100%的数据：每种牌的数量都小于等于40</p>
+<p>因此我们可以开4维数组，$f_{xyzw}$代表分别用x张1，y张2，z张3，和w张4所能得到的最大值</p>
+<p>那么就可得出方程：<br>$$<br>f_{xyzw}&#x3D;max{f_{xyzw},f_{x-1yzw}+a_{x+2y+3z+4w},f_{xy-1zw}+a_{x+2y+3z+4w},f_{xyz-1w}+a_{x+2y+3z+4w},f_{xyzw-1}+a_{x+2y+3z+4w}}<br>$$<br>当然，前提是保证计算$x-1,y-1,z-1,w-1$时，对应的$x,y,z,w$都不为0</p>
+<h1 id="12-P3842-线段-TJOI2007"><a href="#12-P3842-线段-TJOI2007" class="headerlink" title="12 | P3842 线段[TJOI2007]"></a>12 | P3842 线段[TJOI2007]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3842">P3842线段[TJOI2007]</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>DP，在这里是设置了二维的一个状态，$f_{i,0}$表示从第i行最左端开始走的最短路径长度，$f_{i,1}$则是到第i行最右端开始走的最短路径长度</p>
+<p>那么除了第一行外，当前的从左端点开始走的最短的路径就是上一行的对应的左端点+上一行的线段的左端到这一行的线段的右端的长度+这一行的线段长度+1。或者是从上一行的右端点来（计算方法同理，将左端点改为右端点即可）。</p>
+<p>当然，从右边开始同理。</p>
+<p>那么状态转移方程就是这样的：<br>$$<br>f_{i,0}&#x3D;\min{f_{i,0}+dis{x_{i-1,0},x_{i,1}}+dis{x_{i,0},x_{i,1}},f_{i-1,1}+dis{x_{i-1,1},x_{i,1}}+dis{x_{i,0},x_{i,1}}}+1 \<br>f_{i,1}&#x3D;\min{f_{i,0}+dis{x_{i-1,0},x_{i,0}}+dis{x_{i,0},x_{i,1}},f_{i-1,1}+dis{x_{i-1,1},x_{i,0}}+dis{x_{i,0},x_{i,1}}}+1<br>$$</p>
+<h1 id="13-P2016-战略游戏"><a href="#13-P2016-战略游戏" class="headerlink" title="13 | P2016 战略游戏"></a>13 | P2016 战略游戏</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2016">P2016战略游戏</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>一个最为基础的树形DP</p>
+<p>通过观察样例我们可以发现：实际上只需要考虑对于某个节点，我们只需要考虑这个节点要不要放士兵即可</p>
+<p>那么我们每次取放&#x2F;不放的最小值即可</p>
+<h1 id="14-P1359-租用游艇"><a href="#14-P1359-租用游艇" class="headerlink" title="14 | P1359 租用游艇"></a>14 | P1359 租用游艇</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1359">P1359租用游艇</a> <font color=orange>[普及-]</font></p>
+<p>树形DP，先存边，然后遍历n的上游和i的下游节点，比较路径长度即可</p>
+<h1 id="15-P1122-最大子树和"><a href="#15-P1122-最大子树和" class="headerlink" title="15 | P1122 最大子树和"></a>15 | P1122 最大子树和</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1122">P1122最大子树和</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>树形DP，先存边，然后进行两个DFS</p>
+<h1 id="16-P1747-好奇怪的游戏"><a href="#16-P1747-好奇怪的游戏" class="headerlink" title="16 | P1747 好奇怪的游戏"></a>16 | P1747 好奇怪的游戏</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1747">P1747好奇怪的游戏</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>BFS，做这道题的初衷是为了复习一下搜索，感觉自己快忘了</p>
+<p>最一开始提交竟然WA，原来是BFS第二个时把<code>BFS(X2,Y2)</code>错写成了<code>BFS(X2,Y1)</code>，草（一种植物+中日双语）</p>
+<h1 id="17-P1746-离开中山路"><a href="#17-P1746-离开中山路" class="headerlink" title="17 | P1746 离开中山路"></a>17 | P1746 离开中山路</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1746">P1746离开中山路</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>BFS，和上面那道题基本一致</p>
+<p>简单的打了一遍模板，修改几个参数就好了（</p>
+<h1 id="18-P2615-幻方-NOIP2015TG"><a href="#18-P2615-幻方-NOIP2015TG" class="headerlink" title="18 | P2615 幻方[NOIP2015TG]"></a>18 | P2615 幻方[NOIP2015TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2615">P2615幻方[NOIP2015TG]</a> <font color=orange>[普及-]</font></p>
+<p><del>不是吧2015年的D1T1就这么水</del></p>
+<p>做题的初衷是为了完成任务</p>
+<p>一眼知模拟，所以就按照条件简单做就行</p>
+<p>因为数组表示起来不是很好想，直接放弃使用数组下标</p>
+<p>选择用结构体，求每个数字的坐标，最后再赋值给数组以便输出，中间走样例炸了一次，是没做位置是否有数的判断，因为懒得再去大改，而且这题范围允许，就维护了一个bool数组</p>
+<p><del>做的时候觉得应该能煺柿子，AC完一看题解，还真有公式啊</del></p>
+<h1 id="19-P2298-Mzc和男家丁的游戏"><a href="#19-P2298-Mzc和男家丁的游戏" class="headerlink" title="19 | P2298 Mzc和男家丁的游戏"></a>19 | P2298 Mzc和男家丁的游戏</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2298">P2298Mzc和男家丁的游戏</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>BFS，和前面的P1746思路基本一致，典型的迷宫+BFS，维护一个dis数组即可</p>
+<p><del>但是分析的时候错误的打了个else导致我调了二十分钟？？？</del></p>
+<h1 id="20-P1332-血色先锋队"><a href="#20-P1332-血色先锋队" class="headerlink" title="20 | P1332 血色先锋队"></a>20 | P1332 血色先锋队</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1332">P1332血色先锋队</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p><del>看完题面第一反应：好！我是叛徒</del></p>
+<p>BFS，但不完全是BFS板子，这是多起点多终点的</p>
+<p><del>啊那就直接把起点全部压进队列去不就行了么</del></p>
+<p>然后更新dis，最后按照顺序输出即可</p>
+<p><del>然后我因为BFS函数没调用查了≈40min？？？</del></p>
+<p><del>感谢！已经气懵了</del></p>
+<h1 id="21-P1141-01迷宫"><a href="#21-P1141-01迷宫" class="headerlink" title="21 | P1141 01迷宫"></a>21 | P1141 01迷宫</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1141">P1141 01迷宫</a> <font color=orange>[普及-]</font></p>
+<p>别看这是一道普及-，这题可比前面的5道题强多了</p>
+<p>首先输入需要用字符串，迷宫类问题常规操作，还行</p>
+<p>然后这题如果直接按照输入数据一组一组的BFS的话最多拿70pts，会TLE三个点</p>
+<p>那么我们考虑计算连通块，然后输出要查询的点所在的连通块的大小即可</p>
+<h1 id="22-P1162-填涂颜色"><a href="#22-P1162-填涂颜色" class="headerlink" title="22 | P1162 填涂颜色"></a>22 | P1162 填涂颜色</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1162">P1162填涂颜色</a> <font color=orange>[普及-]</font></p>
+<p>哦，又是一道普及-</p>
+<p>这道题做法很多，我在这里考虑DFS</p>
+<p>因为在题目当中0有两个意思，所以将他们换成不同的数字在进行分析</p>
+<p>但是不能直接DFS，那样会把边缘误涂，应该先DFS一边边缘，再进行正常DFS，所以最一开始输入的是<code>DFS(0,0)</code></p>
+<h1 id="23-P1683-入门"><a href="#23-P1683-入门" class="headerlink" title="23 | P1683 入门"></a>23 | P1683 入门</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1683">P1683入门</a> <font color=orange>[普及-]</font></p>
+<p>哦，双是一道普及-</p>
+<p>这道题显然的DFS，甚至还不用回溯，找到起点直接DFS即可</p>
+<h1 id="24-CF414B-Mashmokh-and-ACM"><a href="#24-CF414B-Mashmokh-and-ACM" class="headerlink" title="24 | CF414B Mashmokh and ACM"></a>24 | CF414B Mashmokh and ACM</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/CF414B">洛谷：CF414B Mashmokh and ACM</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://codeforces.com/contest/414/problem/B">CF：Codeforces Round #240(Div.1) ##B</a></p>
+<p>搜索做累了，水一个DP</p>
+<p>由于对于一个数而言，它的因数并不好枚举，所以在这里考虑倒退，即去推某个数的倍数</p>
+<h1 id="25-P1586-四方定理"><a href="#25-P1586-四方定理" class="headerlink" title="25 | P1586 四方定理"></a>25 | P1586 四方定理</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1586">P1586四方定理</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>DP，状态很好想，是一个类似部分背包</p>
+<p>由于是多组数据，可以先预处理，然后把输入的数据的<code>f[n][1~4]</code>加起来就行</p>
+<h1 id="26-AT1350-深さ優先探索"><a href="#26-AT1350-深さ優先探索" class="headerlink" title="26 | AT1350 深さ優先探索"></a>26 | AT1350 深さ優先探索</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1586">AT1350 深さ優先探索</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>顾名思义，这是AtCoder的DFS模板题，锻炼一下DFS用的</p>
+<h1 id="27-P1387-最大正方形"><a href="#27-P1387-最大正方形" class="headerlink" title="27 | P1387 最大正方形"></a>27 | P1387 最大正方形</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1387">P1387最大正方形</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>智能推荐的题，DP</p>
+<p>由于给了图，而且n和m都小于100，所以上手模一下图大概的柿子就有了</p>
+<p>本题实际上只需要对数值是1的点进行操作，所以以当前这个点为顶点的最大的<strong>不含0</strong>的正方形的边长就是它的上，左，左上端点的最小值再加一，柿子大约就是：<br>$$<br>f_{i,j}&#x3D;\min{f_{i-1,j},f_{i,j-1},f_{i-1,j-1}}+1<br>$$</p>
+<h1 id="28-P1157-组合的输出"><a href="#28-P1157-组合的输出" class="headerlink" title="28 | P1157 组合的输出"></a>28 | P1157 组合的输出</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1157">P1157组合的输出</a> <font color=orange>[普及-]</font></p>
+<p>DFS，但是我白给了，完全不会DFS.jpg</p>
+<p>实际上思路很好想，从1开始搜，然后搜每一个能符合的下一个数，如果当前搜到的位数大于r了，就输出+回溯</p>
+<p>但是我就是不会打（</p>
+<p><del>最一开始看到这个题突然想起来有个东西叫做<code>next_permutation</code>，然后看本题的推荐题目，发现有一道裸的输出全排列（<a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1706">P1706全排列问题</a> <font color=orange>[普及-]</font>），就顺便用这个STL函数搞了一下</del></p>
+<h1 id="29-P2372-yyy2015c01挑战算周长"><a href="#29-P2372-yyy2015c01挑战算周长" class="headerlink" title="29 | P2372 yyy2015c01挑战算周长"></a>29 | P2372 yyy2015c01挑战算周长</h1><p><del>哦我又双叒叕在DFS上面白给了</del></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2372">P2372yyy挑战算周长</a> <font color=orange>[普及-]</font></p>
+<p>DFS，一上来就读不懂题，样例都看不懂</p>
+<p>看了一眼题解发现原来是对于每个中心的X，只有它的上下左右才算周长，否则不算（比如说角上就不算）</p>
+<h1 id="30-P1681-最大正方形II"><a href="#30-P1681-最大正方形II" class="headerlink" title="30 | P1681 最大正方形II"></a>30 | P1681 最大正方形II</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1681">P1681最大正方形II</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>是刚才上面那道题的变式，实际上只需要多开一维数组来表示当前是0还是1了</p>
+<p><del>这个数据范围搞得我严重浪费评测机资源</del></p>
+<h1 id="31-P2426-删数"><a href="#31-P2426-删数" class="headerlink" title="31 | P2426 删数"></a>31 | P2426 删数</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1681">P2426删数</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>区间DP，<del>我没见过</del></p>
+<p>准确来说是我忘了，但是<del>看题解说</del>这个题比较水</p>
+<p>不过也确实比较水，因为从头上删除和从尾删除到了最后应该是等价的（也就是从头上删除的最优解留下来的部分也正是从尾端开始的最优解）</p>
+<p>最一开始过不了样例，因为我把求值的公式打错了<del>（谁让题面上没用$\LaTeX$呢)</del></p>
+<p><del>看到样例答案突然就想讽刺一下膏通的某挤牙膏SoC</del></p>
+<h1 id="32-P1036-选数-NOIP2002PJ"><a href="#32-P1036-选数-NOIP2002PJ" class="headerlink" title="32 | P1036 选数[NOIP2002PJ]"></a>32 | P1036 选数[NOIP2002PJ]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1036">P1036组合的输出</a> <font color=orange>[普及-]</font></p>
+<p>一道NOIP的上古题目</p>
+<p>DFS，和昨天那个组合数类似，都是确定当前数字的基础上确定下一个数</p>
+<p>本来是想打一手欧拉筛预判一下，结果发现不是很好用，于是乎打完就去掉了，换成了试除法</p>
+<h1 id="33-P1063-能量项链-NOIP2006TG"><a href="#33-P1063-能量项链-NOIP2006TG" class="headerlink" title="33 | P1063 能量项链[NOIP2006TG]"></a>33 | P1063 能量项链[NOIP2006TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1063">P1063能量项链[NOIP2006TG]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p><del>众所周知这是某本书的区间DP的例题，但我没看那本书的区间DP</del></p>
+<p><del>好久没做绿题了</del></p>
+<p>区间DP，首先这题数据是个环，我们需要破环成链，实际上只需要在数组里面再复制一遍数据就可以</p>
+<p>我们从中间选一个点k，然后每次比较i到j的原值大还是从中间选一k点得到的值大</p>
+<p>最后找一个最大值即可</p>
+<h1 id="34-P1605-迷宫"><a href="#34-P1605-迷宫" class="headerlink" title="34 | P1605 迷宫"></a>34 | P1605 迷宫</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1605">P1605 迷宫</a> <font color=orange>[普及-]</font></p>
+<p><del>不是吧不是吧不会这个题也有人不会吧</del></p>
+<p><strong>D</strong><del>fkuaid_</del><strong>F</strong><del>irst_</del><strong>S</strong><del>earch</del>，实际上就是每次扩展结点简单DFS即可</p>
+<p>但是我最一开始忘了判断是否越界&amp;起点设置为已经过而WA</p>
+<p>说明我DFS还是8行</p>
+<h1 id="35-P1005-矩阵取数游戏-NOIP2007TG"><a href="#35-P1005-矩阵取数游戏-NOIP2007TG" class="headerlink" title="35 | P1005 矩阵取数游戏[NOIP2007TG]"></a>35 | P1005 矩阵取数游戏[NOIP2007TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1005">P1005 矩阵取数游戏[NOIP2007TG] <font color=#1E90FF>[提高+&#x2F;省选-]</font></a></p>
+<p><del>终于是把我主页智能推荐天天在推荐的题调出来了</del></p>
+<p>实际上是一个区间DP，我们每行维护一个最大值，最后加起来即可</p>
+<p>对于每一行的每一个数，当要去掉的数到它时，它的最大值一定来自它的左边或右边，因为只能从两头进行操作</p>
+<p>然后就是高精度，感谢，已经快敲死了</p>
+<p>实际上第一次模着题解写对了99%，但是当把每一行的最大值加入ans的时候忘了给每一行的最大值赋值时清空了:joy:</p>
+<h1 id="36-P1019-单词接龙-NOIP2000TG"><a href="#36-P1019-单词接龙-NOIP2000TG" class="headerlink" title="36 | P1019 单词接龙[NOIP2000TG]"></a>36 | P1019 单词接龙[NOIP2000TG]</h1><p><del>注意：本题为上古 NOIP 原题，不保证存在靠谱的做法能通过该数据范围下的所有数据。</del></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1681">P1019 单词接龙[NOIP2000TG] </a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>一道比较巨大的DFS，很考察细节，思路不难想，问题是怎么一点一点的把细节抠出来</p>
+<h1 id="37-P4170-涂色"><a href="#37-P4170-涂色" class="headerlink" title="37 | P4170 涂色"></a>37 | P4170 涂色</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4170">P4170 涂色</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p><del>说实话好久没做题了</del></p>
+<p>这个题是一个区间DP，考虑一个特殊的判断，即为枚举到相同时直接继承，剩下的就是经典的区间DP，枚举一个断点进行计算</p>
+<h1 id="38-P2014-选课-CTSC1997"><a href="#38-P2014-选课-CTSC1997" class="headerlink" title="38 | P2014 选课[CTSC1997]"></a>38 | P2014 选课[CTSC1997]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2014">P2014 选课</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>一看年份就知道是<del>一道上古的CTSC题目</del>，我们先来看这个题面</p>
+<p>题面中提到<strong>很多课程都会有其预备课程</strong>，然后再根据本题输入的数据的特点是输入0即为没有前继节点，于是这句话可以翻译为：<strong>这是一棵根节点为0的树</strong></p>
+<p>没错，这道题分析到这里就应该能看出来是树形DP了</p>
+<p>首先是进行常规操作，用邻接表来存下这些边，生成一棵树</p>
+<p>于是我们就从最小内容的节点开始拓展（递归），也就是从 Root 开始DP</p>
+<p>这里设计的方程是 $ f[j][k] $ 是指前 j 个节点选了 k 节课，我们可以从根节点开始，顺着树进行DP（DFS）</p>
+<h1 id="39-P2015-二叉苹果树"><a href="#39-P2015-二叉苹果树" class="headerlink" title="39 | P2015 二叉苹果树"></a>39 | P2015 二叉苹果树</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2015">P2015 二叉苹果树</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p><del>顾名思义，这是一颗树，并且还是二叉树</del></p>
+<p>这里推荐一篇54级学长的<a target="_blank" rel="noopener" href="https://www.cnblogs.com/hanruyun/p/9788170.html">[树形DP入门]</a></p>
+<p>学长讲的真的挺好的，推荐去看</p>
+<p>HD只能在这里粗略的重复一遍，实际上就是考虑到每个节点的数据都是由他的子节点传递过来的，因此我们在找方程的时候就要找当前节点和它的子节点的传递&#x2F;递推关系</p>
+<h1 id="40-P2880-Balanced-Lineup-G-P2251-质量检测"><a href="#40-P2880-Balanced-Lineup-G-P2251-质量检测" class="headerlink" title="40 | P2880 Balanced Lineup G + P2251 质量检测"></a>40 | P2880 Balanced Lineup G + P2251 质量检测</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2880">Balanced Lineup G</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2251">质量检测</a></p>
+<p>之所以把这两个题放在一起，就是因为这都是ST表的板子题，前者只需在ST表板子的基础上维护一个最小值，然后查询的时候输出 max-min 即可</p>
+<p>后者只是把查询的区间改为了一个规定的柿子，传参的时候注意一下就可</p>
+<h1 id="41-P1816-忠诚"><a href="#41-P1816-忠诚" class="headerlink" title="41 | P1816 忠诚"></a>41 | P1816 忠诚</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1816">P1816 忠诚</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>我是真的没想到ST表居然这么多板子题（虽然说相比于并查集少了很多）</p>
+<p>这个就是把模板的max改为min即可，因为ST表在维护最大值和最小值的时候原理是一致的</p>
+<h1 id="42-P1040-加分二叉树-NOIP2003TG"><a href="#42-P1040-加分二叉树-NOIP2003TG" class="headerlink" title="42 | P1040 加分二叉树[NOIP2003TG]"></a>42 | P1040 加分二叉树[NOIP2003TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1040">P1040 加分二叉树</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>这个题是一个长得像树形DP的区间DP</p>
+<p>数据只给出了中序遍历，因此我们不能确定树的样子，再加上我们最后要输出能够得到最大加分的树的先序遍历，于是我们就着手与在这里设计方程</p>
+<p>用 $f[i][j].a$ 来表示从编号 i 到 j 这些点形成的最优二叉树（即分数最大），因为我们还有输出这棵树，所以我们在进行状态转移的时候还需要记录刚才那棵树的根节点，保存到 $f[i][j].r$ 中</p>
+<p>根据题目加分的原则，我们再枚举一个区间变量 k 去找这个最大值，我们可以得到下面的状态转移方程</p>
+<p>$$<br>f[i][j].a&#x3D;\max(f[i][k-1].a \times f[k+1][j].a + f[k][k].a)<br>$$</p>
+<p>根据我们设计的方程，最后再输出 $f[1][n].a$ 以及以 $f[i][n].r$ 为根节点的二叉树的先序遍历即可</p>
+<h1 id="43-P1440-求m区间内的最小值"><a href="#43-P1440-求m区间内的最小值" class="headerlink" title="43 | P1440 求m区间内的最小值"></a>43 | P1440 求m区间内的最小值</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1440">P1440 求m区间内的最小值</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>这个题一眼单调队列（滚动数组），就比模板还简单</p>
+<p>但是这题题意不清楚，题目中说到的”求出每一项前的 m 个数到它这个区间内的最小值”中，这个区间是前闭后开的（</p>
+<p>PS：最近做了一些模板题，可能会写个汇总</p>
+<p>谁让今天洛谷给我智推五道板子题呢（笑）</p>
+<p><img src="https://pic.imgdb.cn/item/60b05b7a08f74bc159235638.jpg"></p>
+<h1 id="44-P1638-逛画展"><a href="#44-P1638-逛画展" class="headerlink" title="44 | P1638 逛画展"></a>44 | P1638 逛画展</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1638">P1638 逛画展</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>简单来说这也是个单调队列的题，因为我们只需要保证区间内每个作家有至少一幅画，所以当一个画家的画出现了两次之时，可以直接让前面那个出队，毕竟保留它并不会更优</p>
+<h1 id="45-P1901-发射站"><a href="#45-P1901-发射站" class="headerlink" title="45 | P1901 发射站"></a>45 | P1901 发射站</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1901">P1901 发射站</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>总之来说，就还是维护一个单调队列，保证能量能传的最远，所以要保证后入队的塔比前面的矮</p>
+<h1 id="46-P3146-248-G"><a href="#46-P3146-248-G" class="headerlink" title="46 | P3146 248 G"></a>46 | P3146 248 G</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3146">P3146 248 G</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>我是真的不敢相信这题是绿的</p>
+<p>实际上这道题说起来是要比石子合并简单的，因 为这题的转移方程仅仅是<code>f[i][j]=max(f[i][j],f[i][k]+1)</code></p>
+<p>注意在合并的时候要判断两者必须相同且均不为 0 </p>
+<h1 id="47-P1714-切蛋糕"><a href="#47-P1714-切蛋糕" class="headerlink" title="47 | P1714 切蛋糕"></a>47 | P1714 切蛋糕</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1714">P1714 切蛋糕</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>这是我做的第40道绿题！</p>
+<p>这道题本质上让人一眼想暴力，但是50w的范围很明显会Time Limit Enough</p>
+<p>于是我们就有两个出路,线段树(具体我不会搞,kkk说的能搞)或者维护个单调队列</p>
+<p>我这是第一次用STL的deque,大体思路就是满足条件就进队(进队的元素是前缀和),每次和当前ans进行比较,选取大的那个</p>
+<p>由于输入的Pi可能是负数,所以ans最一开始要初始为一个负数(我选的-114514)</p>
+<p>最后得到的一定就是最优解了</p>
+<h1 id="48-P6599-异或"><a href="#48-P6599-异或" class="headerlink" title="48 | P6599 异或"></a>48 | P6599 异或</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P6599">P6599 异或</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>由于我太懒了,建议直接看DX的题解</p>
+<p><del>其实是写完题之后去整了整AFOed的同学的链接,唉……</del></p>
+<h1 id="49-P4391-Radio-Transmission-无线传输-BOI2009"><a href="#49-P4391-Radio-Transmission-无线传输-BOI2009" class="headerlink" title="49 | P4391 Radio Transmission 无线传输[BOI2009]"></a>49 | P4391 Radio Transmission 无线传输[BOI2009]</h1><p>同上,简单说一下吧,相当于KMP的小扩展形式</p>
+<h1 id="50-P6051-求和"><a href="#50-P6051-求和" class="headerlink" title="50 | P6051 求和"></a>50 | P6051 求和</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P6051">P6051 求和</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>说实话这题不是很难</p>
+<p>如果是经常用快读的同学们应该知道，快读的本质就是读取字符，因为<code>getchar()</code>读取效率更快一些</p>
+<p>而本题就是从字符串中读取出来数字再进行求和，我这边直接用快读读入的话可以发现它是能读出来所有数字</p>
+<p>于是可以直接从快读的基础上进行更改，多维护一个变量来求和即可</p>
+<h1 id="51-P1083-借教室-NOIP2012TG"><a href="#51-P1083-借教室-NOIP2012TG" class="headerlink" title="51 | P1083 借教室[NOIP2012TG]"></a>51 | P1083 借教室[NOIP2012TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1083">P1083 借教室</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>暴力很好想，直接打就行，就是只有45pts（</p>
+<p>正解是差分+二分查找答案</p>
+<h1 id="52-P2420-让我们异或吧"><a href="#52-P2420-让我们异或吧" class="headerlink" title="52 | P2420 让我们异或吧"></a>52 | P2420 让我们异或吧</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2420">P2420 让我们异或吧</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p><del>这道题稍微一看题解区就会发现什么做法都有</del></p>
+<p>我这里选用的是披着 LCA 名字的 DFS ，因为题目是说两点之间的路径上所有边的边权的异或值，所以就相当于是这两点分别到 LCA 的边权异或值的异或值</p>
+<p>由于本题过水，所以我们甚至只需要直接一共 DFS 预处理出每个点的 LCA 以及其对应的异或值即可</p>
+<h1 id="53-P1351-联合权值-NOIP2014TG"><a href="#53-P1351-联合权值-NOIP2014TG" class="headerlink" title="53 | P1351 联合权值[NOIP2014TG]"></a>53 | P1351 联合权值[NOIP2014TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1351">P1351 联合权值</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p><strong><del>我们联合！</del></strong></p>
+<p><strong><del>两面包夹芝士！</del></strong></p>
+<p>这个题首先告诉我们了一个信息：这是一棵树</p>
+<p>再根据题意，两个能联合的点之间必然有一个点</p>
+<p>于是我们可以枚举这个中间点，扩展一边它周围的边，就能算出来最大的联合<del>军费</del>，一步步枚举，就可以算出联合<del>军费</del>之和</p>
+<h1 id="54-P1613-跑路"><a href="#54-P1613-跑路" class="headerlink" title="54 | P1613 跑路"></a>54 | P1613 跑路</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1316">P1613 跑路</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p><del>确实，我要跑路了</del></p>
+<p>这个题很显然要用到最短路，我们可以这样想：把能用跑路机的两个点之间（2^n^）的边连为 1 ，接下来就无脑 Floyd </p>
+<h1 id="55-P1168-中位数"><a href="#55-P1168-中位数" class="headerlink" title="55 | P1168 中位数"></a>55 | P1168 中位数</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1168">P1168 中位数</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>这道题题意非常易于理解，我第一反应是每次输入的时候 sort 一下，但是仿佛这复杂度会立即炸掉</p>
+<p>于是突然想起 vector 的 insert 的复杂度是 $O(n)$ 好像能使（</p>
+<p>于是就把 upper_bound + insert 合起来用了（</p>
+<p>隔壁的 Dfkuaid 默默拿出一手权值线段树，这玩意效率比 vector 强多了，但是我不会:D</p>
+<h1 id="56-P1853-投资的最大效益"><a href="#56-P1853-投资的最大效益" class="headerlink" title="56 | P1853 投资的最大效益"></a>56 | P1853 投资的最大效益</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1853">P1853 投资的最大效益</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>算是复习一下背包，这是一个完全背包</p>
+<p>就是多开了一层循环，要遍历年数</p>
+<p>这题最离谱的是给的 $s \le 10^6$ ，但是数组开 1e6+5 还不够，需要 1e7 ……</p>
+<h1 id="57-P2918-Buying-Hay-S"><a href="#57-P2918-Buying-Hay-S" class="headerlink" title="57 | P2918 Buying Hay S"></a>57 | P2918 Buying Hay S</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2918">P2918 Buying Hay S</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>这题真是把我整笑了，就一个裸的完全背包</p>
+<p>但是因为我赋的初始值不够大就 WA 了一页……</p>
+<h1 id="58-P5365-英雄联盟-SNOI2017"><a href="#58-P5365-英雄联盟-SNOI2017" class="headerlink" title="58 | P5365 英雄联盟[SNOI2017]"></a>58 | P5365 英雄联盟[SNOI2017]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P5365">P5365 英雄联盟[SNOI2017]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>简单来说是一个多重背包，但是我们里要考虑的东西多了不少（</p>
+<p>这里的钱的总数需要乘一下</p>
+<p>Dfkuaid 是一样的方程却下溢出了，咱也不知道为什么我没有溢出</p>
+<p>不过加上防止下溢出的 if 之后，我开 O2 能跑到最优解第一页了（虽然是最后一个）</p>
+<h1 id="59-P2347-砝♂码称重-NOIP1996TG"><a href="#59-P2347-砝♂码称重-NOIP1996TG" class="headerlink" title="59 | P2347 砝♂码称重[NOIP1996TG]"></a>59 | P2347 砝♂码称重[NOIP1996TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2347">P2347 砝♂码称重[NOIP1996TG]</a> <font color=orange>[普及-]</font></p>
+<p>这题，屑题，不讲</p>
+<h1 id="60-P1832-A-B-Problem-再升级"><a href="#60-P1832-A-B-Problem-再升级" class="headerlink" title="60 | P1832 A+B Problem 再升级"></a>60 | P1832 A+B Problem 再升级</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1832">P1832 A+B Problem 再升级</a> <font color=orange>[普及-]</font></p>
+<p>这个题先欧拉筛一遍质数然后完全背包</p>
+<h1 id="61-P1244-青蛙过河-NOI2000"><a href="#61-P1244-青蛙过河-NOI2000" class="headerlink" title="61 | P1244 青蛙过河[NOI2000]"></a>61 | P1244 青蛙过河[NOI2000]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1244">P1244 青蛙过河[NOI2000]</a> <font color=orange>[普及-]</font></p>
+<p><del>这就是2000年的 NOI 的水题吗</del></p>
+<p>这个题显然发现有这样一个柿子： $f[i]&#x3D;\sum\limits^{i-1}_{j} f[j] $ ，其中 $f[0]&#x3D;k+1$</p>
+<p>然而这样也就告诉我们根本不需要数组 f ，所以我是直接使 k++ 然后乘</p>
+<p>这也是我的第 100 道橙题</p>
+<h1 id="62-P2370-yyy2015c01-的-U-盘"><a href="#62-P2370-yyy2015c01-的-U-盘" class="headerlink" title="62 | P2370 yyy2015c01 的 U 盘"></a>62 | P2370 yyy2015c01 的 U 盘</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2370">P2370 yyy2015c01 的 U 盘</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>总之来说是 01背包 之前排序一下即可</p>
+<p>有了 O2 以及快读快输常数小的优势，拿了第 6 优解</p>
+<h1 id="63-P2904-River-Crossing-S"><a href="#63-P2904-River-Crossing-S" class="headerlink" title="63 | P2904 River Crossing S"></a>63 | P2904 River Crossing S</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2904">P2904 River Crossing S</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>这个题数据一看就非常水吧，就 2.5k 的 n ……</p>
+<p>最一开始算一个前缀和 + 完全背包即可</p>
+<p>又是由于常数小，拿了第 11 优解，诶嘿</p>
+<h1 id="64-P1631-序列合并"><a href="#64-P1631-序列合并" class="headerlink" title="64 | P1631 序列合并"></a>64 | P1631 序列合并</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1631">P1631 序列合并</a> <font color=gree>[普及+&#x2F;提高]</font><br>f<br>这个题，题面确实对我来说有点迷，就是那种，读懂了但是没完全读懂的感觉…..<del>就是，你懂！</del></p>
+<p><del>强迫文学奖</del></p>
+<p>这个题有一点非常好的就是题目给出的数据已经排好序了，因此我们不必再次排序</p>
+<p>由于题目中说到要输出最小的 N 个，那么很容易想起来要维护一个小根堆，这里我用的 priority_queue ，<del>单纯是因为懒，而且太久没手写堆了</del></p>
+<p>可以假定这两个序列选择时是有先后的，于是我们最一开始让 a<del>1</del> + b<del>i</del> 入队，然后一个个出队，再把 a<del>2</del> + b<del>i</del> 入队，直到到达要求</p>
+<p>为了记录是扔进去的是第几个 b ，这里在 pq 里用 pair 还存了填入的 b 的编号</p>
+<h1 id="65-P5020-货币系统-NOIP2018TG"><a href="#65-P5020-货币系统-NOIP2018TG" class="headerlink" title="65 | P5020 货币系统 [NOIP2018TG]"></a>65 | P5020 货币系统 [NOIP2018TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P5020">P5020 货币系统 [NOIP2018TG] </a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>题面可以说是看起来比较难受，这里直接简述一下</p>
+<p>个人理解就是要找一个新的<strong>由 m 种货币组成的</strong>货币系统，要保证它和给你的那个货币系统是等价的</p>
+<p><del>我看了一眼 Tag 发现是有背包之后</del> 果断想到这个貌似是<strong>完全背包</strong>的样子！</p>
+<p>于是就往完全背包上面凑，设了一个 f<del>x</del> 来表示 x 能不能被表示出来，然后显然在状态转移的时候，需要判重，不让这个 m 在一个价钱上被重复加</p>
+<p>状态转移方程就是 <code>f[j]=f[j-a[i]];</code></p>
+<h1 id="66-P6771-Space-Elevator-太空电梯"><a href="#66-P6771-Space-Elevator-太空电梯" class="headerlink" title="66 | P6771 Space Elevator 太空电梯"></a>66 | P6771 Space Elevator 太空电梯</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P6771">P6771 Space Elevator 太空电梯</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>这个题显然是和背包有关，而且是多重背包，这里我采取的状态转移方程是 <code>f[x]|=f[x-h[i]]</code> </p>
+<h1 id="67-CF189A-Cut-Ribbon"><a href="#67-CF189A-Cut-Ribbon" class="headerlink" title="67 | CF189A Cut Ribbon"></a>67 | CF189A Cut Ribbon</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/CF189A">CF189A Cut Ribbon</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>显然这题橙题水准，但是众所周知 CF 题都是恶评，即使这是 A </p>
+<p>就是一个完全背包板子…</p>
+<p>所以试图拿最优解，但是很明显我不够格（</p>
+<h1 id="68-CF417A-Elimination"><a href="#68-CF417A-Elimination" class="headerlink" title="68 | CF417A Elimination"></a>68 | CF417A Elimination</h1><p>写了题解，希望能通过，毕竟我到现在咕值只有练习分和信用分</p>
+<p><a target="_blank" rel="noopener" href="https://hriver2.blog.luogu.org/solution-cf417a">题解在这里</a></p>
+<p>(UPD:题解已经过了！)</p>
+<h1 id="69-P1941-飞扬的小鸟-NOIP2014TG"><a href="#69-P1941-飞扬的小鸟-NOIP2014TG" class="headerlink" title="69 | P1941 飞扬的小鸟 [NOIP2014TG]"></a>69 | P1941 飞扬的小鸟 [NOIP2014TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1941">P1941 飞扬的小鸟 [NOIP2014TG]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>哇这题真的是……令人害怕，2014 TG 就这么恐怖，觉得自己 2021 可能要挂（</p>
+<p>CSP 2021 &amp; NOIP 2021 RP++ !</p>
+<p>这个题细节多的离谱，这也是我做到现在觉得应该放代码的一道题<del>（虽然已经变成了题解的样子（</del></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> Heriko return</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> Deltana 0</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> Romano 1</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> S signed</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> U unsigned</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> LL long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> R register</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> I inline</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> D double</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> LD long double</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> INF (LLONG_MAX-114)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> mst(a, b) memset(a, b, sizeof(a))</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ON std::ios::sync_with_stdio(false)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function">I <span class="type">void</span> <span class="title">fr</span><span class="params">(LL &amp; x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    LL f = <span class="number">1</span>;</span><br><span class="line">    <span class="type">char</span> c = <span class="built_in">getchar</span>();</span><br><span class="line">    x = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span> (c &lt; <span class="string">&#x27;0&#x27;</span> || c &gt; <span class="string">&#x27;9&#x27;</span>) </span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (c == <span class="string">&#x27;-&#x27;</span>) f = <span class="number">-1</span>;</span><br><span class="line">        c = <span class="built_in">getchar</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span> (c &gt;= <span class="string">&#x27;0&#x27;</span> &amp;&amp; c &lt;= <span class="string">&#x27;9&#x27;</span>) </span><br><span class="line">    &#123;</span><br><span class="line">        x = (x &lt;&lt; <span class="number">3</span>) + (x &lt;&lt; <span class="number">1</span>) + c - <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">        c = <span class="built_in">getchar</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    x *= f;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">I <span class="type">void</span> <span class="title">fw</span><span class="params">(LL x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(x&lt;<span class="number">0</span>) <span class="built_in">putchar</span>(<span class="string">&#x27;-&#x27;</span>),x=-x;</span><br><span class="line">    <span class="type">static</span> LL stak[<span class="number">35</span>];</span><br><span class="line">    LL top=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        stak[top++]=x%<span class="number">10</span>;</span><br><span class="line">        x/=<span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>(x);</span><br><span class="line">    <span class="keyword">while</span>(top) <span class="built_in">putchar</span>(stak[--top]+<span class="string">&#x27;0&#x27;</span>);</span><br><span class="line">    <span class="built_in">putchar</span>(<span class="string">&#x27;\n&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MXX=<span class="number">10005</span>;</span><br><span class="line">LL n,m,k,h[MXX],l[MXX],f[MXX][<span class="number">1005</span>],t,fans[MXX],ans,x[MXX],y[MXX];</span><br><span class="line"><span class="type">bool</span> o[MXX];</span><br><span class="line"><span class="function">S <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">fr</span>(n),<span class="built_in">fr</span>(m),<span class="built_in">fr</span>(k);</span><br><span class="line">    <span class="keyword">for</span>(R LL i=<span class="number">0</span>;i&lt;n;++i) <span class="built_in">fr</span>(x[i]),<span class="built_in">fr</span>(y[i]);</span><br><span class="line">    <span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=k;++i) <span class="built_in">fr</span>(t),<span class="built_in">fr</span>(l[t]),<span class="built_in">fr</span>(h[t]),o[t]=<span class="literal">true</span>;</span><br><span class="line">    <span class="keyword">for</span>(R LL i=<span class="number">0</span>;i&lt;=m;++i) f[<span class="number">0</span>][i]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=n;++i) f[i][<span class="number">0</span>]=INF;</span><br><span class="line">    <span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=n;++i)</span><br><span class="line">    &#123;</span><br><span class="line">        fans[i]=INF;</span><br><span class="line">        <span class="keyword">for</span>(R LL j=<span class="number">1</span>;j&lt;=m;++j) f[i][j]=INF;</span><br><span class="line">        <span class="keyword">for</span>(R LL j=x[i<span class="number">-1</span>]+<span class="number">1</span>;j&lt;=m;++j) f[i][j]=<span class="built_in">min</span>(<span class="built_in">min</span>(f[i<span class="number">-1</span>][j-x[i<span class="number">-1</span>]],f[i][j-x[i<span class="number">-1</span>]])+<span class="number">1</span>,f[i][j]);</span><br><span class="line">        <span class="keyword">for</span>(R LL j=m-x[i<span class="number">-1</span>];j&lt;=m;++j) f[i][m]=<span class="built_in">min</span>(f[i][m],<span class="built_in">min</span>(f[i<span class="number">-1</span>][j],f[i][j])+<span class="number">1</span>);</span><br><span class="line">        <span class="keyword">for</span>(R LL j=<span class="number">1</span>;j+y[i<span class="number">-1</span>]&lt;=m;++j) f[i][j]=<span class="built_in">min</span>(f[i<span class="number">-1</span>][j+y[i<span class="number">-1</span>]],f[i][j]);</span><br><span class="line">        <span class="keyword">if</span>(o[i])&#123;<span class="keyword">for</span>(R LL j=<span class="number">1</span>;j&lt;=l[i];++j) f[i][j]=INF;<span class="keyword">for</span>(R LL j=h[i];j&lt;=m;++j) f[i][j]=INF;&#125;</span><br><span class="line">        <span class="keyword">for</span>(R LL j=<span class="number">1</span>;j&lt;=m;++j) fans[i]=<span class="built_in">min</span>(f[i][j],fans[i]);</span><br><span class="line">        <span class="keyword">if</span>(fans[i]==INF)</span><br><span class="line">        &#123;</span><br><span class="line">            ans=<span class="number">0</span>;<span class="keyword">for</span>(R LL j=<span class="number">1</span>;j&lt;i;++j) <span class="keyword">if</span>(o[j]) ++ans;</span><br><span class="line">            <span class="built_in">fw</span>(<span class="number">0</span>);<span class="built_in">fw</span>(ans);</span><br><span class="line">            Heriko Deltana;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">fw</span>(<span class="number">1</span>);</span><br><span class="line">    <span class="built_in">fw</span>(fans[n]);</span><br><span class="line">    Heriko Deltana;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="70-P2938-Stock-Market-G"><a href="#70-P2938-Stock-Market-G" class="headerlink" title="70 | P2938 Stock Market G"></a>70 | P2938 Stock Market G</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2938">P2938 Stock Market G</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>这个题和之前的一道投资的题（# 56 ）基本一致，基本就是完全背包小变形，思路基本一致，可以直接去看那道题</p>
+<p>PS：这题最一开始跑出 4.6s 把我吓着了，然后开 O2 就 722ms ，于是我觉得能卡卡，现在是卡到 609ms 拿到第 12 优解，欸嘿</p>
+<p>这貌似是我的第 50 道绿题</p>
+<h1 id="71-P1782-旅行商的背包"><a href="#71-P1782-旅行商的背包" class="headerlink" title="71 | P1782 旅行商的背包"></a>71 | P1782 旅行商的背包</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2398">P1782 旅行商的背包</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>我直接宣布这是我这几天做过最迷幻的题目</p>
+<p>上来一看这显然是个背包，前 n 个是多重背包，后 m 个是完全背包</p>
+<p>前 n 个直接打一个二进制优化，先搞♂一边 f ，然后直接暴力三层循环求后 m 个</p>
+<p>最一开始数组开的 2e4+5 ，有 RE ，<del>本着 RE 我就超级加倍的原则</del>，一直到 6e4+5 和 8e4+5 ，RE 没了，拿了 80pts </p>
+<p>本来想着就直接去看看能不能优化，最后试了一次 1e5+5 </p>
+<p>欸，就很离谱，过了，然后发现仿佛卡卡  + O2 能进最优解第一页，然后就卡，最后进去了</p>
+<p><img src="https://pic.imgdb.cn/item/60b9d2658355f7f718625016.jpg"></p>
+<p>别的我不知道，但是为什么同样是 1.14s ，却不一样优？</p>
+<p><img src="https://pic.imgdb.cn/item/60b9d2958355f7f718664775.jpg"></p>
+<h1 id="72-P1858-多人♂背包"><a href="#72-P1858-多人♂背包" class="headerlink" title="72 | P1858 多人♂背包"></a>72 | P1858 多人♂背包</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1858">P1858 多人♂背包</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这个题的题面就非常离谱，不光告诉你了这题要算啥，还告诉你这题每个背包要装满…..</p>
+<p>奇妙的是 memset 只能是 128~4000+ 就非常离谱，我测试了半天都不知道是干啥了</p>
+<p>就是在 01背包 的方程上多加了一维变成 $f[i][j]$ ，第二维代表是第 j 优解，然后因为告诉你要算每个背包装满之后的和，因此在转移的时候就是把 max 改为 sum</p>
+<p>提交的时候直接开的 O2 ，直接进最优解第一页</p>
+<h1 id="73-P1198-最大数-JSOI2008"><a href="#73-P1198-最大数-JSOI2008" class="headerlink" title="73 | P1198 最大数[JSOI2008]"></a>73 | P1198 最大数[JSOI2008]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1198">P1198 最大数[JSOI2008]</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>这个题有许多的做法，比如 ST表，树状数组，线段树，分块，单调栈+并查集……</p>
+<p>我选择的是树状数组，<del>因为它代码比较少</del>，</p>
+<p>写一个 add 和 query 就行。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">I LL <span class="title">query</span><span class="params">(LL l,LL r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    LL ans=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(l&lt;=r)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(ans&lt;num[r]) ans=num[r];</span><br><span class="line">        <span class="keyword">for</span>(--r;r&gt;=l+<span class="built_in">lowbit</span>(r);r-=<span class="built_in">lowbit</span>(r)) <span class="keyword">if</span>(ans&lt;tree[r]) ans=tree[r];</span><br><span class="line">    &#125;</span><br><span class="line">    Heriko ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">I <span class="type">void</span> <span class="title">add</span><span class="params">(LL x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    num[++n1]=(x+t)%mod;</span><br><span class="line">    tree[n1]=<span class="built_in">max</span>(num[n1],<span class="built_in">query</span>(n1-<span class="built_in">lowbit</span>(n1)+<span class="number">1</span>,n1<span class="number">-1</span>));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>比较恶心的是这题不能用 <code>scanf(&quot;%c&quot;,&amp;ch);</code> ，用了就 RE 。</p>
+<h1 id="74-P1417-烹调方案"><a href="#74-P1417-烹调方案" class="headerlink" title="74 | P1417 烹调方案"></a>74 | P1417 烹调方案</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1417">P1417 烹调方案</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>这个题显然的是一个 01 背包的问题，但是这里的费用是会随着时间而改变的，</p>
+<p>因此应该比较好想到要先排序一下以保证我们在状态转移的时候是最优的。</p>
+<p>然后就是自然的 O1 背包。</p>
+<h1 id="75-P1531-I-↑-Hate-↓-It-↑"><a href="#75-P1531-I-↑-Hate-↓-It-↑" class="headerlink" title="75 | P1531 I ↑ Hate ↓ It ↑"></a>75 | P1531 I ↑ Hate ↓ It ↑</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1531">P1531 I ↑ Hate ↓ It ↑</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>线段树，甚至比板子还简单就非常离谱。练练板子（</p>
+<h1 id="76-P1883-函数-amp-UVA-1476-Error-Curves"><a href="#76-P1883-函数-amp-UVA-1476-Error-Curves" class="headerlink" title="76 | P1883 函数 &amp; UVA 1476 Error Curves"></a>76 | P1883 函数 &amp; UVA 1476 Error Curves</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1883">P1883 函数</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/UVA1476">UVA 1476 Error Curves</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>两个基本一样的题，评分居然不一样（</p>
+<p>这个写了题解，<a target="_blank" rel="noopener" href="https://hriver2.blog.luogu.org/solution-uva1476">链接</a>放在这。</p>
+<blockquote>
+<p>在 76 和 77 之间略去了一堆不知道有啥好说的 DS 板子题。</p>
+</blockquote>
+<h1 id="77-P3870-开关-TJOI2009"><a href="#77-P3870-开关-TJOI2009" class="headerlink" title="77 | P3870 开关 [TJOI2009]"></a>77 | P3870 开关 [TJOI2009]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3870">P3870 开关 [TJOI2009]</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>其实这也是个线段树的板子，就是想说一点。</p>
+<p>这个题每次进行操作的时候相当于是把开着的灯的总数和关着的灯的总数对调了一下。</p>
+<h1 id="78-P1471-方差"><a href="#78-P1471-方差" class="headerlink" title="78 | P1471 方差"></a>78 | P1471 方差</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1471">P1471 方差</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这个题我摸了一下午……</p>
+<p>太累了先题解先摸了。（略略略</p>
+<h1 id="79-P2412-查单词"><a href="#79-P2412-查单词" class="headerlink" title="79 | P2412 查单词"></a>79 | P2412 查单词</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2412">P2412 查单词</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>我做过最<del>™</del>骚的线段树！</p>
+<p>真没想到还有这种线段树，开眼了，甚至一个黄题调了一晚上！</p>
+<p>大约就是把线段树里维护的东西变为原字符串和比较字符串（因为题目中说字符串在比较的时候要求不考虑大小写，所以我们应当将原字符串统一转为大 &#x2F; 小写才能比较）。</p>
+<p>不过最离谱的是这个题还卡时间于是我不敢用 string ，于是就用 char 数组，但是 char 数组的比较和赋值不像 string 那么简单，需要用到 strcmp 和 strcpy ，可把我恶心坏了（</p>
+<h1 id="80-P2434-区间-SDOI2005"><a href="#80-P2434-区间-SDOI2005" class="headerlink" title="80 | P2434 区间 [SDOI2005]"></a>80 | P2434 区间 [SDOI2005]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2434">P2434 区间</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>差分yyds！</p>
+<h1 id="77A-P2574-XOR的艺术"><a href="#77A-P2574-XOR的艺术" class="headerlink" title="77A | P2574 XOR的艺术"></a>77A | P2574 XOR的艺术</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2574">P2574 XOR的艺术</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>之所以是标的 77A 而不是 81 ，就是因为这个题和 上面的 # 77 是一样的，就是改了个输入。</p>
+<p><del>甚至交错了代码（</del></p>
+<h1 id="77B-SP7259-LITE-Light-Switching"><a href="#77B-SP7259-LITE-Light-Switching" class="headerlink" title="77B | SP7259 LITE - Light Switching"></a>77B | SP7259 LITE - Light Switching</h1><h1 id="77C-P2846-USACO08NOV-Light-Switching-G"><a href="#77C-P2846-USACO08NOV-Light-Switching-G" class="headerlink" title="77C | P2846 [USACO08NOV]Light Switching G"></a>77C | P2846 [USACO08NOV]Light Switching G</h1><h1 id="77D-P5057-CQOI2006-简单题"><a href="#77D-P5057-CQOI2006-简单题" class="headerlink" title="77D | P5057 [CQOI2006]简单题"></a>77D | P5057 [CQOI2006]简单题</h1><p>彳亍！ 77 是五倍经验题！</p>
+<h1 id="81-P1972-HH的项链-SDOI2009"><a href="#81-P1972-HH的项链-SDOI2009" class="headerlink" title="81 | P1972 HH的项链 [SDOI2009]"></a>81 | P1972 HH的项链 [SDOI2009]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1972">P1972 HH的项链 [SDOI2009]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这道题是非常适合锻炼树状数组的（</p>
+<p>首先观察这个题要进行区间的查询，然后看到数据范围是 1e6，于是我就想到了线段树和树状数组。</p>
+<p>再因为这个题没有说到要区间修改，我就直接选择了码量比较少的树状数组去离线做。</p>
+<p>我们考虑，因为是问某个区间内的种类个数，所以我们其实对于一个种类可以只记录一个特殊的位置，这里参考<del>抄袭</del>大佬们的做法是记录每个查询区间最右的每个种类，然后就是正常的树状数组。</p>
+<p>我们再更新位置的时候，从左向右遍历。之前若是记录过位置的，把那个记录的位置的前缀和 -1，把现在这个枚举到的位置的前缀和 +1。最后只需再更新位置以及答案。</p>
+<p>最后按照询问的顺序进行输出即可~</p>
+<blockquote>
+<p>UPD 2021.7.8 SP 3267 和这题一样（</p>
+</blockquote>
+<h1 id="82-P1966-火柴排队-NOIP2013TG"><a href="#82-P1966-火柴排队-NOIP2013TG" class="headerlink" title="82 | P1966 火柴排队 [NOIP2013TG]"></a>82 | P1966 火柴排队 [NOIP2013TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1966">P1966 火柴排队 [NOIP2013TG]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这个题思想非常之巧妙，虽然我想了半天没想出来，爬了就是了。</p>
+<p>最一开始搞了个瞎搞的玩意，放在最后说，反正全 WA（</p>
+<p>这个题利用了一个很巧妙地东西就是这里树状数组维护的是一个“符合数列”的下标，然后求的这个数组的逆序对个数。</p>
+<p>这很像很久之前做的某个求最长公共子序列的 DP 题。</p>
+<p>下面放一下代码核心部分，毕竟还是很妙的。。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">I <span class="type">bool</span> <span class="title">cmpa</span><span class="params">(LL x,LL y)</span></span>&#123;Heriko a[x]&lt;a[y];&#125;</span><br><span class="line"><span class="function">I <span class="type">bool</span> <span class="title">cmpb</span><span class="params">(LL x,LL y)</span></span>&#123;Heriko b[x]&lt;b[y];&#125;</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line"><span class="function">S <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">fr</span>(n);</span><br><span class="line">    <span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=n;++i) da[i]=db[i]=i;</span><br><span class="line">    <span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=n;++i) <span class="built_in">fr</span>(a[i]);</span><br><span class="line">    <span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=n;++i) <span class="built_in">fr</span>(b[i]);</span><br><span class="line">    <span class="built_in">sort</span>(da+<span class="number">1</span>,da+<span class="number">1</span>+n,cmpa);<span class="built_in">sort</span>(db+<span class="number">1</span>,db+<span class="number">1</span>+n,cmpb);</span><br><span class="line">    <span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=n;++i) qq[da[i]]=db[i];</span><br><span class="line">    <span class="keyword">for</span>(R LL i=n;i&gt;=<span class="number">1</span>;--i) ans+=<span class="built_in">query</span>(qq[i]<span class="number">-1</span>)%mod,<span class="built_in">modify</span>(qq[i],<span class="number">1</span>);</span><br><span class="line">    <span class="built_in">fw</span>(ans%mod);</span><br><span class="line">    Heriko Deltana;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后我瞎搞的做法就是类似于凑，算出来两列对应位置的差，然后依次判断两个是否为零，否则就消（</p>
+<p>能过样例就离谱……</p>
+<p>既然正确性不对那就不仔细说了~</p>
+<p>话说这里破 1k 行了呢（在我习惯性的空行的情况下）。</p>
+<p><img src="https://pic.imgdb.cn/item/60cb01e4844ef46bb2a2045a.jpg"></p>
+<h1 id="83-P4933-大师"><a href="#83-P4933-大师" class="headerlink" title="83 | P4933 大师"></a>83 | P4933 大师</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4933">P4933 大师</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><del>非常熟悉我的同学应该知道我为什么要做这道题（</del></p>
+<p>因为是等差数列，所以在区间内对公差进行枚举，每次更新。</p>
+<p>不写更多的说明是因为我太菜了只会看题解不知道该说些啥（</p>
+<h1 id="84-P2303-Longge-的问题"><a href="#84-P2303-Longge-的问题" class="headerlink" title="84 | P2303 Longge 的问题"></a>84 | P2303 Longge 的问题</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2303">P2303 Longge 的问题</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>上来显然是要煺柿子：</p>
+<p>$$<br>\begin{aligned}<br>\sum\limits_{i&#x3D;1}^n \gcd(i,n) &#x3D;&amp;\sum\limits_{d|n} d \sum\limits_{i&#x3D;1}^n [\gcd(i,n)&#x3D;d] \<br>&#x3D;&amp;\sum\limits_{d|n}d\sum\limits_{i&#x3D;1}^n [\gcd(i,\frac{n}{d})&#x3D;1] \<br>&#x3D;&amp;\sum\limits_{d|n}d\varphi(\frac{n}{d})<br>\end{aligned}<br>$$</p>
+<p>然后我们枚举因数即可。</p>
+<h1 id="85-P4145-上帝造题的七分钟-2-x2F-花神游历各国"><a href="#85-P4145-上帝造题的七分钟-2-x2F-花神游历各国" class="headerlink" title="85 | P4145 上帝造题的七分钟 2 &#x2F; 花神游历各国"></a>85 | P4145 上帝造题的七分钟 2 &#x2F; 花神游历各国</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4145">P4145 上帝造题的七分钟 2 &#x2F; 花神游历各国</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这个题要区间修改和区间查询，于是我就写了个线段树。</p>
+<p>本来是想着能不能煺煺柿子用 LazyTag 去做，但是没煺出来，于是突然想着能不能暴力去做。一看数据 1e5，于是就直接去用线段树去维护区间最大值和区间和。</p>
+<p>这里维护区间最大值的原因是，题目要求下取整，而我们知道不断开根的话这个值会趋近于 1，所以当这个区间最大值小于等于 1 的时候我们就不去修改了。</p>
+<h1 id="86-P1382-楼房"><a href="#86-P1382-楼房" class="headerlink" title="86 | P1382 楼房"></a>86 | P1382 楼房</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1382">P1382 楼房</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这个题算是线段树的一个变种，这个题可能是子节点运用的最充分的线段树？</p>
+<p>这个题上来需要先对数据进行离散化，然后在修改的时候改为确定单点修改。</p>
+<p><del>现在真的是对我来说蓝题就难度上来了</del></p>
+<h1 id="87-P1438-无聊的数列"><a href="#87-P1438-无聊的数列" class="headerlink" title="87 | P1438 无聊的数列"></a>87 | P1438 无聊的数列</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1438">P1438 无聊的数列</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><del>这道题无聊，但是不完全有意思。</del></p>
+<p>首先这道题一眼就是树状数组或者线段树，可惜我不会用树状数组解决这，就爬线段树。</p>
+<p><del>看了一眼 Tag 发现这道题有个“差分”，</del>于是就思考怎么把等差数列用差分数组⛏掉。</p>
+<p>让差分数列来简化在区间 $[l,r]$ 上加等差数列的运算：在 $a_l$ 上加上首项，$a_{r+1}$ 上减去末项，中间加上公差即可。</p>
+<p>然后就是线段树板子（</p>
+<h1 id="88-P2257-YY的GCD"><a href="#88-P2257-YY的GCD" class="headerlink" title="88 | P2257 YY的GCD"></a>88 | P2257 YY的GCD</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2257">P2257 YY的GCD</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>这道题事一道要用到莫比乌斯反演的题（</p>
+<p>但是我不是很会就只能按照别人煺得柿子来算，还被卡了 long long ……</p>
+<p>因为不想再打 $\LaTeX$ 于是就截图力（</p>
+<p><img src="https://pic.imgdb.cn/item/60cda57e844ef46bb20fa51f.jpg"></p>
+<h1 id="89-P2205-USACO13JAN-Painting-the-Fence-S"><a href="#89-P2205-USACO13JAN-Painting-the-Fence-S" class="headerlink" title="89 | P2205 [USACO13JAN]Painting the Fence S"></a>89 | P2205 [USACO13JAN]Painting the Fence S</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2205">P2205 [USACO13JAN]Painting the Fence S</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>扫描线 + 差分，前者用来判断当前线段是否加到要求的 k 以上，后者是简化在区间内加同一个数。</p>
+<p>但是因为本题的数据范围不小，因此我们需要离散化，用每次经过的区间的端点来排序。</p>
+<h1 id="89A-P2070-刷墙"><a href="#89A-P2070-刷墙" class="headerlink" title="89A | P2070 刷墙"></a>89A | P2070 刷墙</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2070">P2070 刷墙</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>我们至今未能知道为什么这道题是蓝题而上面那道是绿题。</p>
+<p>这个题只需要把上个题要输入的 k 改为 2 即可。</p>
+<blockquote>
+<p>中间去学了一些平衡树，于是可能没太做什么题</p>
+</blockquote>
+<h1 id="90-P7075-儒略日-CSP-S2020"><a href="#90-P7075-儒略日-CSP-S2020" class="headerlink" title="90 | P7075 儒略日 [CSP-S2020]"></a>90 | P7075 儒略日 [CSP-S2020]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P7075">P7075 儒略日 [CSP-S2020]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>做这道题的缘由有两个，第一个是想看看去年那个“远近闻名”的儒略日，第二个是想把这个题当作我 AC 的第 60 道绿题。</p>
+<p>不得不说这道题是真的恶心，把这么一个搞人心态题放在 T1……</p>
+<p>大约就是使劲分类讨论，细节多的离谱……</p>
+<p>实际上把分类离清楚了，就很好想了。大约是分成这样几类：-4317 年 ~ 1999 年，一共是 2451545 天。</p>
+<p>然后是 2000 年及以后的。</p>
+<p>需要一个判断闰年的函数，以及判断下一天的函数（这个函数中需要考虑很多特判，比如跨公元前后和 1582 年，还有就是闰年，不过想清楚了还是很好打的）</p>
+<p>$\texttt{main}$ 函数里还需要一些玄学操作……</p>
+<p>总之这道题在模拟难度上看我觉得至少是个蓝，绿有点低。</p>
+<p>总之 $\texttt{CSP2021 and NOIP2021 RP++}$ 罢。</p>
+<h1 id="91-P7076-动物园-CSP-S2020"><a href="#91-P7076-动物园-CSP-S2020" class="headerlink" title="91 | P7076 动物园 [CSP-S2020]"></a>91 | P7076 动物园 [CSP-S2020]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P7076">P7076 动物园 [CSP-S2020]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>感觉这道题才是名副其实的 T1，看起来题面非常的模糊，但是数据范围里的一个数据保证，就让人很快乐。</p>
+<blockquote>
+<p>数据保证所有 $a_i$ 互不相同，所有的 $q_i$ 互不相同。</p>
+</blockquote>
+<p>因此我们只需要考虑哪些是被要求过<strong>一定需要</strong>，否则就是一定没有，然后我们剩下的的部分中选取是 1 的位的个数即可。</p>
+<p>因为问的是还能有多少，所以最后显然答案是 $\texttt{ans-n}$。</p>
+<p>这才是真正的 T1 啊，绿的合情合理，真是为去年把儒略日出在 T1 的人的家人担忧（</p>
+<p>总之 $\texttt{CSP2021 and NOIP2021 RP++}$ 罢。</p>
+<h1 id="92-P2184-贪婪大陆"><a href="#92-P2184-贪婪大陆" class="headerlink" title="92 | P2184 贪婪大陆"></a>92 | P2184 贪婪大陆</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2184">P2184 贪婪大陆</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>一眼树状数组+差分，但是最一开始假了。这样例也太水了点，最一开始以为直接用树状数组维护一个差分数组的前缀和就行，但是没想到这完全假掉。</p>
+<p>但是还好大体的思路仍然是树状数组+差分，不过需要一些变通，为我们维护的东西变成了重叠数（也就是区间叠加数），把 $\texttt{tree}$ 数组再开一维，表示以这个点为开头（0）还是结尾（1），最后输出 $\texttt{Query(r,0)-Query(l-1,1),1}$ 即可。</p>
+<p>其实就是建了两个树状数组分别维护区间头和区间尾。</p>
+<h1 id="93-P5664-Emiya-家今天的饭-CSP-S2019"><a href="#93-P5664-Emiya-家今天的饭-CSP-S2019" class="headerlink" title="93 | P5664 Emiya 家今天的饭 [CSP-S2019]"></a>93 | P5664 Emiya 家今天的饭 [CSP-S2019]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P5664">P5664 Emiya 家今天的饭 [CSP-S2019]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这题就离谱！调了一下午！</p>
+<p>大约思路就是统计不可行的方案的个数，然后 mod 减一下就是答案。</p>
+<p>大约是看了题解里 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/blog/_post/194386">Akarui</a> 的思路。</p>
+<h1 id="94-P2894-Hotel-G-USACO08FEB"><a href="#94-P2894-Hotel-G-USACO08FEB" class="headerlink" title="94 | P2894 Hotel G [USACO08FEB]"></a>94 | P2894 Hotel G [USACO08FEB]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2894">P2894 Hotel G [USACO08FEB]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这道题显然是线段树去解，不过在这里要维护的东西很不一样。</p>
+<p>因为是每次要从左端开始找，所以我们维护一个左端最大值，同时我们也要维护一个右端最大值，具体原因下面会说。</p>
+<p>同时我们要维护当前有多少房间是有人住的（其实维护没人住的也行，毕竟区间是给定的），然后要维护一个最大值。</p>
+<p>而我们的 <code>Tag</code> 就是表示当前要把这个区间修改为住或不住。</p>
+<p>我们考虑到区间的最大值不一定会全部取自左右（这里说的左右是二分后的左右区间，也就是左右儿子），还可能跨过 <code>mid</code>，因此我们在更新最大值的时候，不光要把左右区间（左右儿子的最大值）考虑进来，还要考虑跨过中间的值，也就是这样：</p>
+<p><code>t[x].val=max(max(t[lc(x)].val,t[rc(x)].val),t[lc(x)].rmx+t[rc(x)].lmx);</code></p>
+<h1 id="95-P4059-找爸爸"><a href="#95-P4059-找爸爸" class="headerlink" title="95 | P4059 找爸爸"></a>95 | P4059 找爸爸</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4059">P4059 找爸爸</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>写了题解，在<a target="_blank" rel="noopener" href="https://www.cnblogs.com/HRiver2/p/HR2note32.html">这里</a>（</p>
+<h1 id="96-P2341-受欢迎的牛-G-USACO03FALL-HAOI2006"><a href="#96-P2341-受欢迎的牛-G-USACO03FALL-HAOI2006" class="headerlink" title="96 | P2341 受欢迎的牛 G [USACO03FALL] [HAOI2006]"></a>96 | P2341 受欢迎的牛 G [USACO03FALL] [HAOI2006]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4059">P2341 受欢迎的牛 G [USACO03FALL] [HAOI2006]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><del>这题目长度就离谱，这河南这么屑的吗，06 年省选出个 03 年 USACO 原题</del></p>
+<p>这个题题目看上去就非常显然，Tarjan 缩点然后判断每个强连通分量内有几个结点（奶牛~）</p>
+<h1 id="96-P3718-Alter-AHOI2017"><a href="#96-P3718-Alter-AHOI2017" class="headerlink" title="96 | P3718 Alter [AHOI2017]"></a>96 | P3718 Alter [AHOI2017]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3718">P3718 Alter [AHOI2017]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>不知道是 AHOI17 的第几道题，但是还是蛮水的。</p>
+<p>大约经历就是从骗分到优先队列到二分正解。</p>
+<p>最一开始的骗分因为觉得贪心贪的太拉就写了一半放弃了，然后就在我那个骗分的基础上写了个优先队列，然后在我交之前居然发现这玩意假了，然后就<del>囸了一下题解</del>写了个二分。</p>
+<h1 id="97-P1896-互不侵犯-SCOI2005"><a href="#97-P1896-互不侵犯-SCOI2005" class="headerlink" title="97 | P1896 互不侵犯 [SCOI2005]"></a>97 | P1896 互不侵犯 [SCOI2005]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1896">P1896 互不侵犯 [SCOI2005]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>算是状压的模板题罢，我们考虑用二进制数来表示我们的国王们都放在了哪里。</p>
+<h1 id="98-P2756-飞行员配对方案问题"><a href="#98-P2756-飞行员配对方案问题" class="headerlink" title="98 | P2756 飞行员配对方案问题"></a>98 | P2756 飞行员配对方案问题</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2756">P2756 飞行员配对方案问题</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>显然是二分图最大匹配，把外籍的飞行员放在左边，英籍的放在右边。</p>
+<p>对于左边的每个点跑一边匈牙利即可。</p>
+<h1 id="99-P1330-封锁阳光大学"><a href="#99-P1330-封锁阳光大学" class="headerlink" title="99 | P1330 封锁阳光大学"></a>99 | P1330 封锁阳光大学</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1330">P1330 封锁阳光大学</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>这道题的数据如果是个无向图可以用二分图的判定 DFS 来做，但是数据并没有保证图是联通的。</p>
+<p>但是我们可以仍然去参考染色的思想，实际上 DFS 根本不用改太多，只不过每次染色的时候加上当前是染了什么颜色即可。</p>
+<p>然后每次 <code>ans</code> 加上两个颜色中比较小的那个即可（因为我们要最少的河蟹）。</p>
+<h1 id="100-P1129-矩阵游戏-ZJOI2007"><a href="#100-P1129-矩阵游戏-ZJOI2007" class="headerlink" title="100 | P1129 矩阵游戏 [ZJOI2007]"></a>100 | P1129 矩阵游戏 [ZJOI2007]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1129">P1129 矩阵游戏 [ZJOI2007]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>是一道显然的二分图最大匹配！考虑到我们每次能够调换的是行和列，于是我们在输入时遇到 1 时就把 i 和 j+n 建边，然后正常的跑匈牙利，最后判断一下 <code>ans&gt;=n</code> 是否成立即可。</p>
+<p>第 100 道题了！纪念一下：</p>
+<p>$$<br>\texttt{CSP2021 &amp; NOIP2021 RP++ !}<br>$$</p>
+<h1 id="101-P2740-Drainage-Ditches-USACO4-2"><a href="#101-P2740-Drainage-Ditches-USACO4-2" class="headerlink" title="101 | P2740 Drainage Ditches [USACO4.2]"></a>101 | P2740 Drainage Ditches [USACO4.2]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2740">P2740 Drainage Ditches [USACO4.2]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><del>不得不说 USACO 的题在洛谷上的题名都好长……</del></p>
+<p>是一道网络最大流的板子题，$\texttt{EK}$ 和 $\texttt{Dinic}$ 都可以过，<a target="_blank" rel="noopener" href="https://www.luogu.com.cn/discuss/show?postid=324408">数据还贼水</a>……</p>
+<h1 id="102-P1343-地震逃生"><a href="#102-P1343-地震逃生" class="headerlink" title="102 | P1343 地震逃生"></a>102 | P1343 地震逃生</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1343">P1343 地震逃生</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>又是一道网络最大流的板子题，这个数据范围也是 $\texttt{EK}$ 和 $\texttt{Dinic}$ 都可以过，不过为了保险起见，还是写了 $\texttt{Dinic}$ 。</p>
+<p>这个题就一点和 # 101 以及板子不一样：最后要判断一下 <code>maxflow</code> 是不是为 $0$ 来看能不能到达终点。</p>
+<p><del>还有就是为什么不行就要输出 $\texttt{Orz Ni Jinan Saint Cow!}$ 啊（</del></p>
+<p><del>Bing 翻译过来是 “大麦尼济南圣牛！”？？？？</del></p>
+<p><del>难不成是“Orz 您济南神犇？”</del></p>
+<h1 id="103-SP300-amp-UVA1660-Cable-TV-Network"><a href="#103-SP300-amp-UVA1660-Cable-TV-Network" class="headerlink" title="103 | SP300 &amp; UVA1660 Cable TV Network"></a>103 | SP300 &amp; UVA1660 Cable TV Network</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/SP300">SP300 Cable TV Network</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/UVA1660">UVA1660 Cable TV Network</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>这 $\texttt{SPOJ}$ 和 $\texttt{UVA}$ 的重题率是真的高……</p>
+<p>直接把我紫题整到 10 AC 祭~</p>
+<p>好了不说废话，我写的<a target="_blank" rel="noopener" href="https://www.cnblogs.com/HRiver2/p/HR2note34.html">题解</a>放在这里了。</p>
+<h1 id="104-P2055-假期的宿舍-ZJOI2009"><a href="#104-P2055-假期的宿舍-ZJOI2009" class="headerlink" title="104 | P2055 假期的宿舍 [ZJOI2009]"></a>104 | P2055 假期的宿舍 [ZJOI2009]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2055">P2055 假期的宿舍 [ZJOI2009]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>显然是要用到二分图最大匹配，于是我决定就用匈牙利来做（</p>
+<p>这个题麻烦的是有很多的约束条件，不过建模还是比较好想的，左边为人，右边是床。</p>
+<p>最一开始我在 $\texttt{match}$ 的时候一次双向，然后卡 70pts 卡的我很懵。</p>
+<p>其实这是不对的啊，这毕竟不是飞行员配对，我们总不能让床睡在人上罢（</p>
+<p>（其实这样对不对好像也和存图的方式有关，我直接一个二维数组模拟邻接表存图就貌似不行）</p>
+<h1 id="105-P3522-TEM-Temperature-POI2011"><a href="#105-P3522-TEM-Temperature-POI2011" class="headerlink" title="105 | P3522 TEM-Temperature [POI2011]"></a>105 | P3522 TEM-Temperature [POI2011]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3522">洛谷 | P3522 TEM-Temperature [POI2011]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://loj.ac/p/2164">LOJ | #2164. [POI2011 R2 D2] 气温Temperature</a></p>
+<p>（推荐去 LOJ 做，有更好的翻译和更强的数据）</p>
+<p>是单调队列题（</p>
+<p>这个题和普通的单调队列不一样的点在于这道题给出的是一个区间，要求你求出最长的不下降天数。</p>
+<p>枚举 i 进队的时候考虑如下两点：</p>
+<ol>
+<li><p>如果第 i 天的最高温度小于当前队首的最小温度，将队首出队。</p>
+</li>
+<li><p>如果当前队列中最低温度最高的天不在队首，就把他调至队首（让队尾出队）。</p>
+</li>
+</ol>
+<p>待这两个条件全部考虑完之后，让第 i 天进队。</p>
+<p>那么如何计算连续的天数呢（</p>
+<p><del>不知道</del>。</p>
+<p>最一开始确实是不知道，题解里面说到，在这几天之前的那一天一定是出队的，于是连续的天数就是 <code>i-q[hd-1]</code> ，然后每次和 <code>ans</code> 取个 $\min$。</p>
+<p>最一开始不会算连续天数，于是就莽着去搞连续的出入队关系，最后居然还把样例搞过了，然后放在 LOJ 上一看，假了……</p>
+<p><del>今天逐渐的开始用起来 LOJ，确实是环境要比洛谷干净的多，评测机跑的比香港记者还快，于是从这道题开始部分题会加上 LOJ 的题目链接，不过还是以洛谷为主。</del></p>
+<h1 id="106-P3512-PIL-Pilots-POI2010"><a href="#106-P3512-PIL-Pilots-POI2010" class="headerlink" title="106 | P3512 PIL-Pilots [POI2010]"></a>106 | P3512 PIL-Pilots [POI2010]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3522">洛谷 | P3512 PIL-Pilots [POI2010]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://loj.ac/p/2459">LOJ | [POI2010] 驾驶员 Pilots</a></p>
+<p>还是一道单调队列（话说为什么学长光扔单调队列题啊）</p>
+<p>因为题目要求是最大值和最小值的差的绝对值不超过 $k$，于是我们就要去时刻维护区间最大值和最小值，所以我们要用 <del>ST表</del> 单调队列。</p>
+<p>考虑维护两条单调队列，一条是最大值的单调队列，另外一条是最小值的，都是入队的时候常规的单调队列判断。</p>
+<p>只不过有一点需要特殊关注：当任意一条队列中只剩下一个元素的时候，将另外一个队列的队首出队，然后记录这个刚刚出队的元素。</p>
+<h1 id="107-P2841-amp-P1402-amp-P1231"><a href="#107-P2841-amp-P1402-amp-P1231" class="headerlink" title="107 | P2841 &amp; P1402 &amp; P1231"></a>107 | P2841 &amp; P1402 &amp; P1231</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2841">洛谷 | P2841 Dining G</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1402">洛谷 | P1402 酒店之王</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1231">洛谷 | P1231 教辅的组成</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>都是网络流水题的样子，还是三倍经验的说~</p>
+<p>因为每个人（P1402） &#x2F; 书（P1231） &#x2F; cow（P2841） 的需求都是两个，而且只能选一次，于是我们就把 人 &#x2F; 书 &#x2F; cow 拆成两个点，自己连起来，然后再和其要求连接起来。然后经典人连源点，需求连汇点，然后跑 Dinic。</p>
+<h1 id="108-CF438D-The-Child-and-Sequence"><a href="#108-CF438D-The-Child-and-Sequence" class="headerlink" title="108 | CF438D 	The Child and Sequence"></a>108 | CF438D 	The Child and Sequence</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/CF438D">洛谷 | CF438D The Child and Sequence</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><del>话说这题目翻译过来就是“孩子和序列”</del></p>
+<p>线段树的裸题，看似区间取模的复杂度难搞而且没有什么区间性质，但是我们考虑以下两点：</p>
+<ol>
+<li><p>如果要计算 <code>x%y</code> 而 $y&gt;x$，则这次取模操作没有实质意义。</p>
+</li>
+<li><p>当我们进行一定次的取模之后，x 只会是 0 或 1，而上文所述的次数是 $\log x$ 级别的。</p>
+</li>
+</ol>
+<p>针对第一条，我们维护区间的最大值，在要进行区间取模的时候判断一下即可，针对第二条，我们能知道区间取模的复杂度约为 $O(\log x)$，那么总的时间复杂度就是 $O(n\log n)$ 级别的。</p>
+<p>于是就线段树随便写。</p>
+<h1 id="109-P1659-国家集训队-拉拉队排练"><a href="#109-P1659-国家集训队-拉拉队排练" class="headerlink" title="109 | P1659 [国家集训队]拉拉队排练"></a>109 | P1659 [国家集训队]拉拉队排练</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1659">洛谷 | P1659 [国家集训队]拉拉队排练</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>是一道用 Manacher 算法的题，相比于板子，我们需要再开一个桶，然后每次 <code>p[i]-1</code> 为奇数的时候往桶里加一次，最后需要这样处理 <code>ans</code>：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(R LL i=n;i&gt;=<span class="number">1</span>;--i)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span>(i%<span class="number">2</span>==<span class="number">0</span>) <span class="keyword">continue</span>;</span><br><span class="line">    tot+=cnt[i];</span><br><span class="line">    <span class="keyword">if</span>(k&gt;=tot) ans=(ans*<span class="built_in">FastP</span>(i,tot))%mod,k-=tot;</span><br><span class="line">    <span class="keyword">else</span> &#123;ans=(ans*<span class="built_in">FastP</span>(i,k))%mod,k-=tot;<span class="keyword">break</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span>(k&gt;<span class="number">0</span>) ans=<span class="number">-1</span>;</span><br></pre></td></tr></table></figure>
+
+<p>因为这道题有一个测试点的 $k$ 在 1e12 级别，所以要来个快速幂防止炸 <code>longlong</code>。</p>
+<h1 id="110-P1345-Telecowmunication-USACO5-4"><a href="#110-P1345-Telecowmunication-USACO5-4" class="headerlink" title="110 | P1345 Telecowmunication[USACO5.4]"></a>110 | P1345 Telecowmunication[USACO5.4]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1659">洛谷 | P1345 Telecowmunication[USACO5.4]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这道题非常显然的网络流，然后我就去莽 Dinic 跑最大流求最小割了，但是兴奋的打完 Dinic，开始写 main 包的时候，发现这道题居然是割点，但是又发现求割边能过样例于是就去交了一发，<strong>这数据水的，我有 80pts。</strong></p>
+<p>于是就懵逼了，于是就看题解，发现是拆点，即为把一个点拆为两个点，将这两个点相连，然后删掉这个点的操作就相当于去掉这两点之间的边，于是就转化为求最小割了（</p>
+<h1 id="111-P1361-小M的作物"><a href="#111-P1361-小M的作物" class="headerlink" title="111 | P1361 小M的作物"></a>111 | P1361 小M的作物</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1659">洛谷 | P1361 小M的作物</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>~~ [数据销毁] 卡常题~~</p>
+<p>本来以为是个挺正常的拆点跑 Dinic，没想到这题 [数据销毁] 卡常……</p>
+<p>看了讨论区发现了一个简单的优化，好像对于这种类似稠密的图很有作用，即在 DFS 中加入：</p>
+<p><code>if(!rst) Heriko flow;</code></p>
+<h1 id="112-P2936-Total-Flow-S-USACO09JAN"><a href="#112-P2936-Total-Flow-S-USACO09JAN" class="headerlink" title="112 | P2936 Total Flow S [USACO09JAN]"></a>112 | P2936 Total Flow S [USACO09JAN]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1659">洛谷 | P2936 Total Flow S [USACO09JAN]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>是一道网络流的板子题，实际上题目中所述的我们可以的对水管的简化就是变相的简述了一下我们如何暴力找最大流，也就是说这道题是让我们求最大流，于是乎我们直接跑一边 Dinic 即可。</p>
+<h1 id="113-P3931-SAC-E-1-一道难题-Tree"><a href="#113-P3931-SAC-E-1-一道难题-Tree" class="headerlink" title="113 | P3931 SAC E#1 - 一道难题 Tree"></a>113 | P3931 SAC E#1 - 一道难题 Tree</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3931">洛谷 | P3931 SAC E#1 - 一道难题 Tree</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>大概就是一道网络流的快乐板子，因为原来的图是一颗有根树，所以我们只需要构造一个虚拟汇点就能完成网络流的建模。</p>
+<p>我们只需要把叶结点连向汇点，所以我们在读入的时候记录一下每个点的出度，然后循环让叶结点和汇点连一条 <code>inf</code> 的边即可。</p>
+<p>Dinic 正常跑是 80 ms，开了 02 直接拿最优解。</p>
+<p><img src="https://pic.imgdb.cn/item/60e167545132923bf88201f6.jpg"></p>
+<h1 id="114-P1879-Corn-Fields-G-USACO06NOV"><a href="#114-P1879-Corn-Fields-G-USACO06NOV" class="headerlink" title="114 | P1879 Corn Fields G [USACO06NOV]"></a>114 | P1879 Corn Fields G [USACO06NOV]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1879">洛谷 | P1879 Corn Fields G [USACO06NOV]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>是一道状压 DP，但是我 DP 太烂就完全不会。</p>
+<p>记录了能否被选中，是通过左移右移来实现的（题目要求不能选相邻的草地，而我们每次考虑一行，于是只需要考虑左移右移）</p>
+<h1 id="115-P4016-负载平衡问题"><a href="#115-P4016-负载平衡问题" class="headerlink" title="115 | P4016 负载平衡问题"></a>115 | P4016 负载平衡问题</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4016">洛谷 | P4016 负载平衡问题</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>显然这是一个要转化为费用流的题。</p>
+<p>我们考虑这样建图：如果当前点的值 <code>a[i]</code> 小于平均值 <code>per</code>，那么我们把这个点和源点连一条容量为 <code>per-a[i]</code> 的边，费用为 0；反之，若当前点的值 <code>a[i]</code> 大于平均值，那么把这个点和汇点相连，同样是费用 0，容量改为 <code>a[i]-per</code>。</p>
+<p>然后因为原本的图是一个环，还是无向图，于是我们再把图上本来就有的边建好，正边费用为 1，反边费用为 -1，正边容量 <code>inf</code>，反边容量 0。</p>
+<p>实际上还有贪心数学做法，在下面两道题说。</p>
+<h1 id="116-P2512-amp-UVA11300"><a href="#116-P2512-amp-UVA11300" class="headerlink" title="116 | P2512 &amp; UVA11300"></a>116 | P2512 &amp; UVA11300</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2512">洛谷 | P2512 [HAOI2008] 糖果传递</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/UVA11300">洛谷 | UVA11300</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>本来以为是三倍经验，没想到 116 这两个题比 115 数据范围大，不能费用流，于是乎就数学贪心做法，代码也很好懂于是就放在这里罢。（实在是不想打字了ww，取平均数大家应该都会罢)</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">fr</span>(n);</span><br><span class="line"><span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=n;++i) <span class="built_in">fr</span>(a[i]);</span><br><span class="line"><span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=n;++i) per+=a[i];per/=n;</span><br><span class="line"><span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=n;++i) f[i]=f[i<span class="number">-1</span>]-a[i]+per;</span><br><span class="line"><span class="built_in">sort</span>(f+<span class="number">1</span>,f+n+<span class="number">1</span>);mid=f[(n+<span class="number">1</span>)&gt;&gt;<span class="number">1</span>];</span><br><span class="line"><span class="keyword">for</span>(R LL i=<span class="number">1</span>;i&lt;=n;++i) ans+=<span class="built_in">Habs</span>(f[i]-mid);</span><br><span class="line"><span class="built_in">fw</span>(ans,<span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+
+<h1 id="117-P2668-斗地主-NOIP2015-TG"><a href="#117-P2668-斗地主-NOIP2015-TG" class="headerlink" title="117 | P2668 斗地主 [NOIP2015 TG]"></a>117 | P2668 斗地主 [NOIP2015 TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2668">洛谷 | P2668 斗地主 [NOIP2015 TG]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><del>哪个亲(【数据销毁】)爱(【数据销毁】)的学长在团队题单里放的斗地主？？？？？？？我爱您！！1</del></p>
+<p>这个题思路简单清晰数据范围小爆搜可过复杂度优无常数困扰真是一道不可多得的水题呢！！1</p>
+<p>啊那她为什么是蓝的呢？</p>
+<p>因为她是【数据销毁】的模拟！</p>
+<p>思路很简单，只需要分以下几种情况，而且贪心的顺序我在这里也直接排好，因为这是显然的：</p>
+<p>顺子 $\to$ 四带 $\to$ 三带 $\to$ 对子、王炸、炸弹、单走<del>一个六</del></p>
+<p>展开就是：</p>
+<p>$$<br>\begin{cases}<br>1.&amp; 顺子\begin{cases}1.&amp; 单顺 \ 2.&amp; 双顺 \ 3.&amp; 三顺\end{cases}\<br>2.&amp; 三带\ \tt{n}\begin{cases}1.&amp; \tt{n&#x3D;1}  \ 2.&amp; \tt{n&#x3D;2}\end{cases}\<br>3.&amp; 四带\ \tt{n}\begin{cases}1.&amp; \tt{n&#x3D;1}  \ 2.&amp; \tt{n&#x3D;2} \ 3.&amp; 四带两对\end{cases}\<br>4.&amp; 对子、单走、王炸、炸弹\<br>\end{cases}<br>$$</p>
+<p><del>别问我为什么用 $\LaTeX$，问就是被这题做疯了。</del></p>
+<p>到这里都很平常对吧，然后我就写嘛，从四点开始写。</p>
+<p>我在写之前直接放话，说儒略日比这分支多比这难这怎么是蓝的 Julian 是绿的。</p>
+<p>四点半写完第一遍，没过样例，感觉可能有些小地方没写对，静态查了一边错，觉得自己可能查不太出来，于是就重构了一遍。</p>
+<p>重构完大约五点多一点，我想这次可能没什么问题了吧，于是就跑样例，然后，又™没过！</p>
+<p>然后就查错，找不到错；和题解差错，找不到错；和学长的代码差错，找不到错；和学姐的代码差错，找不到错…..</p>
+<p>然后简单重构了一些小地方毫无效果。</p>
+<p>然后就生气了，五点半正好也是该吃饭了，就去吃饭了。</p>
+<p>六点回来之后快速和以上三者的代码又进行了一遍逐行对比之后发现还是查不出来，然后考虑控制变量法进行差错。</p>
+<p>把题解的顺子部分复制过来，然后我以为样例 1 过了，实际上是我用样例 2 跑出来样例 1 的结果。</p>
+<p>然后我就很开心觉得这题终于能调出来了，然后把顺子部分重构。重构着，突然想起来刚才好像我放的样例 1 的输入，然后我去试了一下果然 <del>nmd</del> 白高兴了……</p>
+<p>然后我就想着反正也重构了就继续重构罢，然后重构完了就去试样例，发现啊完全就和刚才一样，艹。</p>
+<p>然后就把题解的后半部分复制过来发现还是不对，一气之下就把 DFS 全都复制过来，然后跑，然后就过了™样例。</p>
+<p>然后我就用手指着两份代码进行静态人眼高端差错，然后无果。</p>
+<p>这个时候 Dfkuaid 建议我去重构，我说重构个卵我重构了 n 遍了。</p>
+<p>最后还是去重构了，然后重构完大约七点，不知道为什么就 RE 了，后来调试发现其实是死循环了，然后也不知道是为什么，然后就又一次一一对照静态差错，然后我就硬是找不出来。</p>
+<p>然后 Dfkuaid 发现我有个循环变量写串了，然后我就改过来，走样例，好我过了，然后提交，过了，彳亍，正好七点半。</p>
+<p>然后我去看我重构之前的代码，到现在也不知道是哪错了，神™题！！1</p>
+<p>所以最后得出来的结果就是 OIer 请必备黄帝内经！我现在还感觉想把电脑砸了但是这不是我电脑我不行（话说就算是我的也不行的说）</p>
+<h1 id="118-P2071-座位安排"><a href="#118-P2071-座位安排" class="headerlink" title="118 | P2071 座位安排"></a>118 | P2071 座位安排</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2701">洛谷 | P2071 座位安排</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>是一道显然的二分图最大匹配，我用网络流做的，总的来说体验不错，个球。</p>
+<p>最一开始的思路是把一排座位拆为两个点，然后连容量为 1 的边到汇点，但是发现自己不会对应起来边了，于是就不拆了，把容量改为 2。</p>
+<p>最一开始写的 ISAP，写挂了好像，于是就捡起来 Dinic，然后又写挂了……</p>
+<p>最后是发现把所有的 <code>r[i].val</code> 都写成 <code>r[i].to</code> 了……</p>
+<h1 id="119-P2319-超级英雄-HNOI2006"><a href="#119-P2319-超级英雄-HNOI2006" class="headerlink" title="119 | P2319 超级英雄 [HNOI2006]"></a>119 | P2319 超级英雄 [HNOI2006]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2701">洛谷 | P2319 超级英雄 [HNOI2006]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>又是一道显然的二分图最大匹配，但是用网络流不好做，于是就写个 Hungary ，然后一直过不了样例，最后发现是写网络流写习惯了建了条反向边（）</p>
+<h1 id="120-P1350-车的放置"><a href="#120-P1350-车的放置" class="headerlink" title="120 | P1350 车的放置"></a>120 | P1350 车的放置</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1350">洛谷 | P1350 车的放置</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>不会，看了题解，爬了。</p>
+<p><img src="https://pic.imgdb.cn/item/60e420f55132923bf8590e39.jpg"></p>
+<h1 id="121-P1640-连续攻击游戏-SCOI2010"><a href="#121-P1640-连续攻击游戏-SCOI2010" class="headerlink" title="121 | P1640 连续攻击游戏 [SCOI2010]"></a>121 | P1640 连续攻击游戏 [SCOI2010]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1350">洛谷 | P1640 连续攻击游戏 [SCOI2010]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>实际上这个题拖了好久了才做，今天终于发现原来我之前一直不想做的原因是我读错题了…….</p>
+<p>实际上这个题非常的简单，把属性放左边，装备放在右边跑 Hungary 即可。</p>
+<p>但是还有一点就是时间戳优化，<code>memset</code> 太慢。</p>
+<h1 id="122-P2057-善意的投票-SHOI2007-x2F-冠军调查-JLOI2010"><a href="#122-P2057-善意的投票-SHOI2007-x2F-冠军调查-JLOI2010" class="headerlink" title="122 | P2057 善意的投票 [SHOI2007]&#x2F;冠军调查 [JLOI2010]"></a>122 | P2057 善意的投票 [SHOI2007]&#x2F;冠军调查 [JLOI2010]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2057">洛谷 | P2057 善意的投票 [SHOI2007]&#x2F;冠军调查 [JLOI2010]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>一眼最大流最小割，转化：我们把小朋友们割开跑 Dinic 即可，但是我 Dinic 又写挂了？？？</p>
+<p><del>还是挺好吃的ww</del></p>
+<h1 id="123-P2598-狼和羊的故事-ZJOI2009"><a href="#123-P2598-狼和羊的故事-ZJOI2009" class="headerlink" title="123 | P2598 狼和羊的故事 [ZJOI2009]"></a>123 | P2598 狼和羊的故事 [ZJOI2009]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2598">洛谷 | P2598 狼和羊的故事 [ZJOI2009]</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>考虑最小割，我们这样连边：狼的领地和源点相连（INF），羊的领地和汇点相连（INF），然后把每个格子和周围四个格子相连（1）。</p>
+<p>实际上这样建图的话，我们割掉一条边就相当于建上篱笆啦~</p>
+<h1 id="124-P2774-方格取数问题"><a href="#124-P2774-方格取数问题" class="headerlink" title="124 | P2774 方格取数问题"></a>124 | P2774 方格取数问题</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2774">洛谷 | P2774 方格取数问题</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>做了羊和狼的故事之后回来看这个题，发现思想基本一致！</p>
+<p>上一题是把羊和狼分类，这次我们把 <code>(i+j)&amp;1</code> 作为条件分类，剩下的和上一道基本一致，只不过在和周围连边的时候，边的容量是这个方格的权值。</p>
+<p>然后最后输出 <code>sum-maxflow</code>，<code>sum</code> 是所有方格权值和。</p>
+<h1 id="125-P4001-狼抓兔子-ICPC-Beijing-2006"><a href="#125-P4001-狼抓兔子-ICPC-Beijing-2006" class="headerlink" title="125 | P4001 狼抓兔子 [ICPC-Beijing 2006]"></a>125 | P4001 狼抓兔子 [ICPC-Beijing 2006]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4001">洛谷 | P4001 狼抓兔子 [ICPC-Beijing 2006]</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>算是很离谱了啊（</p>
+<p>网络流很好想，可是这题正解貌似不是网络流的样子（</p>
+<p>但是还是过去了，但是留下了<a target="_blank" rel="noopener" href="https://www.luogu.com.cn/discuss/show/326017">一个疑惑</a></p>
+<p>然后 @Prean 的解答如下：</p>
+<p><img src="https://pic.imgdb.cn/item/60e5a9d95132923bf8afc4ec.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/60e5a9f45132923bf8b05ce6.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/60e5aa045132923bf8b0b428.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/60e5aa115132923bf8b0fafc.jpg"></p>
+<h1 id="126-P2580-于是他错误的点名开始了"><a href="#126-P2580-于是他错误的点名开始了" class="headerlink" title="126 | P2580 于是他错误的点名开始了"></a>126 | P2580 于是他错误的点名开始了</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2580">洛谷 | P2580 于是他错误的点名开始了</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p><code>unordered_map</code> 直接莽过（</p>
+<p>AC 400 祭，提交 1.41k，比例大约是 2.83%，下降不少（（（</p>
+<h1 id="127-P1251-餐巾计划问题"><a href="#127-P1251-餐巾计划问题" class="headerlink" title="127 | P1251 餐巾计划问题"></a>127 | P1251 餐巾计划问题</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1251">洛谷 | P1251 餐巾计划问题</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>em，是一个费用流问题，写一个 SSP 即可，但是今天写的时候挺玄学的……</p>
+<p>建图如下：</p>
+<ol>
+<li><p>每天晚上从起点获得 x 条脏餐巾</p>
+</li>
+<li><p>每天白天,向汇点提供 x 条干净的餐巾,流满时表示第 i 天的餐巾够用</p>
+</li>
+<li><p>每天晚上可以将脏餐巾留到第二天晚上</p>
+</li>
+<li><p>每天晚上可以送去快洗部,在第 i+c 天早上收到餐巾</p>
+</li>
+<li><p>每天晚上可以送去慢洗部,在第 i+e 天早上收到餐巾</p>
+</li>
+<li><p>每天早上可以购买餐巾</p>
+</li>
+</ol>
+<p><del>没错就是题解的注释</del></p>
+<h1 id="128-P2045-方格取数-加-强-版"><a href="#128-P2045-方格取数-加-强-版" class="headerlink" title="128 | P2045 方格取数 加 强 版"></a>128 | P2045 方格取数 加 强 版</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2045">洛谷 | P2045 方格取数 加 强 版</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>这个数据加强就很有意思了，加强前是最小割最大流，加强之后是最大费用最大流（</p>
+<p>既然是最大费用最大流，那么我们就跑一手 SSP（把 SPFA 里面的松弛操作的大于号改为小于号）</p>
+<p>把一个格子拆成两个点，一个出点一个入点，每个入点和它对应的出点都连上两条边，一条费用为 $k-1$，容量为 1，另外一条的容量本身这个格子的权值，费用为 0。</p>
+<p>把源点设为 $(1,1)$，汇点设为 $(n,m)$，于是我们就把每个格子和其下方和右方的格子建立联系，于是就把 $(i,j)$ 和 $(i+1,j),(i,j+1)$ 对应的出点和入点连接起来，容量为 $k$，费用为 0。</p>
+<h1 id="129-P2153-晨跑-SDOI2009"><a href="#129-P2153-晨跑-SDOI2009" class="headerlink" title="129 | P2153 晨跑 [SDOI2009]"></a>129 | P2153 晨跑 [SDOI2009]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2153">洛谷 | P2153 晨跑 [SDOI2009]</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>因为要一个最长的周期和一个最短的里程，所以我们考虑用最小费用最大流，即里程是费用周期是流。</p>
+<p>还是拆点，拆成一个入点一个出点，因为每个点只能过一次，所以我们连的边费用是 0 ，容量为 1.</p>
+<p>然后对于题目中给出的每一条边，我们把其容量设为 1，费用设为边权，然后跑 SSP。</p>
+<h1 id="130-P3980-志愿者招募-NOI2008"><a href="#130-P3980-志愿者招募-NOI2008" class="headerlink" title="130 | P3980 志愿者招募 [NOI2008]"></a>130 | P3980 志愿者招募 [NOI2008]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2153">洛谷 | P3980 志愿者招募 [NOI2008]</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>最一开始一看就是很明显的最小费用最大流，但是想了半天建图，其实志愿者之间并不难建边，但是实在是不知道如何去维护人数限制，甚至还想过去套一个背包，但是想了想这玩意硬转移的话会爆炸，然后就懵逼。</p>
+<p>然后就爬去看题解，不得不说第一篇题解确实分析的很透彻，思路很清晰（<del>虽然他是从暴力到背包到网络流，而我是网络流到 网络流+背包 到懵逼，但是并不影响理解</del>）</p>
+<p>以下截自 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/blog/dedicatus545/solution-p3980">Orion545 的 P3980 题解</a></p>
+<blockquote>
+<p>此时我们需要想办法把人数限制放到图里</p>
+<p>我们考虑最大流算法：它会求出最大的流量</p>
+<p>那我们既然用<strong>一点流量表示一个人</strong>，那么为什么我们不把这个“需要用人”的限制，放到另外几条边上呢？</p>
+<p>我们在点(i,i+1)之间建边，设流量为-a[i]，也就是负的当天需求数，费用自然是零的</p>
+<p>然后，令上文中的志愿者(si,ti,ci)，建边(si,ti+1)，费用ci，流量无限</p>
+<p><strong>此时我们相当于是把第i天的决策放到了第i个点和第i+1个点之间的所有边上</strong>（就是把所有点排成一排，这两个点之间的那一条位置里的所有边，包括跨过这个区间的志愿者边）</p>
+<p>需要志愿者？让它们从志愿者边上流过去，同时让人数限制边满流到-a[i]，这样求一个1-n+1的最大流，流量为0的最小费用就是雇佣人的最小费用了</p>
+<p>为了让这个限制起效，又因为网络流中流量非负，所以我们建立点SS和TT，连边(SS,1)(n+1,TT)，限制为inf，费用为0</p>
+<p>同时，我们把之前的人数限制边的流量改成(inf-a[i])，这样最终的SS-TT最大流一定是inf，而且限制依然成立</p>
+</blockquote>
+<h1 id="131-SP3267-DQUERY-D-query"><a href="#131-SP3267-DQUERY-D-query" class="headerlink" title="131 | SP3267 DQUERY - D-query"></a>131 | SP3267 DQUERY - D-query</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/SP3267">洛谷 | SP3267 DQUERY - D-query</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>想见识一下什么是莫队，于是乎去找个博客学习，然后就跟着那个博客做了这道题（</p>
+<p><del>实际上这个题先是发现和 HH 的项链一样于是就直接先用线段树双倍经验（</del></p>
+<p>先挖个坑，写博客的时候把这个题当作例题，然后再挂个 <a target="_blank" rel="noopener" href="https://www.cnblogs.com/HRiver2/p/HR2note39.html">Link</a> 在这。</p>
+<h1 id="132-P1903-数颜色-x2F-维护队列-国家集训队"><a href="#132-P1903-数颜色-x2F-维护队列-国家集训队" class="headerlink" title="132 | P1903 数颜色 &#x2F; 维护队列 [国家集训队]"></a>132 | P1903 数颜色 &#x2F; 维护队列 [国家集训队]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1903">洛谷 | P1903 数颜色 &#x2F; 维护队列 [国家集训队]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>和上面那个题一样，还是等我写完博客挂 <a target="_blank" rel="noopener" href="https://www.cnblogs.com/HRiver2/p/HR2note39.html">Link</a>。</p>
+<h1 id="133-P1494-小Z的袜子-国家集训队"><a href="#133-P1494-小Z的袜子-国家集训队" class="headerlink" title="133 | P1494 小Z的袜子 [国家集训队]"></a>133 | P1494 小Z的袜子 [国家集训队]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1494">洛谷 | P1494 小Z的袜子 [国家集训队]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>同上，这道也当例题，欢迎去看（</p>
+<h1 id="134-P2709-小B的询问"><a href="#134-P2709-小B的询问" class="headerlink" title="134 | P2709 小B的询问"></a>134 | P2709 小B的询问</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2709">洛谷 | P2709 小B的询问</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>同上，这题又双叒叕是例题（</p>
+<h1 id="135-P3901-数列找不同"><a href="#135-P3901-数列找不同" class="headerlink" title="135 | P3901 数列找不同"></a>135 | P3901 数列找不同</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3901">洛谷 | P3901 数列找不同</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>突然发现好久没做绿导致蓝题快赶上绿了（？）于是找了这个题来做<del>其实是搜莫队标签发现就这一个紫色以下的我没做过了</del></p>
+<p>因为这个题是个绿的就不用它当例题了，一看不强制在线直接用莫队搞一搞（</p>
+<p>我们考虑我们让 $l$ 和 $r$ 指针移动的时候如何去记录这个区间是否所有的数都互不相同。</p>
+<p>第一个想法是只考虑本次转移涉及的那两个数，但显然这样并不能保证之前或之后没有相同的，Pass 掉。</p>
+<p>第二个想法是考虑开一个桶，记录数的个数，假如超过了 $1$ 那么显然这个询问区间就有相同的数。</p>
+<p><del>但是不知道为啥这个看起来挺正确的我实现挂了。</del></p>
+<p>于是决定把延续第二个想法得出第三个想法：当桶里的数为 $1$ 就 <code>++cnt</code>，若为 0 就 <code>--cnt</code>，若最后 <code>cnt==q[i].r-q[i].l+1</code> 那么就记录本次查询结果为 $\tt{Yes}$，否则为 $\tt{No}$。</p>
+<p>然后就过了（</p>
+<h1 id="136-P1042-乒乓球-NOIP2003PJ"><a href="#136-P1042-乒乓球-NOIP2003PJ" class="headerlink" title="136 | P1042 乒乓球 [NOIP2003PJ]"></a>136 | P1042 乒乓球 [NOIP2003PJ]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1042">洛谷 | P1042 乒乓球 [NOIP2003PJ]</a> <font color=orange>[普及-]</font></p>
+<p>怎么说呢，请了假在家自闭，然后想到 EZEC R10 Div3 A 没有场切，就觉得自己模拟还是应当练一练，光会那种图论和数据结构在 T1 上基本毫无作用（</p>
+<p>于是可能在家这几天就多做做模拟。</p>
+<p>这个题简单来看两种思路，第一种是边读边计算输出，第二种是先把全部字符串存下来然后判断输出。</p>
+<p>最一开始写的第一种，然后写炸了<del>连个破模拟都能写炸我屑的离谱</del>，于是就按照第二种，然后判断错了了……</p>
+<p>总的来说我模拟是真不行，希望今年 CSP 和 NOIP 考场上不要搞离谱的模拟。</p>
+<h1 id="137-P2670-扫雷游戏-NOIP2015PJ"><a href="#137-P2670-扫雷游戏-NOIP2015PJ" class="headerlink" title="137 | P2670 扫雷游戏 [NOIP2015PJ]"></a>137 | P2670 扫雷游戏 [NOIP2015PJ]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2640">洛谷 | P2670 扫雷游戏 [NOIP2015PJ]</a> <font color=red>[入门]</font></p>
+<p><del>这是这整个杂题集里面第一次出现红题</del></p>
+<p><del>甚至这还是我的第 21 道红题！红题超过紫题！！！1</del></p>
+<p><del>但是nmd为什么EZEC R10 A 是个红题啊，多不给我面子啊（</del></p>
+<p>回归正题，这道题很显然了，对于每一个位置扫一遍其上下左右左上左下右上右下即可。</p>
+<h1 id="138-P1563-玩具谜题-NOIP2016TG"><a href="#138-P1563-玩具谜题-NOIP2016TG" class="headerlink" title="138 | P1563 玩具谜题 [NOIP2016TG]"></a>138 | P1563 玩具谜题 [NOIP2016TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1563">洛谷 | P1563 玩具谜题 [NOIP2016TG]</a> <font color=orange>[普及-]</font></p>
+<p>这个题还是非常迷惑的（</p>
+<p>整体思路是好想的，因为这个题数据范围不大，所以我们直接枚举一个指针按照指令跳就行。</p>
+<p>经过简单手模可以发现，如果当前玩具的朝向（0 或 1）和当前指令的方向（0 或 1）相同，则把指针向右移动（加），否则向左（减）。</p>
+<p>注意模完 $n$ 可能会出现指针为 0，于是我们最一开始存的时候从 0 开始就好了（</p>
+<h1 id="139-P1328-生活大爆炸版石头剪刀布-NOIP2014TG"><a href="#139-P1328-生活大爆炸版石头剪刀布-NOIP2014TG" class="headerlink" title="139 | P1328 生活大爆炸版石头剪刀布 [NOIP2014TG]"></a>139 | P1328 生活大爆炸版石头剪刀布 [NOIP2014TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1328">洛谷 | P1328 生活大爆炸版石头剪刀布 [NOIP2014TG]</a> <font color=orange>[普及-]</font></p>
+<p>大约也是一道非常简单的模拟罢，因为空间和时间都非常冗余，所以直接随便开即可（bushi</p>
+<p>用 <code>cna</code> 和 <code>cnb</code> 来分别记录当前到没个人周期的第几位即可（</p>
+<h1 id="140-P3174-毛毛虫-HAOI2009"><a href="#140-P3174-毛毛虫-HAOI2009" class="headerlink" title="140 | P3174 毛毛虫 [HAOI2009]"></a>140 | P3174 毛毛虫 [HAOI2009]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3174">洛谷 | P3174 [HAOI2009]毛毛虫</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>大约是一个 SDSC 都没有写这个，于是回来之后觉得应当继续接着写（</p>
+<p>这道题是一个显然的树形 DP，<del>不知道出题人在想啥给了个完全木大的 m。</del></p>
+<p>设 $f[x]$ 为以 $x$ 为根的最长链，这样设是因为这个题实际上就是在找最长的链。</p>
+<p>不过我们要在 DFS 的时候同时维护最长链和次长链，因为这个题可能会出现毛毛虫跨过根节点的情况，但是这种情况也可以是看作最多两条链连在一起组成的，于是我们同时维护最长链和次长链。</p>
+<h1 id="141-P1472-奶牛家谱-Cow-Pedigrees-USACO2-3"><a href="#141-P1472-奶牛家谱-Cow-Pedigrees-USACO2-3" class="headerlink" title="141 | P1472 奶牛家谱 Cow Pedigrees [USACO2.3]"></a>141 | P1472 奶牛家谱 Cow Pedigrees [USACO2.3]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1472">洛谷 | P1472 奶牛家谱 Cow Pedigrees [USACO2.3]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>嗯，奶牛家谱果然和奶牛没有一点关系。</p>
+<h1 id="142-P1453-城市环路"><a href="#142-P1453-城市环路" class="headerlink" title="142 | P1453 城市环路"></a>142 | P1453 城市环路</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1453">洛谷 | P1453 城市环路</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>树形 DP，这道题有一点不太一样的是，本题给出的图是一个基环树。</p>
+<p>我们设 $f[x][0&#x2F;1]$ 表示以 $x$ 为根的子树的最大独立集，0 和 1 表示选 $x$ 或不选 $x$。</p>
+<h1 id="143-P3205-合唱队-HNOI2010"><a href="#143-P3205-合唱队-HNOI2010" class="headerlink" title="143 | P3205 合唱队 [HNOI2010]"></a>143 | P3205 合唱队 [HNOI2010]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3205">洛谷 | P3205 合唱队 [HNOI2010]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>用了一种类似小学 插空法 的东西。</p>
+<h1 id="144-P5999-kangaroo-CEOI2016"><a href="#144-P5999-kangaroo-CEOI2016" class="headerlink" title="144 | P5999 kangaroo [CEOI2016]"></a>144 | P5999 kangaroo [CEOI2016]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P5999">洛谷 | P5999 kangaroo [CEOI2016]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>特判边界情况。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(i==s <span class="keyword">or</span> i==t) f[i][j]=(f[i<span class="number">-1</span>][j]+f[i<span class="number">-1</span>][j<span class="number">-1</span>]+MOD)%MOD;</span><br><span class="line"><span class="keyword">else</span> f[i][j]=(f[i<span class="number">-1</span>][j<span class="number">-1</span>]*(j-(i&gt;s)-(i&gt;t))+f[i<span class="number">-1</span>][j+<span class="number">1</span>]*j+MOD)%MOD;</span><br></pre></td></tr></table></figure>
+
+<h1 id="145-P1550-Watering-Hole-G-USACO08OCT"><a href="#145-P1550-Watering-Hole-G-USACO08OCT" class="headerlink" title="145 | P1550 Watering Hole G [USACO08OCT]"></a>145 | P1550 Watering Hole G [USACO08OCT]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1550">洛谷 | P1550 Watering Hole G [USACO08OCT]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>在普通边的基础上我们连 i 和 n+1 （一个虚拟点），权值为费用，代表挖井。</p>
+<h1 id="146-P3535-TOU-Tour-de-Byteotia-POI2012"><a href="#146-P3535-TOU-Tour-de-Byteotia-POI2012" class="headerlink" title="146 | P3535 TOU-Tour de Byteotia [POI2012]"></a>146 | P3535 TOU-Tour de Byteotia [POI2012]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3535">洛谷 | P3535 TOU-Tour de Byteotia [POI2012]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>并查集判环，这里因为是让编号小于 k 的结点不在环上，于是我们可以先把大于 k 的并在一起。</p>
+<p>然后再统计一下小于等于 k 的即可。</p>
+<p>写了[题解]。</p>
+<h1 id="147-P3916-图的遍历"><a href="#147-P3916-图的遍历" class="headerlink" title="147 | P3916 图的遍历"></a>147 | P3916 图的遍历</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3916">洛谷 | P3916 图的遍历</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>反向建边 BFS。</p>
+<h1 id="148-P4878-Layout-G-USACO05DEC"><a href="#148-P4878-Layout-G-USACO05DEC" class="headerlink" title="148 | P4878 Layout G [USACO05DEC]"></a>148 | P4878 Layout G [USACO05DEC]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4878">洛谷 | P4878 Layout G [USACO05DEC]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>差分约束的一个相对模板的题（？）</p>
+<p>题目要求的距离远近直接转换化为不等式建边即可，但是要主要每两个牛之间都要建边。</p>
+<h1 id="149-P3128-Max-Flow-P-USACO15DEC"><a href="#149-P3128-Max-Flow-P-USACO15DEC" class="headerlink" title="149 | P3128 Max Flow P [USACO15DEC]"></a>149 | P3128 Max Flow P [USACO15DEC]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3128">洛谷 | P3128 Max Flow P [USACO15DEC]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>LCA + 树上差分，LCA 是倍增做的。</p>
+<h1 id="150-P2158-仪仗队-SDOI2008"><a href="#150-P2158-仪仗队-SDOI2008" class="headerlink" title="150 | P2158 仪仗队 [SDOI2008]"></a>150 | P2158 仪仗队 [SDOI2008]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2158">洛谷 | P2158 仪仗队 [SDOI2008]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>是一道欧拉函数的板子题的样子，算是回忆了一下欧拉筛求欧拉函数（</p>
+<h1 id="151-CF1559A-Mocha-and-Math"><a href="#151-CF1559A-Mocha-and-Math" class="headerlink" title="151 | CF1559A Mocha and Math"></a>151 | CF1559A Mocha and Math</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/CF1559A">洛谷 | CF1559A Mocha and Math</a> <font color=#BFBFBF>[暂无评定]</font>（预计 <font color=red>[入门]</font>）</p>
+<p><a target="_blank" rel="noopener" href="http://codeforces.com/problemset/problem/1559/A">Codeforces | CF1559A Mocha and Math</a></p>
+<p>送分 A 题就不多说罢……直接暴力 &amp; 就行</p>
+<p>昨天晚上本来是想写个题解，写完之后手残按了书签链接……然后就没再写，今天回来一看已经 10 篇题解了就懒得写了。</p>
+<h1 id="152-CF1559D1-Mocha-and-Diana-Easy-Version"><a href="#152-CF1559D1-Mocha-and-Diana-Easy-Version" class="headerlink" title="152 | CF1559D1 Mocha and Diana (Easy Version)"></a>152 | CF1559D1 Mocha and Diana (Easy Version)</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/CF1559D1">洛谷 | CF1559D1 Mocha and Diana (Easy Version)</a> <font color=#BFBFBF>[暂无评定]</font>（预计 <font color=#ffcc0>[普及&#x2F;提高-]</font>）</p>
+<p><a target="_blank" rel="noopener" href="http://codeforces.com/problemset/problem/1559/D1">Codeforces | CF1559D1 Mocha and Diana (Easy Version)</a></p>
+<p>题目大意是有两个森林，问你在保证还是两个森林的情况下还能连多少边。</p>
+<p>这个 EZ Ver 的 $n \le 1000$，所以直接暴力枚举即可。</p>
+<p>用两个并查集来分别维护这两个森林即可。</p>
+<h1 id="153-P1108-低价购买-amp-P2687"><a href="#153-P1108-低价购买-amp-P2687" class="headerlink" title="153 | P1108 低价购买 &amp; P2687"></a>153 | P1108 低价购买 &amp; P2687</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1108">洛谷 | P1108 低价购买</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这个题实际上是两个 DP 的叠加。</p>
+<p>P2687 的链接就不放了，反正很好找，两者题都一样就是了，后者需要高精。</p>
+<h1 id="154-T189961-Wdoi-R3-夜雀-dreaming"><a href="#154-T189961-Wdoi-R3-夜雀-dreaming" class="headerlink" title="154 | T189961 [Wdoi R3] 夜雀 dreaming"></a>154 | T189961 [Wdoi R3] 夜雀 dreaming</h1><p>因为这个比赛的题都还没入主题库，于是就先挂这个链接，等进了主题库再改链接罢。</p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/T189961">洛谷 | T189961 [Wdoi R3] 夜雀 dreaming</a> <font color=#BFBFBF>[暂无评定]</font>（预计 <font color=gree>[普及+&#x2F;提高]</font>）</p>
+<p>这个题是 Wdoi R3 的 A 题，也就是签到题，但是很可惜的我没签上（</p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/paste/2dwm3f7z">简化版的题意</a>算是很清晰了，因为时间轴的上限是 $9966^{9966}-1$，所以直接求出所有的时间点的倍数再去判断是木大的。</p>
+<p>于是我们考虑同一个时间会在什么情况下出现两个不同的菜。因为放入菜的时间都是每个命令时间的倍数，所以我们考虑对于两个时间点的 $\operatorname{lcm}$，那么根据题意我们最后选取的 $\operatorname{lcm}$ 越小越好，于是我们在枚举之后进行一次排序。（用优先队列也可以）</p>
+<p>因为题目中计算每个时间点所点菜的公式已经给出，于是我们就可以每次取出 $\operatorname{lcm}$ 后计算对应的两条命令在这个时间点的菜，若不同那么这个时间点就是答案。</p>
+<p>……但是这样还不对，因为假如相同的话，我们再考虑 $2 \times \operatorname{lcm}$ 处，如果再相同就真的没解了。<del>场上我就因为没考虑另外一种情况而喜提两个 WA 痛失签到机会。</del></p>
+<p>感谢 @<a target="_blank" rel="noopener" href="https://www.luogu.com.cn/user/371178">Fan_Tuan</a> 大佬帮忙<a target="_blank" rel="noopener" href="https://www.luogu.com.cn/discuss/show/342857">纠错</a>。</p>
+<h1 id="155-P4310-绝世好题"><a href="#155-P4310-绝世好题" class="headerlink" title="155 | P4310 绝世好题"></a>155 | P4310 绝世好题</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4310">洛谷 | P4310 绝世好题</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p><del>所以绝世好题就是良心 DP（</del></p>
+<p>这个题 $O(n^2)$ 的 DP 思路很好想：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">for(R int i(1);i&lt;=n;++i)</span><br><span class="line">    for(R int j(1);j&lt;i;++j)</span><br><span class="line"></span><br><span class="line">        if(a[i]&amp;a[j])</span><br><span class="line">            f[i]=Hmax(f[i],f[j]+1);</span><br></pre></td></tr></table></figure>
+
+<p>即使这个题的数据及其水，这个做法也是不能 AC 哒，只有 90pts （</p>
+<p>于是我们考虑优化。在不改变状态设计的情况下，我们只能着手于内层循环。考虑 $j$ 时我们发现实际上有很多的状态都被浪费掉了，她们到达不了更大的答案。</p>
+<p>于是我们进行一个最优性剪枝，记录当前的最大答案。</p>
+<h1 id="156-P1944-最长括号匹配"><a href="#156-P1944-最长括号匹配" class="headerlink" title="156 | P1944 最长括号匹配"></a>156 | P1944 最长括号匹配</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1944">洛谷 | P1944 最长括号匹配</a> <font color=#ffcc0>[普及&#x2F;提高-]</font></p>
+<p>看起来是一道<del>相当相当相当相当相当相当相当相当相当相当相当相当相当相当相当相当相当相当相当相当相当相当</del>的 DP （</p>
+<p>核心如下：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(R <span class="type">int</span> <span class="built_in">i</span>(<span class="number">2</span>);i&lt;=n;++i)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(c[i]==<span class="string">&#x27;(&#x27;</span> <span class="keyword">or</span> c[i]==<span class="string">&#x27;[&#x27;</span>) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="keyword">if</span>((c[i]==<span class="string">&#x27;)&#x27;</span> <span class="keyword">and</span> c[i-f[i<span class="number">-1</span>]<span class="number">-1</span>]==<span class="string">&#x27;(&#x27;</span>) <span class="built_in">or</span> (c[i]==<span class="string">&#x27;]&#x27;</span> <span class="keyword">and</span> c[i-f[i<span class="number">-1</span>]<span class="number">-1</span>]==<span class="string">&#x27;[&#x27;</span>)) f[i]=f[i<span class="number">-1</span>]+f[i-f[i<span class="number">-1</span>]<span class="number">-2</span>]+<span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span>(f[i]&gt;len) len=f[i],pos=i;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<p>len 记录的是最长的匹配括号序列的长度，pos 则是最后能匹配的位置。</p>
+<h1 id="157-P2340-Cow-Exhibition-G-USACO03FALL"><a href="#157-P2340-Cow-Exhibition-G-USACO03FALL" class="headerlink" title="157 | P2340 Cow Exhibition G [USACO03FALL]"></a>157 | P2340 Cow Exhibition G [USACO03FALL]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2340">洛谷 | P2340 Cow Exhibition G [USACO03FALL]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>是一道<del>清新</del>的背包！</p>
+<p>如果 <code>iq&gt;=0</code> 那么跑 01 背包，反之跑完全背包。</p>
+<p>不过由于可能会出现负数的情况所以我们多用<del>浪费</del>一倍空间去干掉可能出现的负数下标的情况。</p>
+<h1 id="158-T193697-信号塔"><a href="#158-T193697-信号塔" class="headerlink" title="158 | T193697 信号塔"></a>158 | T193697 信号塔</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/T193697">洛谷 | T193697 信号塔</a> <font color=#BFBFBF>[暂无评定]</font>（预计 <font color=#ffcc0>[普及&#x2F;提高-]</font>）</p>
+<p>据说是巨大重题来着，虽然我没做过但也是觉得眼熟，好像来自于某个神必的结论来着（</p>
+<p>中午刚到机房比较热，就先随便开个题 Cold down，上来一看 D2A 是个交互题我不会（虽然后来看算是幸好没有做 A），于是去做 D2B。</p>
+<p>这题一看就觉得眼熟，感觉是个 <code>x%y==0</code> 之类的结论题，然后看了下样例只有 12 的倍数输出了 1，就先交了个 <code>x%12==0</code> 的，全 WA。</p>
+<p>然后去手模了一下发现其实是 <code>x%6==0</code> ，于是交上去得了 10 pts（</p>
+<p>于是去看数据范围，哦原来有负数，最后 20pts 还爆 ull 范围了，那就先把快读的判负号去掉拿了 80 pts。</p>
+<p>最后看是不是需要高精度啥的，然后发现实际上每一位加起来判断一下是否为 3 的倍数再看一眼最后一位判断是不是偶数即可。</p>
+<p>然后就交上去过了。</p>
+<h1 id="159-CF1560A-Dislike-of-Threes"><a href="#159-CF1560A-Dislike-of-Threes" class="headerlink" title="159 | CF1560A Dislike of Threes"></a>159 | CF1560A Dislike of Threes</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/CF1560A">洛谷 | CF1560A Dislike of Threes</a> <font color=#BFBFBF>[暂无评定]</font>（预计 <font color=red>[入门]</font>）</p>
+<p><a target="_blank" rel="noopener" href="http://codeforces.com/problemset/problem/1560/A">Codeforces | CF1560A Dislike of Threes</a></p>
+<p>题意简述：输出第 $k$ 个个位不为 $3$ 且不被 $3$ 整除的数。</p>
+<p>思路简述：A 题还是一个手速题，因为 $k \le 1000$，所以我们可以直接枚举 $i$。</p>
+<h1 id="160-P3868-猜数字-TJOI2009"><a href="#160-P3868-猜数字-TJOI2009" class="headerlink" title="160 | P3868 猜数字 [TJOI2009]"></a>160 | P3868 猜数字 [TJOI2009]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3868">洛谷 | P3868 猜数字 [TJOI2009]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这是一个 CRT 的题，原式可以化为：</p>
+<p>$$<br>\begin{cases}<br>n - a_1 &amp;\equiv \pmod {b_1} \<br>n - a_2 &amp;\equiv \pmod {b_2} \<br>n - a_3 &amp;\equiv \pmod {b_3} \<br>n - a_4 &amp;\equiv \pmod {b_4} \<br>&amp;\cdots \<br>n - a_k &amp;\equiv \pmod {b_k} \<br>\end{cases}<br>$$</p>
+<p>那这样就很 CRT 的板子了，但是这题的最后一个点爆 long long 了，于是就写个乌速乘罢，然而题目的数据中 $|a_i| \le 10^9$，也就是说会有负数。</p>
+<p>所以我们要进行神必的提前取模来干掉负数的情况。</p>
+<p>算是题外话，这是第一个在 Manjaro Linux 上做出来的题，同时这个 “简单记录.md” 也突破了 2000 行 :D</p>
+<p><img src="https://i.loli.net/2021/08/20/ucwprl81sWqzVhd.png"></p>
+<h1 id="161-P1169-棋盘制作-ZJOI2007"><a href="#161-P1169-棋盘制作-ZJOI2007" class="headerlink" title="161 | P1169 棋盘制作 [ZJOI2007]"></a>161 | P1169 棋盘制作 [ZJOI2007]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3868">洛谷 | P1169 棋盘制作 [ZJOI2007]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>是一道<del>垂涎</del>垂线法的例题（？）</p>
+<p>这道题定义了三个递推用的二维数组：<code>l，r，u</code>，分别表示从 $(i,j)$ 开始能到达的最远的左右位置和能向上扩展的最长长度。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(f[i][j]!=f[i<span class="number">-1</span>][j] <span class="keyword">and</span> i&gt;=<span class="number">2</span>)</span><br><span class="line">&#123;    </span><br><span class="line">    l[i][j]=<span class="built_in">Hmax</span>(l[i][j],l[i<span class="number">-1</span>][j]);</span><br><span class="line">    r[i][j]=<span class="built_in">Hmin</span>(r[i][j],r[i<span class="number">-1</span>][j]);</span><br><span class="line">    u[i][j]=u[i<span class="number">-1</span>][j]+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">x</span><span class="params">(r[i][j]-l[i][j]+<span class="number">1</span>)</span></span>;<span class="function"><span class="type">int</span> <span class="title">y</span><span class="params">(Hmin(x,u[i][j]))</span></span>;</span><br><span class="line">ans[<span class="number">0</span>]=<span class="built_in">Hmax</span>(ans[<span class="number">0</span>],y*y);ans[<span class="number">1</span>]=<span class="built_in">Hmax</span>(ans[<span class="number">1</span>],x*u[i][j]);</span><br></pre></td></tr></table></figure>
+
+<p>同时因为本题给出的是一个 01 矩阵，所以在判断的时候只需要判定两者不同即可符合条件，进行递推。</p>
+<h1 id="162-P4147-玉蟾宫"><a href="#162-P4147-玉蟾宫" class="headerlink" title="162 | P4147 玉蟾宫"></a>162 | P4147 玉蟾宫</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4147">洛谷 | P4147 玉蟾宫</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>这还是一道垂线法的题，整体思路和上一题相似，还是定义三个数组来递推。</p>
+<p>从某种意义上来说这道题比上一道题简单一些。</p>
+<h1 id="163-P2051-中国象棋-AHOI2009"><a href="#163-P2051-中国象棋-AHOI2009" class="headerlink" title="163 | P2051 中国象棋 [AHOI2009]"></a>163 | P2051 中国象棋 [AHOI2009]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2051">洛谷 | P2051 中国象棋 [AHOI2009]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>百蓝祭。</p>
+<p>是一道状压 DP，有两个大类五个情况需要讨论：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(k&gt;=<span class="number">1</span>) f[i][j][k]+=f[i<span class="number">-1</span>][j+<span class="number">1</span>][k<span class="number">-1</span>]*(j+<span class="number">1</span>);</span><br><span class="line"><span class="keyword">if</span>(j&gt;=<span class="number">1</span>) f[i][j][k]+=f[i<span class="number">-1</span>][j<span class="number">-1</span>][k]*(m-j+<span class="number">1</span>-k);</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(k&gt;=<span class="number">2</span>) f[i][j][k]+=f[i<span class="number">-1</span>][j+<span class="number">2</span>][k<span class="number">-2</span>]*(((j+<span class="number">1</span>)*(j+<span class="number">2</span>))&gt;&gt;<span class="number">1</span>);</span><br><span class="line"><span class="keyword">if</span>(k&gt;=<span class="number">1</span>) f[i][j][k]+=f[i<span class="number">-1</span>][j][k<span class="number">-1</span>]*j*(m-k+<span class="number">1</span>-j);</span><br><span class="line"><span class="keyword">if</span>(j&gt;=<span class="number">2</span>) f[i][j][k]+=f[i<span class="number">-1</span>][j<span class="number">-2</span>][k]*<span class="built_in">C2</span>(m-j+<span class="number">2</span>-k);</span><br></pre></td></tr></table></figure>
+
+<h1 id="164-P1578-奶牛浴场"><a href="#164-P1578-奶牛浴场" class="headerlink" title="164 | P1578 奶牛浴场"></a>164 | P1578 奶牛浴场</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1578">洛谷 | P1578 奶牛浴场</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>还是垂线法，不过这道题的数据范围为 $0 \le $ 长，宽 $\le 30000$，于是我们就不能和玉蟾宫、棋盘制作一样开二维数组去做了。</p>
+<p>同时我们注意到 $n \le 5000$，说明障碍点相对较少，于是我们可以枚举障碍点来做。</p>
+<p><a target="_blank" rel="noopener" href="https://ofnoname.blog.luogu.org/solution-p1578">参考到的题解 @Ofnoname</a>。</p>
+<h1 id="165-P2701-Big-Barn-USACO5-3"><a href="#165-P2701-Big-Barn-USACO5-3" class="headerlink" title="165 | P2701 Big Barn [USACO5.3]"></a>165 | P2701 Big Barn [USACO5.3]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2701">洛谷 | P2701 Big Barn</a> <font color=#FFC116>[普及&#x2F;提高-]</font></p>
+<p>最一开始以为是跟玉蟾宫一样的板子，然而我多虑了，其实是更简单的 DP。</p>
+<p>$$<br>f(i,j) &#x3D; \max { f(i-1,j-1),f(i-1,j),f(i,j-1) } + 1<br>$$</p>
+<p><del>属于是 <a target="_blank" rel="noopener" href="https://www.cnblogs.com/xxas2015/p/11720233.html"><img src="https://i.loli.net/2021/08/21/XtNbGv7Imcj2BsP.png"></a> 了属于是。</del></p>
+<h1 id="166-SP1805-Largest-Rectangle-in-a-Histogram"><a href="#166-SP1805-Largest-Rectangle-in-a-Histogram" class="headerlink" title="166 | SP1805 Largest Rectangle in a Histogram"></a>166 | SP1805 Largest Rectangle in a Histogram</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/SP1805">洛谷 | SP1805 HISTOGRA - Largest Rectangle in a Histogram</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p><a target="_blank" rel="noopener" href="https://www.spoj.com/problems/HISTOGRA/">SPOJ | HISTOGRA - Largest Rectangle in a Histogram</a></p>
+<p>在这里我们因为最终极大面积肯定是出于某个位置 $i$ 的面积 $i \times h_i$，因此我们需要枚举 $i$ 的位置去不断的向左右扩展。</p>
+<p>以向左为例，显然的是满足 $i&gt;1$ 且 $a_i \le a_{i-1}$ 时，可以继续向左扩展，即：$l_i &#x3D; l_{l_i-1}$。</p>
+<h1 id="167-UVA1619-Feel-Good"><a href="#167-UVA1619-Feel-Good" class="headerlink" title="167 | UVA1619 Feel Good"></a>167 | UVA1619 Feel Good</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/UVA1619">洛谷 | UVA1619 Feel Good</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://vjudge.net/problem/UVA-1619">UVA (Vjudge) | Feel 🤺 Good </a></p>
+<p>和上一题类似的扩展方式，只不过要求一个前🤺缀🤺和🤺。</p>
+<h1 id="168-P2216-理想的正方形-HAOI2007"><a href="#168-P2216-理想的正方形-HAOI2007" class="headerlink" title="168 | P2216 理想的正方形 [HAOI2007]"></a>168 | P2216 理想的正方形 [HAOI2007]</h1><p><a target="_blank" rel="noopener" href="https://loj.ac/p/10182">LOJ | #10182.理想的正方形</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2216">洛谷 | P2216 理想的正方形 [HAOI2007]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>总之很感谢 LOJ 就是了（</p>
+<p>这个题我从开题到 AC 的总时间，和斗地主差不多了，都是上午十一点到晚上七点多。</p>
+<p><del>突然想像头哥一样怒斥 GP2 Engine：</del></p>
+<p><del>GP2!GP2 Engine↺Uh!!!↷</del></p>
+<p>当然我之所以这道题从上午十一点开题做到晚上七点多只是因为我菜。</p>
+<p>这个题的题意很清晰了，要求能使得其内最大值与最小值之差最小的 $n \times n$ 的矩形，而因为题目中 $a,b,n$ 都不变且 $n$ 比较小，于是我们可以直接考虑去求每个 $n \times n$ 中的最大值和最小值的差。</p>
+<p>我们考虑对于最大值和最小值分别用两次单调队列：</p>
+<ol>
+<li><p>先求出原矩阵中<strong>每一行</strong>所有长为 $n$ 的序列内的最大值，得到一个新的矩阵。这一步求出来的是所有 $1 \times n$ 大小矩阵内元素的最大值。</p>
+</li>
+<li><p>将新矩阵的<strong>每一列</strong>所有长为 $n$ 的序列内的最大值记录到一个新的矩阵中。这一步就是所有 $n \times n$ 大小矩阵内元素的最大值。</p>
+</li>
+<li><p>将所有 $n \times n$ 大小的矩阵最小值按照上面方法求出。</p>
+</li>
+<li><p>枚举元素，找到最小的差。</p>
+</li>
+</ol>
+<p>然后因为某个<a target="_blank" rel="noopener" href="https://www.luogu.com.cn/discuss/show/344684">神必原因</a>我<a target="_blank" rel="noopener" href="https://www.luogu.com.cn/record/list?pid=P2216&user=407417">调了一下午</a>（</p>
+<p>最后还是 LOJ 的代码格式化启发了我<del>让我面向题解查错了一波</del>才找到这个神必错误……</p>
+<h1 id="169-P2831-愤怒的小鸟-NOIP2016TG"><a href="#169-P2831-愤怒的小鸟-NOIP2016TG" class="headerlink" title="169 | P2831 愤怒的小鸟 [NOIP2016TG]"></a>169 | P2831 愤怒的小鸟 [NOIP2016TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2216">洛谷 | P2216 理想的正方形 [HAOI2007]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><del>Uh Luogu! Luogu Wisdom Engine！ Wisdom! Uh!</del></p>
+<p><del>突然找到了头哥怒斥 GP2 Engine 的感觉</del></p>
+<h1 id="170-P2331-最大子矩阵-SCOI2005"><a href="#170-P2331-最大子矩阵-SCOI2005" class="headerlink" title="170 | P2331 最大子矩阵 [SCOI2005]"></a>170 | P2331 最大子矩阵 [SCOI2005]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2331">洛谷 | P2331 最大子矩阵 [SCOI2005]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><del>Uh Luogu! Luogu Wisdom Engine！ Wisdom! Uh!又给我推 DP！</del></p>
+<p>算是一道分讨类的 DP ？因为 $1 \le m \le 2$，所以我们可以先考虑 $m&#x3D;1$ 的情况再合理推至 $m&#x3D;2$。</p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/blog/_post/163332">讨论的情况参照的这里</a>。</p>
+<h1 id="171-CF1354D-Multiset"><a href="#171-CF1354D-Multiset" class="headerlink" title="171 | CF1354D Multiset"></a>171 | CF1354D Multiset</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/CF1534D">洛谷 | CF1354D Multiset</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><a target="_blank" rel="noopener" href="http://codeforces.com/problemset/problem/1354/D">CF | CF1534D</a></p>
+<p>一道线段树？因为是维护了一个桶，所以大约是我写过最短的线段树了，本来还想拿这个题来复建线段树手感呢（</p>
+<p>因为觉得全扔进结构体里整洁于是就在其他常数比 Dfkuaid 小的情况下的慢了 $n$ 秒嘤（</p>
+<h1 id="172-CF1181D-Irrigation"><a href="#172-CF1181D-Irrigation" class="headerlink" title="172 | CF1181D Irrigation"></a>172 | CF1181D Irrigation</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/CF1181D">洛谷 | CF1181D Irrigation</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p><a target="_blank" rel="noopener" href="http://codeforces.com/problemset/problem/1181/D">CF | CF1181D</a></p>
+<p>属于是阴间题目了属于是，这题的官方题解不超过 15 行，但是我们自己想的却是 $n \times \texttt{std}$ 的权值线段树和权值树状数组（</p>
+<h1 id="173-P2245-星际导航"><a href="#173-P2245-星际导航" class="headerlink" title="173 | P2245 星际导航"></a>173 | P2245 星际导航</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2245">洛谷 | P2245 星际导航</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p><del>属于大重题了属于是</del>，和货车运输做法一模一样（</p>
+<p>看着旁边的 Dfkuaid 因为写的倍增求 LCA 还要改一些取 $\min$ 和取 $\max$ 的地方，我直接宣布双 set + vector 找 LCA 完全胜利！！！1 （<del>完全不用改</del>）</p>
+<h1 id="173-P3959-宝藏-NOIP2017TG"><a href="#173-P3959-宝藏-NOIP2017TG" class="headerlink" title="173 | P3959 宝藏 [NOIP2017TG]"></a>173 | P3959 宝藏 [NOIP2017TG]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2245">洛谷 | P3959 宝藏 [NOIP2017TG]</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>这道题的数据范围看起来就很像是个状压 DP，于是我最一开始决定要用大约贪心 + 状压来写。</p>
+<p>然而想着想着发现正确性不对，如果要正确性对的话我复杂度就炸到大约 $n!$ 了（</p>
+<p>于是看着扶苏的题解写了一个状压 DP。</p>
+<h1 id="174-P2602-数字计数-ZJOI2010"><a href="#174-P2602-数字计数-ZJOI2010" class="headerlink" title="174 | P2602 数字计数 [ZJOI2010]"></a>174 | P2602 数字计数 [ZJOI2010]</h1><p><a target="_blank" rel="noopener" href="https://loj.ac/p/10169">LOJ | #10169.数字计数</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2602">洛谷 | P2602 数字计数 [ZJOI2007]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>是一道数位 DP 的板子题，正好遇上洛谷日爆（</p>
+<p>采用<del>模板化</del>的 DFS 做法，定义 $f$ 数组如下 $f(i,j)$ 表示是从高到低第 $i$ 位，$j$ 则是数字出现次数。</p>
+<p>DFS 函数为 $DFS(pos,num,ans,lead,limit)$，参数分别表示：从高到低第几位，要求哪个数出现的次数，当前出现次数，前导零的状态，当前位置上限的状态。</p>
+<h1 id="175-P6218-Round-Numbers-S-USACO06NOV"><a href="#175-P6218-Round-Numbers-S-USACO06NOV" class="headerlink" title="175 | P6218 Round Numbers S [USACO06NOV]"></a>175 | P6218 Round Numbers S [USACO06NOV]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P6218">洛谷 | P6218 Round Numbers S [USACO06NOV]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>还是数位 DP，<del>因为我在套模板，所以</del>和上一题的区别只有 $f(i,j)$ 中的 $j$ 变为了 $1$ 和 $0$ 出现次数的差。</p>
+<p>对应的，$DFS$ 中的 $ans$ 也变成了 $dlt$（</p>
+<h1 id="176-P4317-花神的数论题"><a href="#176-P4317-花神的数论题" class="headerlink" title="176 | P4317 花神的数论题"></a>176 | P4317 花神的数论题</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4317">洛谷 | P4317 花神的数论题</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>又双叒是数位 DP，这道题我还是套模板，$f(i,j)$ 代表第 $i$ 位的乘积为 $j$。</p>
+<p>因为这道题不需要考虑前导 $0$，所以 $DFS$ 函数也变得简单：$DFS(pos,st,limit)$。</p>
+<h1 id="177-P4999-烦人的数学作业"><a href="#177-P4999-烦人的数学作业" class="headerlink" title="177 | P4999 烦人的数学作业"></a>177 | P4999 烦人的数学作业</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4999">洛谷 | P4999 烦人的数学作业</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>又双叒叕是数位 DP，这道题第一次居然读错题了认为是求 $[l,r]$ 内所有数的和，我还想这题怎么样例不对啊（</p>
+<p>回归正题，这仍然能套模板，而且和数字计数很像，但是因为本题要求的东西简单一些，所以 $DFS$ 函数中不需要记录所求数和前导 $0$ 的问题。</p>
+<p>也就是变成了：$DFS(limit,pos,st)$。</p>
+<h1 id="178-P3413-SAC-1-萌数"><a href="#178-P3413-SAC-1-萌数" class="headerlink" title="178 | P3413 SAC#1 - 萌数"></a>178 | P3413 SAC#1 - 萌数</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3413">洛谷 | P3413 SAC#1 - 萌数</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>虽然 De 了很长时间的 Bug，但是总体上这个题的思维难度却是不高（</p>
+<p>难就难在<del>神必</del>字符串，这题不把数据范围搞到 $10^{1000}$ 也就是个蓝题（</p>
+<p>这个题总体上还是相对于前几个只需要板子的题要难一点的，主要体现在你需要记录两个 $pre$ 以及奇偶不同时的判断（？）</p>
+<p>当然我字符串一塌糊涂于是去看大佬的操作，大佬是先补全的前面那个短的字符串，总之我不是很懂这神必字符串就是了，大佬总能想出巧妙的方法而我只能背模板（</p>
+<p>题外话，这个杂题简单记录的原 <code>.md</code> 文档的大小在我打出这个题的标题和链接的时候正好达到了 100kB（</p>
+<p><img src="https://i.loli.net/2021/08/24/ol1QNj2gOUBcEzn.png"></p>
+<p><img src="https://i.loli.net/2021/08/24/dgeaNlis7k3AbS2.png"></p>
+<h1 id="179-P4127-同类分布-AHOI2009"><a href="#179-P4127-同类分布-AHOI2009" class="headerlink" title="179 | P4127 同类分布 [AHOI2009]"></a>179 | P4127 同类分布 [AHOI2009]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4127">洛谷 | P4127 同类分布 [AHOI2009]</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>仍然是数位 DP，仍然是能套模板。</p>
+<p>暴力枚举模数！于是我们在 $f$ 和 $DFS$ 里面加上一维来表示余数。</p>
+<h1 id="180-P4124-手机号码-CQOI2016"><a href="#180-P4124-手机号码-CQOI2016" class="headerlink" title="180 | P4124 手机号码 [CQOI2016]"></a>180 | P4124 手机号码 [CQOI2016]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4124">洛谷 | P4124 手机号码 [CQOI2016]</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>数位 DP，这个题相当的良心，可以让我随便了开数组去记录信息，但是 Debug 太久就是我的问题。</p>
+<p>看着空间如此宽裕，那么我就开了个 $f(p1,p2,p3,same,limit,h4,h8)$。$p1$ 到 $p3$ 记录的是这三个连续的数，$same$ 是标志 $p1$ 是否满足连续相同的三个数字，$limit$ 意义和之前一样，$h4,h8$ 表示有没有出现 $4$ 和 $8$。</p>
+<h1 id="181-P2518-计数-HAOI2010"><a href="#181-P2518-计数-HAOI2010" class="headerlink" title="181 | P2518 计数 [HAOI2010]"></a>181 | P2518 计数 [HAOI2010]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2518">洛谷 | P2518 计数 [HAOI2010]</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>虽然我是跟着数位 DP 的 Tag 进的这个题，但是看完之后确实觉得组合数学的感觉溢出来了（插入 $0$，删除 $0$，这真的很明显了属于是。） </p>
+<p>但是我的组合数学过于差了，看完题之后能大约知道是个什么组合意义但是我一个柿子都不会推。</p>
+<p>于是去看题解，发现第一篇题解就是组合数学做法，于是就本着体验<del>惩罚自己太菜</del>用 gedit 写这个题。</p>
+<p>除了没有括号自动补全不太适应以外感觉比 DevC++ 好用（bushi</p>
+<h1 id="182-P4768-归程-NOI2018"><a href="#182-P4768-归程-NOI2018" class="headerlink" title="182 | P4768 归程 [NOI2018]"></a>182 | P4768 归程 [NOI2018]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4768">洛谷 | P4768 归程 [NOI2018]</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://loj.ac/p/2718">LOJ | #2718.「NOI2018」归程</a></p>
+<p><del>这个题算是历史很悠久了</del>，当时 SDSC D1 讲了 Kruskal 重构树，然后《推荐习题》就是这个题，然后 7.16 一下午 + 晚上 + 7.17 下午模拟赛前就光调这个题了，当时搞得心态非常崩溃（</p>
+<p>前几天突然在移动硬盘备份的老移动硬盘的资料里发现了我去年啥都不会的时候在 NOI2020 线上同步赛大的惊天神必暴力，大概复杂度在 $O(完全算不出来)$ 的级别，然后我想着这玩意交上去怎么着也能过掉 4 pts 左右罢，然后全 TLE，但是我好像跑题了（</p>
+<p>于是在那个时候突然想起来我还有一份智熄的归程没有写完，于是就决定 500 AC 祭和百粉祭的时候把这两个题干掉（</p>
+<p>然后没想到很快就 499 了，于是就在早上的机房打开了我智熄的代码（</p>
+<p>这个题的总体思路是将整个路径分为两端：$n \to u$ 开车，$u \to 1$ 走路，那么我们就需要枚举这个断点 $u$。</p>
+<p>根据题意有水坑的地方是不能走车的，也就是说 $n \to u$ 这一段都不能有海拔低于水位线，于是我们把海拔按照降序排序。</p>
+<p>跑 Dijkstra 后 Kruskal 重构树，然后每次询问去找公共祖先即可。</p>
+<p>但是这 $lastans$ 也挺恶心的（</p>
+<p>不过上面这些东西我基本上在一个月之前就调的差不多了<del>（除了 $sum,cnt,tot$ 用混了以外）</del></p>
+<p>然后最后发现是并查集的 $Find$ 写智熄了：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">Find</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(x!=fa[x]) fa[x]=<span class="built_in">Find</span>(fa[x]);</span><br><span class="line">    Heriko fa[x];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="183-P1868-饥饿的奶牛"><a href="#183-P1868-饥饿的奶牛" class="headerlink" title="183 | P1868 饥饿的奶牛"></a>183 | P1868 饥饿的奶牛</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1868">洛谷 | P1868 饥饿的奶牛</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>一道线性 DP，方程是 $f(i)&#x3D;\max{f(i),f(v(i,j)+i-v(i,j))}$</p>
+<h1 id="184-P1341-无序字母对"><a href="#184-P1341-无序字母对" class="headerlink" title="184 | P1341 无序字母对"></a>184 | P1341 无序字母对</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1341">洛谷 | P1341 无序字母对</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>是一道题意很显然的欧拉路，然而我最易开始一只以为是欧拉回路，然后就很淦的卡了两个小时（</p>
+<h1 id="185-P6722-「MCOI-01」Village-村庄"><a href="#185-P6722-「MCOI-01」Village-村庄" class="headerlink" title="185 | P6722 「MCOI-01」Village 村庄"></a>185 | P6722 「MCOI-01」Village 村庄</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P6722">洛谷 | P6722 「MCOI-01」Village 村庄</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>是一道图论题，因为题意比较清晰，我们可以分为两部分去求解。</p>
+<p>第一部分是把符合条件的新图建出来，第二部分则是去判断二分图。第二部分实现起来很简单，染色即可，主要是第一部分的实现。</p>
+<p>我们考虑如果树上最长的路径都 $\le k$ 的话，那么显然不存在符合题意的图。</p>
+<p>反之，如果存在二分图，必然最长路径的两端不在一个集合中，也就是说树的直径两端不在一个集合中，因此我们只需要找到直径的两端进行两遍 $DFS$，最后再进行一次 $DFS$ 染色判断即可。</p>
+<p><a target="_blank" rel="noopener" href="https://hriver2.blog.luogu.org/solution-p6722">有水题解（</a></p>
+<h1 id="186-P7113-排水系统-NOIP2020"><a href="#186-P7113-排水系统-NOIP2020" class="headerlink" title="186 | P7113 排水系统 [NOIP2020]"></a>186 | P7113 排水系统 [NOIP2020]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P7113">洛谷 | P7113 排水系统 [NOIP2020]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>NOIP2020 的 T1，现在来看题意确实很清晰的是个拓扑排序，正好 2021.9.1 CCF 宣布 NOI 系列赛事 C++14 和 下划线开头的函数解禁，所以就直接写的 <code>__int128</code>（</p>
+<h1 id="187-P6560-时光的流逝-SBCOI2020"><a href="#187-P6560-时光的流逝-SBCOI2020" class="headerlink" title="187 | P6560 时光的流逝 [SBCOI2020]"></a>187 | P6560 时光的流逝 [SBCOI2020]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P6560">洛谷 | P6560 时光的流逝 [SBCOI2020]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>比较显然是一个博弈论 + 拓扑排序的题目，不过实际上不是太难的博弈论，要不然我也想不到。</p>
+<p>大体的思路是建反边，将终点和所有入度为 $0$ 的点的先手胜负设为 $-1$，如果一个点能到达一个必败点，那么是必胜态。</p>
+<h1 id="188-P4513-小白逛公园"><a href="#188-P4513-小白逛公园" class="headerlink" title="188 | P4513 小白逛公园"></a>188 | P4513 小白逛公园</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4513">洛谷 | P4513 小白逛公园</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>实际上这应该是一道挺经典的线段树 + 最大子端和的题，不过我今天才过，拿来复苏我的线段树也是不错啦。</p>
+<p>大约就是单点修改的线段树，维护分别从左右开始的最大子段和，同时维护一个最大值。</p>
+<h1 id="189-P3177-树上染色-HAOI2015"><a href="#189-P3177-树上染色-HAOI2015" class="headerlink" title="189 | P3177 树上染色 [HAOI2015]"></a>189 | P3177 树上染色 [HAOI2015]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3177">洛谷 | P3177 树上染色 [HAOI2015]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>一道树形 DP，题意是让我们把 $k$ 个点染成黑色，其余为白色，求满足两两黑点之间距离最长和两两白点之间距离最长的染色方案。</p>
+<p>因为一条边只有在两个同色点之间时才有贡献，所以一条边被经过的次数等于边的两侧同色点个数的乘积，即为：</p>
+<p>$$<br>temp &#x3D; w * (k-w) + (sz(y)-w) * (n-k-sz(y)+w) * r(i).val<br>$$</p>
+<p>于是方程即为：</p>
+<p>$$<br>f(x,j) &#x3D; \max {f(x,j),f(x,j-w)+f(y,w)+temp}<br>$$</p>
+<p>接下来想练一下树剖。</p>
+<h1 id="190-P2146-软件包管理器-NOI2015"><a href="#190-P2146-软件包管理器-NOI2015" class="headerlink" title="190 | P2146 软件包管理器 [NOI2015]"></a>190 | P2146 软件包管理器 [NOI2015]</h1><p><a target="_blank" rel="noopener" href="https://loj.ac/p/2130">LOJ | #2130.「NOI2015」软件包管理器</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2146">洛谷 | P2146 软件包管理器 [NOI2015]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>上面说过要练一下树剖，于是就看到了这道题，大体的思路就是安装状态为 $1$，未安装状态为 $0$，算是比较板子的树剖。</p>
+<p>下面写一点这回和上次 Debug 时出现的智熄操作。</p>
+<ol>
+<li><p>在 DFS1 中 ：<code>if(sz[y]&gt;son[x]) son[x]=y;</code>，应写为 <code>if(sz[y]&gt;sz[son[x]]) son[x]=y;</code>。</p>
+</li>
+<li><p>在线段树 Query 中忘了 Pushdown.</p>
+</li>
+<li><p>遍历边的时候将 <code>int i(head[x])</code> 错写为 <code>int i(head[i])</code>。</p>
+</li>
+<li><p>在 QTree 和线段树 Query 中返回值错写为 <code>x</code>，但是应当是 <code>res</code>。</p>
+</li>
+<li><p>在线段树 Modify 中忘了 Pushup.</p>
+</li>
+</ol>
+<h1 id="191-P2619-Tree-I-国家集训队"><a href="#191-P2619-Tree-I-国家集训队" class="headerlink" title="191 | P2619 Tree I [国家集训队]"></a>191 | P2619 Tree I [国家集训队]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2619">洛谷 | P2619 Tree I [国家集训队]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>题目的说法很清楚是要求最小生成树了，但是因为求 MST 的算法都是基于贪心，所以我们不能钦定 $need$ 条白边去做。</p>
+<p>于是我们就顺着贪心的想法去做，二分答案即可。</p>
+<h1 id="192-UVA12888-Count-LCM"><a href="#192-UVA12888-Count-LCM" class="headerlink" title="192 | UVA12888 Count LCM"></a>192 | UVA12888 Count LCM</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/UVA12888">洛谷 | UVA12888 Count LCM</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/remoteJudgeRedirect/uva/12888">UVA | Count LCM</a></p>
+<p>煺柿子题。</p>
+<p>$$<br>\begin{aligned}<br>&amp;\sum\limits_{i&#x3D;1}^{n}\sum\limits_{j&#x3D;1}^m[[i,j]&#x3D;i \times j]\<br>&amp;\sum\limits_{i&#x3D;1}^{n}\sum\limits_{j&#x3D;1}^m[\dfrac{i \times j}{(i,j)}&#x3D;i \times j]\<br>&amp;\sum\limits_{i&#x3D;1}^{n}\sum\limits_{j&#x3D;1}^m[(i,j)&#x3D;1]\<br>&amp;\sum\limits_{i&#x3D;1}^{n}\sum\limits_{j&#x3D;1}^m\sum\limits_{d|n}\mu(d)\<br>&amp;\sum\limits_{d&#x3D;1}^{\min{n,m} }\left\lfloor\dfrac{n}{d}\right\rfloor\left\lfloor\dfrac{m}{d}\right\rfloor<br>\end{aligned}<br>$$</p>
+<p>于是用欧拉筛筛一下 $\mu$ 再整除分块。</p>
+<h1 id="193-P4981-父子"><a href="#193-P4981-父子" class="headerlink" title="193 | P4981 父子"></a>193 | P4981 父子</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4981">洛谷 | P4981 父子</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>有个东西叫做 $Prüfer$ 编码与 $Cayley$ 公式。</p>
+<p>一棵无根树的 $Prüfer$ 编码的值运算如下：</p>
+<blockquote>
+<p>首先定义无根树中度数为1的节点是叶子节点。</p>
+<p>找到编号最小的叶子并删除，序列中添加与之相连的节点编号，重复执行直到只剩下2个节点。</p>
+</blockquote>
+<p>$Cayley$ 公式是说，一个完全图 $K_n$ 有 $n^{n-2}$ 棵生成树，换句话说 $n$ 个节点的带标号的无根树有 $n^{n-2}$ 个。</p>
+<p>在这个题这里我们有 $n$ 种选根的方法，所以总共是 $n^{n-1}$ 种方案，快速幂做即可。</p>
+<h1 id="194-P2590-树的统计-ZJOI2008"><a href="#194-P2590-树的统计-ZJOI2008" class="headerlink" title="194 | P2590 树的统计 [ZJOI2008]"></a>194 | P2590 树的统计 [ZJOI2008]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2590">洛谷 | P2590 树的统计 [ZJOI2008]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>191 到 193 都是在补齐周末测试题的时候随便做的题，这是回归之前说要练一练树剖的初心的题。<del>虽然我补题太慢了这一周又过去了……</del></p>
+<p>这是一道树剖的入门题，需要支持三个操作：单点修改，求路径上最大值，求路径上点权之和。</p>
+<p>那么这个显然就是树剖来做，简单写写即可。</p>
+<p>写一下这次写的时候 Debug 出来的智熄操作：</p>
+<ol>
+<li><p>线段树所有操作全都忘了 <code>Pushup(x)</code>。</p>
+</li>
+<li><p>输入询问的时候把输入的种类都搞成 <code>char</code> 了，但是很奇怪的过了样例……</p>
+</li>
+<li><p>在 <code>Query</code> 里面递归的时候全写的 <code>Modify</code>……</p>
+</li>
+<li><p>一个 <code>n</code> 个节点的树我输入了 <code>n</code> 条边………</p>
+</li>
+<li><p>因为时单点修改，但是我最一开始穿的是原标号而不是新标号……</p>
+</li>
+</ol>
+<p>其实都是在查到第 $3$ 个错之前查出来的……</p>
+<p>总之就是写一次涨一次畸形。</p>
+<h1 id="195-P1265-公路修建"><a href="#195-P1265-公路修建" class="headerlink" title="195 | P1265 公路修建"></a>195 | P1265 公路修建</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1265">洛谷 | P1265 公路修建</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>是一道比较显然的最小生成树，因为这个题主要是围绕着点来进行计算，所以这里用一下 <code>Prim</code> 算法。</p>
+<p>两点间距离公式非常简单了，然后就是 <code>Prim</code> 的板子，只不过一些地方要记得开 <code>double</code>.</p>
+<h1 id="196-P1119-灾后重建"><a href="#196-P1119-灾后重建" class="headerlink" title="196 | P1119 灾后重建"></a>196 | P1119 灾后重建</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1119">洛谷 | P1119 灾后重建</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>一道最短路，主要考察对于 <code>Floyd</code> 算法实现过程理解。<code>Floyd</code> 是基于动态规划，每次找到一个中间点 <code>k</code> 来更新最短路信息，对与这道题来说只有能被选择的点才能更新其他的点，于是我们在每次询问时先把能更新的点都更新掉保证最短路。</p>
+<p>不知道为什么这个题是蓝，感觉黄差不多。</p>
+<h1 id="197-P5658-括号树-CSP-S-2019"><a href="#197-P5658-括号树-CSP-S-2019" class="headerlink" title="197 | P5658 括号树 [CSP-S 2019]"></a>197 | P5658 括号树 [CSP-S 2019]</h1><p><a target="_blank" rel="noopener" href="https://loj.ac/p/3209">LOJ | #3209. 「CSP-S 2019」括号树</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P5658">洛谷 | P5658 括号树 [CSP-S 2019]</a> <font color=gree>[普及+&#x2F;提高]</font></p>
+<p>先考虑括号匹配计数，再考虑如何在树上解决这个问题。</p>
+<p>首先对于单纯的括号匹配计数，用一个栈就能解决，但是本题需要统计一个路径上的括号匹配数。</p>
+<p>先考虑链的情况，那么我们每次新匹配一个括号，就只需要单纯的继承上一个点的信息即可。</p>
+<p>然后考虑树上的情况。刚才之所以可以直接继承上一个节点，就是因为每个节点的父节点都是其上一个节点，所以我们在这里直接把继承的信息来由改为其父节点即可。</p>
+<p>这里说两个 Debug 的时候发现的写挂点：</p>
+<ul>
+<li><p>卡在 <code>55pts</code>：在 <code>DFS</code> 的 <code>if</code> 中使用了 <code>return</code>.</p>
+</li>
+<li><p>卡在 <code>88pts</code>：在回溯的时候错把栈数组写为了字符数组。</p>
+</li>
+</ul>
+<h1 id="198-P2742-Fencing-the-Cows-USACO5-1"><a href="#198-P2742-Fencing-the-Cows-USACO5-1" class="headerlink" title="198 | P2742 Fencing the Cows [USACO5.1]"></a>198 | P2742 Fencing the Cows [USACO5.1]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2742">洛谷 | P2742 Fencing the Cows [USACO5.1]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>当然，这道题再洛谷上也叫做模板，所以就是板子。</p>
+<p>做这道题的缘由是 ZROI CSP D5 T4 用到了凸包，但是我没学过，于是就学了来这个题练手。</p>
+<p>最后选用的 Andrew 算法，第一是这个算法的排序想法简单，第二是这样排序常熟更小。</p>
+<h1 id="199-P2116-城墙"><a href="#199-P2116-城墙" class="headerlink" title="199 | P2116 城墙"></a>199 | P2116 城墙</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2116">洛谷 | P2116 城墙</a> <font color=purple>[省选+&#x2F;NOI-]</font></p>
+<p>一道凸包的板子题，这道题和上道题的唯一区别就是多了一个 $L$，但是因为我们要找到最短的，所以显然当城墙距离 $&#x3D;L$ 的时候是最优的，而此时最短距离其实就为直线凸包 + $pi \times 2 \times L.$</p>
+<h1 id="200-P1463-反素数-POI2001-and-HAOI2007"><a href="#200-P1463-反素数-POI2001-and-HAOI2007" class="headerlink" title="200 | P1463 反素数 [POI2001 and HAOI2007]"></a>200 | P1463 反素数 [POI2001 and HAOI2007]</h1><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1463">洛谷 | P1463 反素数 [POI2001 and HAOI2007]</a> <font color=#1E90FF>[提高+&#x2F;省选-]</font></p>
+<p>算是一道数学题（？）</p>
+<p>若设 $x &#x3D; \Pi p_i^{k_i}$，则 $d(x)&#x3D;\Pi (k_i).$</p>
+<p>那么我们就直接搜索（</p>
+<p>因为前 $12$ 个素数的乘积已经超过了 $2 \times 10^9$，所以我们只需要前 $12$ 个素数，这个直接写出来就行。</p>
+<p>同时庆祝一下 $200$ 题（</p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>Note18 : 杂题一</p><p><a href="http://hriver2.github.io/2021/12/06/Note18/">http://hriver2.github.io/2021/12/06/Note18/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Heriko Delatna</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2021-12-06</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2022-05-21</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/OI/">OI</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2021/12/06/Note18-2/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">Note18 : 杂题二</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2021/12/05/ODT/"><span class="level-item">珂朵莉树</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">评论</h3><div id="comment-container"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js"></script><script>var gitalk = new Gitalk({
+            id: "4d2a04a4dd8776b5344a06c7c5d9f39a",
+            repo: "HDBlogComments",
+            owner: "HRiver2",
+            clientID: "15e62cc003257f7f1bc1",
+            clientSecret: "10d5b65315b36bbb7e3985b75cfde2b5c4a7a10e",
+            admin: ["HRiver2"],
+            createIssueManually: false,
+            distractionFreeMode: false,
+            perPage: 20,
+            pagerDirection: "last",
+            
+            
+            enableHotKey: true,
+            language: "zh-CN",
+        })
+        gitalk.render('comment-container')</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="https://s2.loli.net/2022/05/21/WniEcsqYdjoTlg4.png" alt="Heriko Deltana"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Heriko Deltana</p><p class="is-size-6 is-block">ねぇねぇねぇ</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">38</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">8</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">4</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/HRiver2" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/HRiver2"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Luogu" href="https://www.luogu.com.cn/user/407417"><i class="fas fa-user-alt"></i></a></div></div></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://www.cnblogs.com/HRiver2" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">My CnBlogs</span></span><span class="level-right"><span class="level-item tag">www.cnblogs.com</span></span></a></li><li><a class="level is-mobile" href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Theme Based icarus</span></span><span class="level-right"><span class="level-item tag">github.com</span></span></a></li></ul></div></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2022/05/"><span class="level-start"><span class="level-item">五月 2022</span></span><span class="level-end"><span class="level-item tag">6</span></span></a></li><li><a class="level is-mobile" href="/archives/2022/04/"><span class="level-start"><span class="level-item">四月 2022</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/archives/2022/03/"><span class="level-start"><span class="level-item">三月 2022</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/archives/2022/02/"><span class="level-start"><span class="level-item">二月 2022</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2022/01/"><span class="level-start"><span class="level-item">一月 2022</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/12/"><span class="level-start"><span class="level-item">十二月 2021</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/11/"><span class="level-start"><span class="level-item">十一月 2021</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/10/"><span class="level-start"><span class="level-item">十月 2021</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/09/"><span class="level-start"><span class="level-item">九月 2021</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/08/"><span class="level-start"><span class="level-item">八月 2021</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/03/"><span class="level-start"><span class="level-item">三月 2021</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/About-Blog/"><span class="tag">About Blog</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/F1/"><span class="tag">F1</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Me/"><span class="tag">Me</span><span class="tag">9</span></a></div><div class="control"><a class="tags has-addons" href="/tags/OI/"><span class="tag">OI</span><span class="tag">25</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">订阅更新</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="订阅"></div></div></form></div></div></div><div class="column-right-shadow is-hidden-widescreen is-sticky"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="level is-mobile" href="#前言"><span class="level-left"><span class="level-item">1</span><span class="level-item">前言</span></span></a></li><li><a class="level is-mobile" href="#1-P1144-最短路计数"><span class="level-left"><span class="level-item">2</span><span class="level-item">1 | P1144 最短路计数</span></span></a></li><li><a class="level is-mobile" href="#2-P1352-没有上司的舞会"><span class="level-left"><span class="level-item">3</span><span class="level-item">2 | P1352 没有上司的舞会</span></span></a></li><li><a class="level is-mobile" href="#3-P1015-回文数"><span class="level-left"><span class="level-item">4</span><span class="level-item">3 | P1015 回文数</span></span></a></li><li><a class="level is-mobile" href="#4-P1158-导弹拦截-NOIP2010PJ"><span class="level-left"><span class="level-item">5</span><span class="level-item">4 | P1158 导弹拦截[NOIP2010PJ]</span></span></a></li><li><a class="level is-mobile" href="#5-P1190-接水问题-NOIP2011PJ"><span class="level-left"><span class="level-item">6</span><span class="level-item">5 | P1190 接水问题[NOIP2011PJ]</span></span></a></li><li><a class="level is-mobile" href="#6-P1309-瑞士轮-NOIP2011PJ"><span class="level-left"><span class="level-item">7</span><span class="level-item">6 | P1309 瑞士轮[NOIP2011PJ]</span></span></a></li><li><a class="level is-mobile" href="#7-P1982-小朋友的数字-NOIP2013PJ"><span class="level-left"><span class="level-item">8</span><span class="level-item">7 | P1982 小朋友的数字[NOIP2013PJ]</span></span></a></li><li><a class="level is-mobile" href="#8-P1095-守望者的逃离-NOIP2007PJ"><span class="level-left"><span class="level-item">9</span><span class="level-item">8 | P1095 守望者的逃离[NOIP2007PJ]</span></span></a></li><li><a class="level is-mobile" href="#9-P2398-GCD-SUM"><span class="level-left"><span class="level-item">10</span><span class="level-item">9 | P2398 GCD SUM</span></span></a></li><li><a class="level is-mobile" href="#10-P1390-公约数的和"><span class="level-left"><span class="level-item">11</span><span class="level-item">10 | P1390 公约数的和</span></span></a></li><li><a class="level is-mobile" href="#11-P1541-乌龟棋-NOIP2010TG"><span class="level-left"><span class="level-item">12</span><span class="level-item">11 | P1541 乌龟棋[NOIP2010TG]</span></span></a></li><li><a class="level is-mobile" href="#12-P3842-线段-TJOI2007"><span class="level-left"><span class="level-item">13</span><span class="level-item">12 | P3842 线段[TJOI2007]</span></span></a></li><li><a class="level is-mobile" href="#13-P2016-战略游戏"><span class="level-left"><span class="level-item">14</span><span class="level-item">13 | P2016 战略游戏</span></span></a></li><li><a class="level is-mobile" href="#14-P1359-租用游艇"><span class="level-left"><span class="level-item">15</span><span class="level-item">14 | P1359 租用游艇</span></span></a></li><li><a class="level is-mobile" href="#15-P1122-最大子树和"><span class="level-left"><span class="level-item">16</span><span class="level-item">15 | P1122 最大子树和</span></span></a></li><li><a class="level is-mobile" href="#16-P1747-好奇怪的游戏"><span class="level-left"><span class="level-item">17</span><span class="level-item">16 | P1747 好奇怪的游戏</span></span></a></li><li><a class="level is-mobile" href="#17-P1746-离开中山路"><span class="level-left"><span class="level-item">18</span><span class="level-item">17 | P1746 离开中山路</span></span></a></li><li><a class="level is-mobile" href="#18-P2615-幻方-NOIP2015TG"><span class="level-left"><span class="level-item">19</span><span class="level-item">18 | P2615 幻方[NOIP2015TG]</span></span></a></li><li><a class="level is-mobile" href="#19-P2298-Mzc和男家丁的游戏"><span class="level-left"><span class="level-item">20</span><span class="level-item">19 | P2298 Mzc和男家丁的游戏</span></span></a></li><li><a class="level is-mobile" href="#20-P1332-血色先锋队"><span class="level-left"><span class="level-item">21</span><span class="level-item">20 | P1332 血色先锋队</span></span></a></li><li><a class="level is-mobile" href="#21-P1141-01迷宫"><span class="level-left"><span class="level-item">22</span><span class="level-item">21 | P1141 01迷宫</span></span></a></li><li><a class="level is-mobile" href="#22-P1162-填涂颜色"><span class="level-left"><span class="level-item">23</span><span class="level-item">22 | P1162 填涂颜色</span></span></a></li><li><a class="level is-mobile" href="#23-P1683-入门"><span class="level-left"><span class="level-item">24</span><span class="level-item">23 | P1683 入门</span></span></a></li><li><a class="level is-mobile" href="#24-CF414B-Mashmokh-and-ACM"><span class="level-left"><span class="level-item">25</span><span class="level-item">24 | CF414B Mashmokh and ACM</span></span></a></li><li><a class="level is-mobile" href="#25-P1586-四方定理"><span class="level-left"><span class="level-item">26</span><span class="level-item">25 | P1586 四方定理</span></span></a></li><li><a class="level is-mobile" href="#26-AT1350-深さ優先探索"><span class="level-left"><span class="level-item">27</span><span class="level-item">26 | AT1350 深さ優先探索</span></span></a></li><li><a class="level is-mobile" href="#27-P1387-最大正方形"><span class="level-left"><span class="level-item">28</span><span class="level-item">27 | P1387 最大正方形</span></span></a></li><li><a class="level is-mobile" href="#28-P1157-组合的输出"><span class="level-left"><span class="level-item">29</span><span class="level-item">28 | P1157 组合的输出</span></span></a></li><li><a class="level is-mobile" href="#29-P2372-yyy2015c01挑战算周长"><span class="level-left"><span class="level-item">30</span><span class="level-item">29 | P2372 yyy2015c01挑战算周长</span></span></a></li><li><a class="level is-mobile" href="#30-P1681-最大正方形II"><span class="level-left"><span class="level-item">31</span><span class="level-item">30 | P1681 最大正方形II</span></span></a></li><li><a class="level is-mobile" href="#31-P2426-删数"><span class="level-left"><span class="level-item">32</span><span class="level-item">31 | P2426 删数</span></span></a></li><li><a class="level is-mobile" href="#32-P1036-选数-NOIP2002PJ"><span class="level-left"><span class="level-item">33</span><span class="level-item">32 | P1036 选数[NOIP2002PJ]</span></span></a></li><li><a class="level is-mobile" href="#33-P1063-能量项链-NOIP2006TG"><span class="level-left"><span class="level-item">34</span><span class="level-item">33 | P1063 能量项链[NOIP2006TG]</span></span></a></li><li><a class="level is-mobile" href="#34-P1605-迷宫"><span class="level-left"><span class="level-item">35</span><span class="level-item">34 | P1605 迷宫</span></span></a></li><li><a class="level is-mobile" href="#35-P1005-矩阵取数游戏-NOIP2007TG"><span class="level-left"><span class="level-item">36</span><span class="level-item">35 | P1005 矩阵取数游戏[NOIP2007TG]</span></span></a></li><li><a class="level is-mobile" href="#36-P1019-单词接龙-NOIP2000TG"><span class="level-left"><span class="level-item">37</span><span class="level-item">36 | P1019 单词接龙[NOIP2000TG]</span></span></a></li><li><a class="level is-mobile" href="#37-P4170-涂色"><span class="level-left"><span class="level-item">38</span><span class="level-item">37 | P4170 涂色</span></span></a></li><li><a class="level is-mobile" href="#38-P2014-选课-CTSC1997"><span class="level-left"><span class="level-item">39</span><span class="level-item">38 | P2014 选课[CTSC1997]</span></span></a></li><li><a class="level is-mobile" href="#39-P2015-二叉苹果树"><span class="level-left"><span class="level-item">40</span><span class="level-item">39 | P2015 二叉苹果树</span></span></a></li><li><a class="level is-mobile" href="#40-P2880-Balanced-Lineup-G-P2251-质量检测"><span class="level-left"><span class="level-item">41</span><span class="level-item">40 | P2880 Balanced Lineup G + P2251 质量检测</span></span></a></li><li><a class="level is-mobile" href="#41-P1816-忠诚"><span class="level-left"><span class="level-item">42</span><span class="level-item">41 | P1816 忠诚</span></span></a></li><li><a class="level is-mobile" href="#42-P1040-加分二叉树-NOIP2003TG"><span class="level-left"><span class="level-item">43</span><span class="level-item">42 | P1040 加分二叉树[NOIP2003TG]</span></span></a></li><li><a class="level is-mobile" href="#43-P1440-求m区间内的最小值"><span class="level-left"><span class="level-item">44</span><span class="level-item">43 | P1440 求m区间内的最小值</span></span></a></li><li><a class="level is-mobile" href="#44-P1638-逛画展"><span class="level-left"><span class="level-item">45</span><span class="level-item">44 | P1638 逛画展</span></span></a></li><li><a class="level is-mobile" href="#45-P1901-发射站"><span class="level-left"><span class="level-item">46</span><span class="level-item">45 | P1901 发射站</span></span></a></li><li><a class="level is-mobile" href="#46-P3146-248-G"><span class="level-left"><span class="level-item">47</span><span class="level-item">46 | P3146 248 G</span></span></a></li><li><a class="level is-mobile" href="#47-P1714-切蛋糕"><span class="level-left"><span class="level-item">48</span><span class="level-item">47 | P1714 切蛋糕</span></span></a></li><li><a class="level is-mobile" href="#48-P6599-异或"><span class="level-left"><span class="level-item">49</span><span class="level-item">48 | P6599 异或</span></span></a></li><li><a class="level is-mobile" href="#49-P4391-Radio-Transmission-无线传输-BOI2009"><span class="level-left"><span class="level-item">50</span><span class="level-item">49 | P4391 Radio Transmission 无线传输[BOI2009]</span></span></a></li><li><a class="level is-mobile" href="#50-P6051-求和"><span class="level-left"><span class="level-item">51</span><span class="level-item">50 | P6051 求和</span></span></a></li><li><a class="level is-mobile" href="#51-P1083-借教室-NOIP2012TG"><span class="level-left"><span class="level-item">52</span><span class="level-item">51 | P1083 借教室[NOIP2012TG]</span></span></a></li><li><a class="level is-mobile" href="#52-P2420-让我们异或吧"><span class="level-left"><span class="level-item">53</span><span class="level-item">52 | P2420 让我们异或吧</span></span></a></li><li><a class="level is-mobile" href="#53-P1351-联合权值-NOIP2014TG"><span class="level-left"><span class="level-item">54</span><span class="level-item">53 | P1351 联合权值[NOIP2014TG]</span></span></a></li><li><a class="level is-mobile" href="#54-P1613-跑路"><span class="level-left"><span class="level-item">55</span><span class="level-item">54 | P1613 跑路</span></span></a></li><li><a class="level is-mobile" href="#55-P1168-中位数"><span class="level-left"><span class="level-item">56</span><span class="level-item">55 | P1168 中位数</span></span></a></li><li><a class="level is-mobile" href="#56-P1853-投资的最大效益"><span class="level-left"><span class="level-item">57</span><span class="level-item">56 | P1853 投资的最大效益</span></span></a></li><li><a class="level is-mobile" href="#57-P2918-Buying-Hay-S"><span class="level-left"><span class="level-item">58</span><span class="level-item">57 | P2918 Buying Hay S</span></span></a></li><li><a class="level is-mobile" href="#58-P5365-英雄联盟-SNOI2017"><span class="level-left"><span class="level-item">59</span><span class="level-item">58 | P5365 英雄联盟[SNOI2017]</span></span></a></li><li><a class="level is-mobile" href="#59-P2347-砝♂码称重-NOIP1996TG"><span class="level-left"><span class="level-item">60</span><span class="level-item">59 | P2347 砝♂码称重[NOIP1996TG]</span></span></a></li><li><a class="level is-mobile" href="#60-P1832-A-B-Problem-再升级"><span class="level-left"><span class="level-item">61</span><span class="level-item">60 | P1832 A+B Problem 再升级</span></span></a></li><li><a class="level is-mobile" href="#61-P1244-青蛙过河-NOI2000"><span class="level-left"><span class="level-item">62</span><span class="level-item">61 | P1244 青蛙过河[NOI2000]</span></span></a></li><li><a class="level is-mobile" href="#62-P2370-yyy2015c01-的-U-盘"><span class="level-left"><span class="level-item">63</span><span class="level-item">62 | P2370 yyy2015c01 的 U 盘</span></span></a></li><li><a class="level is-mobile" href="#63-P2904-River-Crossing-S"><span class="level-left"><span class="level-item">64</span><span class="level-item">63 | P2904 River Crossing S</span></span></a></li><li><a class="level is-mobile" href="#64-P1631-序列合并"><span class="level-left"><span class="level-item">65</span><span class="level-item">64 | P1631 序列合并</span></span></a></li><li><a class="level is-mobile" href="#65-P5020-货币系统-NOIP2018TG"><span class="level-left"><span class="level-item">66</span><span class="level-item">65 | P5020 货币系统 [NOIP2018TG]</span></span></a></li><li><a class="level is-mobile" href="#66-P6771-Space-Elevator-太空电梯"><span class="level-left"><span class="level-item">67</span><span class="level-item">66 | P6771 Space Elevator 太空电梯</span></span></a></li><li><a class="level is-mobile" href="#67-CF189A-Cut-Ribbon"><span class="level-left"><span class="level-item">68</span><span class="level-item">67 | CF189A Cut Ribbon</span></span></a></li><li><a class="level is-mobile" href="#68-CF417A-Elimination"><span class="level-left"><span class="level-item">69</span><span class="level-item">68 | CF417A Elimination</span></span></a></li><li><a class="level is-mobile" href="#69-P1941-飞扬的小鸟-NOIP2014TG"><span class="level-left"><span class="level-item">70</span><span class="level-item">69 | P1941 飞扬的小鸟 [NOIP2014TG]</span></span></a></li><li><a class="level is-mobile" href="#70-P2938-Stock-Market-G"><span class="level-left"><span class="level-item">71</span><span class="level-item">70 | P2938 Stock Market G</span></span></a></li><li><a class="level is-mobile" href="#71-P1782-旅行商的背包"><span class="level-left"><span class="level-item">72</span><span class="level-item">71 | P1782 旅行商的背包</span></span></a></li><li><a class="level is-mobile" href="#72-P1858-多人♂背包"><span class="level-left"><span class="level-item">73</span><span class="level-item">72 | P1858 多人♂背包</span></span></a></li><li><a class="level is-mobile" href="#73-P1198-最大数-JSOI2008"><span class="level-left"><span class="level-item">74</span><span class="level-item">73 | P1198 最大数[JSOI2008]</span></span></a></li><li><a class="level is-mobile" href="#74-P1417-烹调方案"><span class="level-left"><span class="level-item">75</span><span class="level-item">74 | P1417 烹调方案</span></span></a></li><li><a class="level is-mobile" href="#75-P1531-I-↑-Hate-↓-It-↑"><span class="level-left"><span class="level-item">76</span><span class="level-item">75 | P1531 I ↑ Hate ↓ It ↑</span></span></a></li><li><a class="level is-mobile" href="#76-P1883-函数-amp-UVA-1476-Error-Curves"><span class="level-left"><span class="level-item">77</span><span class="level-item">76 | P1883 函数 &amp; UVA 1476 Error Curves</span></span></a></li><li><a class="level is-mobile" href="#77-P3870-开关-TJOI2009"><span class="level-left"><span class="level-item">78</span><span class="level-item">77 | P3870 开关 [TJOI2009]</span></span></a></li><li><a class="level is-mobile" href="#78-P1471-方差"><span class="level-left"><span class="level-item">79</span><span class="level-item">78 | P1471 方差</span></span></a></li><li><a class="level is-mobile" href="#79-P2412-查单词"><span class="level-left"><span class="level-item">80</span><span class="level-item">79 | P2412 查单词</span></span></a></li><li><a class="level is-mobile" href="#80-P2434-区间-SDOI2005"><span class="level-left"><span class="level-item">81</span><span class="level-item">80 | P2434 区间 [SDOI2005]</span></span></a></li><li><a class="level is-mobile" href="#77A-P2574-XOR的艺术"><span class="level-left"><span class="level-item">82</span><span class="level-item">77A | P2574 XOR的艺术</span></span></a></li><li><a class="level is-mobile" href="#77B-SP7259-LITE-Light-Switching"><span class="level-left"><span class="level-item">83</span><span class="level-item">77B | SP7259 LITE - Light Switching</span></span></a></li><li><a class="level is-mobile" href="#77C-P2846-USACO08NOV-Light-Switching-G"><span class="level-left"><span class="level-item">84</span><span class="level-item">77C | P2846 [USACO08NOV]Light Switching G</span></span></a></li><li><a class="level is-mobile" href="#77D-P5057-CQOI2006-简单题"><span class="level-left"><span class="level-item">85</span><span class="level-item">77D | P5057 [CQOI2006]简单题</span></span></a></li><li><a class="level is-mobile" href="#81-P1972-HH的项链-SDOI2009"><span class="level-left"><span class="level-item">86</span><span class="level-item">81 | P1972 HH的项链 [SDOI2009]</span></span></a></li><li><a class="level is-mobile" href="#82-P1966-火柴排队-NOIP2013TG"><span class="level-left"><span class="level-item">87</span><span class="level-item">82 | P1966 火柴排队 [NOIP2013TG]</span></span></a></li><li><a class="level is-mobile" href="#83-P4933-大师"><span class="level-left"><span class="level-item">88</span><span class="level-item">83 | P4933 大师</span></span></a></li><li><a class="level is-mobile" href="#84-P2303-Longge-的问题"><span class="level-left"><span class="level-item">89</span><span class="level-item">84 | P2303 Longge 的问题</span></span></a></li><li><a class="level is-mobile" href="#85-P4145-上帝造题的七分钟-2-x2F-花神游历各国"><span class="level-left"><span class="level-item">90</span><span class="level-item">85 | P4145 上帝造题的七分钟 2 / 花神游历各国</span></span></a></li><li><a class="level is-mobile" href="#86-P1382-楼房"><span class="level-left"><span class="level-item">91</span><span class="level-item">86 | P1382 楼房</span></span></a></li><li><a class="level is-mobile" href="#87-P1438-无聊的数列"><span class="level-left"><span class="level-item">92</span><span class="level-item">87 | P1438 无聊的数列</span></span></a></li><li><a class="level is-mobile" href="#88-P2257-YY的GCD"><span class="level-left"><span class="level-item">93</span><span class="level-item">88 | P2257 YY的GCD</span></span></a></li><li><a class="level is-mobile" href="#89-P2205-USACO13JAN-Painting-the-Fence-S"><span class="level-left"><span class="level-item">94</span><span class="level-item">89 | P2205 [USACO13JAN]Painting the Fence S</span></span></a></li><li><a class="level is-mobile" href="#89A-P2070-刷墙"><span class="level-left"><span class="level-item">95</span><span class="level-item">89A | P2070 刷墙</span></span></a></li><li><a class="level is-mobile" href="#90-P7075-儒略日-CSP-S2020"><span class="level-left"><span class="level-item">96</span><span class="level-item">90 | P7075 儒略日 [CSP-S2020]</span></span></a></li><li><a class="level is-mobile" href="#91-P7076-动物园-CSP-S2020"><span class="level-left"><span class="level-item">97</span><span class="level-item">91 | P7076 动物园 [CSP-S2020]</span></span></a></li><li><a class="level is-mobile" href="#92-P2184-贪婪大陆"><span class="level-left"><span class="level-item">98</span><span class="level-item">92 | P2184 贪婪大陆</span></span></a></li><li><a class="level is-mobile" href="#93-P5664-Emiya-家今天的饭-CSP-S2019"><span class="level-left"><span class="level-item">99</span><span class="level-item">93 | P5664 Emiya 家今天的饭 [CSP-S2019]</span></span></a></li><li><a class="level is-mobile" href="#94-P2894-Hotel-G-USACO08FEB"><span class="level-left"><span class="level-item">100</span><span class="level-item">94 | P2894 Hotel G [USACO08FEB]</span></span></a></li><li><a class="level is-mobile" href="#95-P4059-找爸爸"><span class="level-left"><span class="level-item">101</span><span class="level-item">95 | P4059 找爸爸</span></span></a></li><li><a class="level is-mobile" href="#96-P2341-受欢迎的牛-G-USACO03FALL-HAOI2006"><span class="level-left"><span class="level-item">102</span><span class="level-item">96 | P2341 受欢迎的牛 G [USACO03FALL] [HAOI2006]</span></span></a></li><li><a class="level is-mobile" href="#96-P3718-Alter-AHOI2017"><span class="level-left"><span class="level-item">103</span><span class="level-item">96 | P3718 Alter [AHOI2017]</span></span></a></li><li><a class="level is-mobile" href="#97-P1896-互不侵犯-SCOI2005"><span class="level-left"><span class="level-item">104</span><span class="level-item">97 | P1896 互不侵犯 [SCOI2005]</span></span></a></li><li><a class="level is-mobile" href="#98-P2756-飞行员配对方案问题"><span class="level-left"><span class="level-item">105</span><span class="level-item">98 | P2756 飞行员配对方案问题</span></span></a></li><li><a class="level is-mobile" href="#99-P1330-封锁阳光大学"><span class="level-left"><span class="level-item">106</span><span class="level-item">99 | P1330 封锁阳光大学</span></span></a></li><li><a class="level is-mobile" href="#100-P1129-矩阵游戏-ZJOI2007"><span class="level-left"><span class="level-item">107</span><span class="level-item">100 | P1129 矩阵游戏 [ZJOI2007]</span></span></a></li><li><a class="level is-mobile" href="#101-P2740-Drainage-Ditches-USACO4-2"><span class="level-left"><span class="level-item">108</span><span class="level-item">101 | P2740 Drainage Ditches [USACO4.2]</span></span></a></li><li><a class="level is-mobile" href="#102-P1343-地震逃生"><span class="level-left"><span class="level-item">109</span><span class="level-item">102 | P1343 地震逃生</span></span></a></li><li><a class="level is-mobile" href="#103-SP300-amp-UVA1660-Cable-TV-Network"><span class="level-left"><span class="level-item">110</span><span class="level-item">103 | SP300 &amp; UVA1660 Cable TV Network</span></span></a></li><li><a class="level is-mobile" href="#104-P2055-假期的宿舍-ZJOI2009"><span class="level-left"><span class="level-item">111</span><span class="level-item">104 | P2055 假期的宿舍 [ZJOI2009]</span></span></a></li><li><a class="level is-mobile" href="#105-P3522-TEM-Temperature-POI2011"><span class="level-left"><span class="level-item">112</span><span class="level-item">105 | P3522 TEM-Temperature [POI2011]</span></span></a></li><li><a class="level is-mobile" href="#106-P3512-PIL-Pilots-POI2010"><span class="level-left"><span class="level-item">113</span><span class="level-item">106 | P3512 PIL-Pilots [POI2010]</span></span></a></li><li><a class="level is-mobile" href="#107-P2841-amp-P1402-amp-P1231"><span class="level-left"><span class="level-item">114</span><span class="level-item">107 | P2841 &amp; P1402 &amp; P1231</span></span></a></li><li><a class="level is-mobile" href="#108-CF438D-The-Child-and-Sequence"><span class="level-left"><span class="level-item">115</span><span class="level-item">108 | CF438D 	The Child and Sequence</span></span></a></li><li><a class="level is-mobile" href="#109-P1659-国家集训队-拉拉队排练"><span class="level-left"><span class="level-item">116</span><span class="level-item">109 | P1659 [国家集训队]拉拉队排练</span></span></a></li><li><a class="level is-mobile" href="#110-P1345-Telecowmunication-USACO5-4"><span class="level-left"><span class="level-item">117</span><span class="level-item">110 | P1345 Telecowmunication[USACO5.4]</span></span></a></li><li><a class="level is-mobile" href="#111-P1361-小M的作物"><span class="level-left"><span class="level-item">118</span><span class="level-item">111 | P1361 小M的作物</span></span></a></li><li><a class="level is-mobile" href="#112-P2936-Total-Flow-S-USACO09JAN"><span class="level-left"><span class="level-item">119</span><span class="level-item">112 | P2936 Total Flow S [USACO09JAN]</span></span></a></li><li><a class="level is-mobile" href="#113-P3931-SAC-E-1-一道难题-Tree"><span class="level-left"><span class="level-item">120</span><span class="level-item">113 | P3931 SAC E#1 - 一道难题 Tree</span></span></a></li><li><a class="level is-mobile" href="#114-P1879-Corn-Fields-G-USACO06NOV"><span class="level-left"><span class="level-item">121</span><span class="level-item">114 | P1879 Corn Fields G [USACO06NOV]</span></span></a></li><li><a class="level is-mobile" href="#115-P4016-负载平衡问题"><span class="level-left"><span class="level-item">122</span><span class="level-item">115 | P4016 负载平衡问题</span></span></a></li><li><a class="level is-mobile" href="#116-P2512-amp-UVA11300"><span class="level-left"><span class="level-item">123</span><span class="level-item">116 | P2512 &amp; UVA11300</span></span></a></li><li><a class="level is-mobile" href="#117-P2668-斗地主-NOIP2015-TG"><span class="level-left"><span class="level-item">124</span><span class="level-item">117 | P2668 斗地主 [NOIP2015 TG]</span></span></a></li><li><a class="level is-mobile" href="#118-P2071-座位安排"><span class="level-left"><span class="level-item">125</span><span class="level-item">118 | P2071 座位安排</span></span></a></li><li><a class="level is-mobile" href="#119-P2319-超级英雄-HNOI2006"><span class="level-left"><span class="level-item">126</span><span class="level-item">119 | P2319 超级英雄 [HNOI2006]</span></span></a></li><li><a class="level is-mobile" href="#120-P1350-车的放置"><span class="level-left"><span class="level-item">127</span><span class="level-item">120 | P1350 车的放置</span></span></a></li><li><a class="level is-mobile" href="#121-P1640-连续攻击游戏-SCOI2010"><span class="level-left"><span class="level-item">128</span><span class="level-item">121 | P1640 连续攻击游戏 [SCOI2010]</span></span></a></li><li><a class="level is-mobile" href="#122-P2057-善意的投票-SHOI2007-x2F-冠军调查-JLOI2010"><span class="level-left"><span class="level-item">129</span><span class="level-item">122 | P2057 善意的投票 [SHOI2007]/冠军调查 [JLOI2010]</span></span></a></li><li><a class="level is-mobile" href="#123-P2598-狼和羊的故事-ZJOI2009"><span class="level-left"><span class="level-item">130</span><span class="level-item">123 | P2598 狼和羊的故事 [ZJOI2009]</span></span></a></li><li><a class="level is-mobile" href="#124-P2774-方格取数问题"><span class="level-left"><span class="level-item">131</span><span class="level-item">124 | P2774 方格取数问题</span></span></a></li><li><a class="level is-mobile" href="#125-P4001-狼抓兔子-ICPC-Beijing-2006"><span class="level-left"><span class="level-item">132</span><span class="level-item">125 | P4001 狼抓兔子 [ICPC-Beijing 2006]</span></span></a></li><li><a class="level is-mobile" href="#126-P2580-于是他错误的点名开始了"><span class="level-left"><span class="level-item">133</span><span class="level-item">126 | P2580 于是他错误的点名开始了</span></span></a></li><li><a class="level is-mobile" href="#127-P1251-餐巾计划问题"><span class="level-left"><span class="level-item">134</span><span class="level-item">127 | P1251 餐巾计划问题</span></span></a></li><li><a class="level is-mobile" href="#128-P2045-方格取数-加-强-版"><span class="level-left"><span class="level-item">135</span><span class="level-item">128 | P2045 方格取数 加 强 版</span></span></a></li><li><a class="level is-mobile" href="#129-P2153-晨跑-SDOI2009"><span class="level-left"><span class="level-item">136</span><span class="level-item">129 | P2153 晨跑 [SDOI2009]</span></span></a></li><li><a class="level is-mobile" href="#130-P3980-志愿者招募-NOI2008"><span class="level-left"><span class="level-item">137</span><span class="level-item">130 | P3980 志愿者招募 [NOI2008]</span></span></a></li><li><a class="level is-mobile" href="#131-SP3267-DQUERY-D-query"><span class="level-left"><span class="level-item">138</span><span class="level-item">131 | SP3267 DQUERY - D-query</span></span></a></li><li><a class="level is-mobile" href="#132-P1903-数颜色-x2F-维护队列-国家集训队"><span class="level-left"><span class="level-item">139</span><span class="level-item">132 | P1903 数颜色 / 维护队列 [国家集训队]</span></span></a></li><li><a class="level is-mobile" href="#133-P1494-小Z的袜子-国家集训队"><span class="level-left"><span class="level-item">140</span><span class="level-item">133 | P1494 小Z的袜子 [国家集训队]</span></span></a></li><li><a class="level is-mobile" href="#134-P2709-小B的询问"><span class="level-left"><span class="level-item">141</span><span class="level-item">134 | P2709 小B的询问</span></span></a></li><li><a class="level is-mobile" href="#135-P3901-数列找不同"><span class="level-left"><span class="level-item">142</span><span class="level-item">135 | P3901 数列找不同</span></span></a></li><li><a class="level is-mobile" href="#136-P1042-乒乓球-NOIP2003PJ"><span class="level-left"><span class="level-item">143</span><span class="level-item">136 | P1042 乒乓球 [NOIP2003PJ]</span></span></a></li><li><a class="level is-mobile" href="#137-P2670-扫雷游戏-NOIP2015PJ"><span class="level-left"><span class="level-item">144</span><span class="level-item">137 | P2670 扫雷游戏 [NOIP2015PJ]</span></span></a></li><li><a class="level is-mobile" href="#138-P1563-玩具谜题-NOIP2016TG"><span class="level-left"><span class="level-item">145</span><span class="level-item">138 | P1563 玩具谜题 [NOIP2016TG]</span></span></a></li><li><a class="level is-mobile" href="#139-P1328-生活大爆炸版石头剪刀布-NOIP2014TG"><span class="level-left"><span class="level-item">146</span><span class="level-item">139 | P1328 生活大爆炸版石头剪刀布 [NOIP2014TG]</span></span></a></li><li><a class="level is-mobile" href="#140-P3174-毛毛虫-HAOI2009"><span class="level-left"><span class="level-item">147</span><span class="level-item">140 | P3174 毛毛虫 [HAOI2009]</span></span></a></li><li><a class="level is-mobile" href="#141-P1472-奶牛家谱-Cow-Pedigrees-USACO2-3"><span class="level-left"><span class="level-item">148</span><span class="level-item">141 | P1472 奶牛家谱 Cow Pedigrees [USACO2.3]</span></span></a></li><li><a class="level is-mobile" href="#142-P1453-城市环路"><span class="level-left"><span class="level-item">149</span><span class="level-item">142 | P1453 城市环路</span></span></a></li><li><a class="level is-mobile" href="#143-P3205-合唱队-HNOI2010"><span class="level-left"><span class="level-item">150</span><span class="level-item">143 | P3205 合唱队 [HNOI2010]</span></span></a></li><li><a class="level is-mobile" href="#144-P5999-kangaroo-CEOI2016"><span class="level-left"><span class="level-item">151</span><span class="level-item">144 | P5999 kangaroo [CEOI2016]</span></span></a></li><li><a class="level is-mobile" href="#145-P1550-Watering-Hole-G-USACO08OCT"><span class="level-left"><span class="level-item">152</span><span class="level-item">145 | P1550 Watering Hole G [USACO08OCT]</span></span></a></li><li><a class="level is-mobile" href="#146-P3535-TOU-Tour-de-Byteotia-POI2012"><span class="level-left"><span class="level-item">153</span><span class="level-item">146 | P3535 TOU-Tour de Byteotia [POI2012]</span></span></a></li><li><a class="level is-mobile" href="#147-P3916-图的遍历"><span class="level-left"><span class="level-item">154</span><span class="level-item">147 | P3916 图的遍历</span></span></a></li><li><a class="level is-mobile" href="#148-P4878-Layout-G-USACO05DEC"><span class="level-left"><span class="level-item">155</span><span class="level-item">148 | P4878 Layout G [USACO05DEC]</span></span></a></li><li><a class="level is-mobile" href="#149-P3128-Max-Flow-P-USACO15DEC"><span class="level-left"><span class="level-item">156</span><span class="level-item">149 | P3128 Max Flow P [USACO15DEC]</span></span></a></li><li><a class="level is-mobile" href="#150-P2158-仪仗队-SDOI2008"><span class="level-left"><span class="level-item">157</span><span class="level-item">150 | P2158 仪仗队 [SDOI2008]</span></span></a></li><li><a class="level is-mobile" href="#151-CF1559A-Mocha-and-Math"><span class="level-left"><span class="level-item">158</span><span class="level-item">151 | CF1559A Mocha and Math</span></span></a></li><li><a class="level is-mobile" href="#152-CF1559D1-Mocha-and-Diana-Easy-Version"><span class="level-left"><span class="level-item">159</span><span class="level-item">152 | CF1559D1 Mocha and Diana (Easy Version)</span></span></a></li><li><a class="level is-mobile" href="#153-P1108-低价购买-amp-P2687"><span class="level-left"><span class="level-item">160</span><span class="level-item">153 | P1108 低价购买 &amp; P2687</span></span></a></li><li><a class="level is-mobile" href="#154-T189961-Wdoi-R3-夜雀-dreaming"><span class="level-left"><span class="level-item">161</span><span class="level-item">154 | T189961 [Wdoi R3] 夜雀 dreaming</span></span></a></li><li><a class="level is-mobile" href="#155-P4310-绝世好题"><span class="level-left"><span class="level-item">162</span><span class="level-item">155 | P4310 绝世好题</span></span></a></li><li><a class="level is-mobile" href="#156-P1944-最长括号匹配"><span class="level-left"><span class="level-item">163</span><span class="level-item">156 | P1944 最长括号匹配</span></span></a></li><li><a class="level is-mobile" href="#157-P2340-Cow-Exhibition-G-USACO03FALL"><span class="level-left"><span class="level-item">164</span><span class="level-item">157 | P2340 Cow Exhibition G [USACO03FALL]</span></span></a></li><li><a class="level is-mobile" href="#158-T193697-信号塔"><span class="level-left"><span class="level-item">165</span><span class="level-item">158 | T193697 信号塔</span></span></a></li><li><a class="level is-mobile" href="#159-CF1560A-Dislike-of-Threes"><span class="level-left"><span class="level-item">166</span><span class="level-item">159 | CF1560A Dislike of Threes</span></span></a></li><li><a class="level is-mobile" href="#160-P3868-猜数字-TJOI2009"><span class="level-left"><span class="level-item">167</span><span class="level-item">160 | P3868 猜数字 [TJOI2009]</span></span></a></li><li><a class="level is-mobile" href="#161-P1169-棋盘制作-ZJOI2007"><span class="level-left"><span class="level-item">168</span><span class="level-item">161 | P1169 棋盘制作 [ZJOI2007]</span></span></a></li><li><a class="level is-mobile" href="#162-P4147-玉蟾宫"><span class="level-left"><span class="level-item">169</span><span class="level-item">162 | P4147 玉蟾宫</span></span></a></li><li><a class="level is-mobile" href="#163-P2051-中国象棋-AHOI2009"><span class="level-left"><span class="level-item">170</span><span class="level-item">163 | P2051 中国象棋 [AHOI2009]</span></span></a></li><li><a class="level is-mobile" href="#164-P1578-奶牛浴场"><span class="level-left"><span class="level-item">171</span><span class="level-item">164 | P1578 奶牛浴场</span></span></a></li><li><a class="level is-mobile" href="#165-P2701-Big-Barn-USACO5-3"><span class="level-left"><span class="level-item">172</span><span class="level-item">165 | P2701 Big Barn [USACO5.3]</span></span></a></li><li><a class="level is-mobile" href="#166-SP1805-Largest-Rectangle-in-a-Histogram"><span class="level-left"><span class="level-item">173</span><span class="level-item">166 | SP1805 Largest Rectangle in a Histogram</span></span></a></li><li><a class="level is-mobile" href="#167-UVA1619-Feel-Good"><span class="level-left"><span class="level-item">174</span><span class="level-item">167 | UVA1619 Feel Good</span></span></a></li><li><a class="level is-mobile" href="#168-P2216-理想的正方形-HAOI2007"><span class="level-left"><span class="level-item">175</span><span class="level-item">168 | P2216 理想的正方形 [HAOI2007]</span></span></a></li><li><a class="level is-mobile" href="#169-P2831-愤怒的小鸟-NOIP2016TG"><span class="level-left"><span class="level-item">176</span><span class="level-item">169 | P2831 愤怒的小鸟 [NOIP2016TG]</span></span></a></li><li><a class="level is-mobile" href="#170-P2331-最大子矩阵-SCOI2005"><span class="level-left"><span class="level-item">177</span><span class="level-item">170 | P2331 最大子矩阵 [SCOI2005]</span></span></a></li><li><a class="level is-mobile" href="#171-CF1354D-Multiset"><span class="level-left"><span class="level-item">178</span><span class="level-item">171 | CF1354D Multiset</span></span></a></li><li><a class="level is-mobile" href="#172-CF1181D-Irrigation"><span class="level-left"><span class="level-item">179</span><span class="level-item">172 | CF1181D Irrigation</span></span></a></li><li><a class="level is-mobile" href="#173-P2245-星际导航"><span class="level-left"><span class="level-item">180</span><span class="level-item">173 | P2245 星际导航</span></span></a></li><li><a class="level is-mobile" href="#173-P3959-宝藏-NOIP2017TG"><span class="level-left"><span class="level-item">181</span><span class="level-item">173 | P3959 宝藏 [NOIP2017TG]</span></span></a></li><li><a class="level is-mobile" href="#174-P2602-数字计数-ZJOI2010"><span class="level-left"><span class="level-item">182</span><span class="level-item">174 | P2602 数字计数 [ZJOI2010]</span></span></a></li><li><a class="level is-mobile" href="#175-P6218-Round-Numbers-S-USACO06NOV"><span class="level-left"><span class="level-item">183</span><span class="level-item">175 | P6218 Round Numbers S [USACO06NOV]</span></span></a></li><li><a class="level is-mobile" href="#176-P4317-花神的数论题"><span class="level-left"><span class="level-item">184</span><span class="level-item">176 | P4317 花神的数论题</span></span></a></li><li><a class="level is-mobile" href="#177-P4999-烦人的数学作业"><span class="level-left"><span class="level-item">185</span><span class="level-item">177 | P4999 烦人的数学作业</span></span></a></li><li><a class="level is-mobile" href="#178-P3413-SAC-1-萌数"><span class="level-left"><span class="level-item">186</span><span class="level-item">178 | P3413 SAC#1 - 萌数</span></span></a></li><li><a class="level is-mobile" href="#179-P4127-同类分布-AHOI2009"><span class="level-left"><span class="level-item">187</span><span class="level-item">179 | P4127 同类分布 [AHOI2009]</span></span></a></li><li><a class="level is-mobile" href="#180-P4124-手机号码-CQOI2016"><span class="level-left"><span class="level-item">188</span><span class="level-item">180 | P4124 手机号码 [CQOI2016]</span></span></a></li><li><a class="level is-mobile" href="#181-P2518-计数-HAOI2010"><span class="level-left"><span class="level-item">189</span><span class="level-item">181 | P2518 计数 [HAOI2010]</span></span></a></li><li><a class="level is-mobile" href="#182-P4768-归程-NOI2018"><span class="level-left"><span class="level-item">190</span><span class="level-item">182 | P4768 归程 [NOI2018]</span></span></a></li><li><a class="level is-mobile" href="#183-P1868-饥饿的奶牛"><span class="level-left"><span class="level-item">191</span><span class="level-item">183 | P1868 饥饿的奶牛</span></span></a></li><li><a class="level is-mobile" href="#184-P1341-无序字母对"><span class="level-left"><span class="level-item">192</span><span class="level-item">184 | P1341 无序字母对</span></span></a></li><li><a class="level is-mobile" href="#185-P6722-「MCOI-01」Village-村庄"><span class="level-left"><span class="level-item">193</span><span class="level-item">185 | P6722 「MCOI-01」Village 村庄</span></span></a></li><li><a class="level is-mobile" href="#186-P7113-排水系统-NOIP2020"><span class="level-left"><span class="level-item">194</span><span class="level-item">186 | P7113 排水系统 [NOIP2020]</span></span></a></li><li><a class="level is-mobile" href="#187-P6560-时光的流逝-SBCOI2020"><span class="level-left"><span class="level-item">195</span><span class="level-item">187 | P6560 时光的流逝 [SBCOI2020]</span></span></a></li><li><a class="level is-mobile" href="#188-P4513-小白逛公园"><span class="level-left"><span class="level-item">196</span><span class="level-item">188 | P4513 小白逛公园</span></span></a></li><li><a class="level is-mobile" href="#189-P3177-树上染色-HAOI2015"><span class="level-left"><span class="level-item">197</span><span class="level-item">189 | P3177 树上染色 [HAOI2015]</span></span></a></li><li><a class="level is-mobile" href="#190-P2146-软件包管理器-NOI2015"><span class="level-left"><span class="level-item">198</span><span class="level-item">190 | P2146 软件包管理器 [NOI2015]</span></span></a></li><li><a class="level is-mobile" href="#191-P2619-Tree-I-国家集训队"><span class="level-left"><span class="level-item">199</span><span class="level-item">191 | P2619 Tree I [国家集训队]</span></span></a></li><li><a class="level is-mobile" href="#192-UVA12888-Count-LCM"><span class="level-left"><span class="level-item">200</span><span class="level-item">192 | UVA12888 Count LCM</span></span></a></li><li><a class="level is-mobile" href="#193-P4981-父子"><span class="level-left"><span class="level-item">201</span><span class="level-item">193 | P4981 父子</span></span></a></li><li><a class="level is-mobile" href="#194-P2590-树的统计-ZJOI2008"><span class="level-left"><span class="level-item">202</span><span class="level-item">194 | P2590 树的统计 [ZJOI2008]</span></span></a></li><li><a class="level is-mobile" href="#195-P1265-公路修建"><span class="level-left"><span class="level-item">203</span><span class="level-item">195 | P1265 公路修建</span></span></a></li><li><a class="level is-mobile" href="#196-P1119-灾后重建"><span class="level-left"><span class="level-item">204</span><span class="level-item">196 | P1119 灾后重建</span></span></a></li><li><a class="level is-mobile" href="#197-P5658-括号树-CSP-S-2019"><span class="level-left"><span class="level-item">205</span><span class="level-item">197 | P5658 括号树 [CSP-S 2019]</span></span></a></li><li><a class="level is-mobile" href="#198-P2742-Fencing-the-Cows-USACO5-1"><span class="level-left"><span class="level-item">206</span><span class="level-item">198 | P2742 Fencing the Cows [USACO5.1]</span></span></a></li><li><a class="level is-mobile" href="#199-P2116-城墙"><span class="level-left"><span class="level-item">207</span><span class="level-item">199 | P2116 城墙</span></span></a></li><li><a class="level is-mobile" href="#200-P1463-反素数-POI2001-and-HAOI2007"><span class="level-left"><span class="level-item">208</span><span class="level-item">200 | P1463 反素数 [POI2001 and HAOI2007]</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/About-Me/"><span class="level-start"><span class="level-item">About Me</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/MyBlog/"><span class="level-start"><span class="level-item">MyBlog</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Nothing/"><span class="level-start"><span class="level-item">Nothing</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/categories/OI-Algorithm/"><span class="level-start"><span class="level-item">OI-Algorithm</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li><li><a class="level is-mobile" href="/categories/OI-Solutions/"><span class="level-start"><span class="level-item">OI-Solutions</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/OI-Theorem/"><span class="level-start"><span class="level-item">OI-Theorem</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/OI-TravelNotes/"><span class="level-start"><span class="level-item">OI-TravelNotes</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/categories/Other/"><span class="level-start"><span class="level-item">Other</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-05-28T07:46:34.516Z">2022-05-28</time></p><p class="title"><a href="/2022/05/28/hello-world/">Hello World</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-05-27T13:08:58.000Z">2022-05-27</time></p><p class="title"><a href="/2022/05/27/FWT/">FWT</a></p><p class="categories"><a href="/categories/OI-Algorithm/">OI-Algorithm</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-05-27T06:28:31.000Z">2022-05-27</time></p><p class="title"><a href="/2022/05/27/Asymmetry/">Nothing : Asymmetry</a></p><p class="categories"><a href="/categories/Nothing/">Nothing</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-05-27T01:35:31.000Z">2022-05-27</time></p><p class="title"><a href="/2022/05/27/APIO2022/">APIO2022 线上游记</a></p><p class="categories"><a href="/categories/OI-TravelNotes/">OI-TravelNotes</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-05-15T04:46:30.000Z">2022-05-15</time></p><p class="title"><a href="/2022/05/15/SDOI2022/">SDOI2022 线上游记</a></p><p class="categories"><a href="/categories/OI-TravelNotes/">OI-TravelNotes</a></p></div></article></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="https://s2.loli.net/2022/05/21/WniEcsqYdjoTlg4.png" alt="Heriko Deltana&#039;s Blog" height="28"></a><p class="is-size-7"><span>&copy; 2022 Heriko Delatna</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Theme icarus" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Theme Code" href="https://github.com/HRiver2/HRiver2.github.io"><i class="fas fa-code"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-CN");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "此网站使用Cookie来改善您的体验。",
+          dismiss: "知道了！",
+          allow: "允许使用Cookie",
+          deny: "拒绝",
+          link: "了解更多",
+          policy: "Cookie政策",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mhchem.min.js" defer></script><script>window.addEventListener("load", function() {
+            document.querySelectorAll('[role="article"] > .content').forEach(function(element) {
+                renderMathInElement(element);
+            });
+        });</script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+            'HTML-CSS': {
+                matchFontHeight: false
+            },
+            SVG: {
+                matchFontHeight: false
+            },
+            CommonHTML: {
+                matchFontHeight: false
+            },
+            tex2jax: {
+                inlineMath: [
+                    ['$','$'],
+                    ['\\(','\\)']
+                ]
+            }
+        });</script><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script></body></html>
