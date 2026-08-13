@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Formula1Bold";
+  src: url("/font/Formula1-Bold_web_0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrainsMonoNL";
+  src: url("/font/JetBrainsMonoNL-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrainsMonoNL";
+  src: url("/font/JetBrainsMonoNL-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Typography system */
+:root {
+  --font-body: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-title: "Formula1Bold", "Microsoft YaHei", "SimHei", "PingFang SC", sans-serif;
+  --font-mono: "JetBrainsMonoNL", "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+}
+
+body {
+  font-family: var(--font-body);
+  letter-spacing: 0.01em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title {
+  font-family: var(--font-title);
+  font-weight: 800;
+  letter-spacing: 0.015em;
+}
+
+code,
+pre,
+kbd,
+samp,
+.post-html pre code,
+.post-html p code,
+.post-html li code {
+  font-family: var(--font-mono);
+}
+
+/* TOC readability */
+.sidebar-box .toc {
+  margin-top: 0.4rem;
+  padding-left: 1rem;
+  border-left: 2px solid color-mix(in srgb, var(--text-accent) 38%, transparent);
+}
+
+.sidebar-box .toc > li,
+.sidebar-box .toc ol li {
+  margin: 0.2rem 0;
+  line-height: 1.45;
+}
+
+.sidebar-box .toc a {
+  display: inline-block;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.35rem;
+  color: var(--text-normal);
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.sidebar-box .toc a:hover {
+  background: color-mix(in srgb, var(--text-accent) 16%, transparent);
+  color: var(--text-bright);
+}
+
+.sidebar-box .toc li.active > a {
+  background: color-mix(in srgb, var(--text-accent) 24%, transparent);
+  color: var(--text-bright);
+  font-weight: 700;
+}
+
+/* Code language badge */
+.post-html div.sourceCode {
+  position: relative;
+}
+
+.post-html div.sourceCode::before {
+  content: "code";
+  position: absolute;
+  top: 0.55rem;
+  right: 0.8rem;
+  z-index: 4;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1;
+  padding: 0.26rem 0.48rem;
+  border-radius: 0.38rem;
+  text-transform: lowercase;
+  color: var(--text-bright);
+  background: color-mix(in srgb, var(--background-secondary) 78%, black);
+  border: 1px solid color-mix(in srgb, var(--text-accent) 30%, transparent);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.cpp)::before,
+.post-html div.sourceCode:has(pre.sourceCode.cxx)::before,
+.post-html div.sourceCode:has(pre.sourceCode.cc)::before,
+.post-html div.sourceCode:has(pre.sourceCode.c)::before {
+  content: "cpp";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.python)::before,
+.post-html div.sourceCode:has(pre.sourceCode.py)::before {
+  content: "python";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.javascript)::before,
+.post-html div.sourceCode:has(pre.sourceCode.js)::before {
+  content: "javascript";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.typescript)::before,
+.post-html div.sourceCode:has(pre.sourceCode.ts)::before {
+  content: "typescript";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.java)::before {
+  content: "java";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.go)::before {
+  content: "go";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.rust)::before,
+.post-html div.sourceCode:has(pre.sourceCode.rs)::before {
+  content: "rust";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.bash)::before,
+.post-html div.sourceCode:has(pre.sourceCode.sh)::before,
+.post-html div.sourceCode:has(pre.sourceCode.zsh)::before,
+.post-html div.sourceCode:has(pre.sourceCode.shell)::before {
+  content: "shell";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.json)::before {
+  content: "json";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.html)::before {
+  content: "html";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.css)::before {
+  content: "css";
+}
+
+.post-html div.sourceCode:has(pre.sourceCode.sql)::before {
+  content: "sql";
+}
+
+/* Home feature heading: match Aurora home DOM and keep title inside card */
+#feature .inverted-main-grid .ob-gradient-plate {
+  min-width: 0;
+}
+
+#feature .inverted-main-grid .ob-gradient-plate h2 {
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+#feature .inverted-main-grid .ob-gradient-plate h2 > p {
+  margin: 0;
+  max-width: 100%;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  font-size: clamp(0.88rem, 2.6vw, 1.38rem) !important;
+  line-height: 1.12;
+}
+
+@media (max-width: 768px) {
+  #feature .inverted-main-grid .ob-gradient-plate h2 > p {
+    font-size: clamp(0.92rem, 6vw, 1.35rem) !important;
+    line-height: 1.18;
+  }
+}

@@ -1,0 +1,81 @@
+/* Pandoc-generated code blocks: <div class="sourceCode"><pre class="sourceCode ..."> */
+.post-html div.sourceCode {
+  position: relative;
+  margin: 1.5rem 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: var(--background-primary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.post-html div.sourceCode pre.sourceCode {
+  margin: 0;
+  padding: 1rem 1rem;
+  overflow: auto;
+  line-height: 1.55;
+}
+
+.post-html div.sourceCode pre.sourceCode code.sourceCode {
+  display: block;
+  color: var(--text-normal);
+  background: transparent;
+}
+
+/* Fallback for plain fenced blocks without token spans */
+.post-html pre code {
+  color: var(--text-normal);
+}
+
+.post-html pre.sourceCode,
+.post-html pre[class*="language-"] {
+  background: var(--background-primary);
+  border-radius: 1rem;
+}
+
+/* Token colors for pandoc span classes */
+.post-html code span.kw,
+.post-html code span.cf,
+.post-html code span.im {
+  color: #7aa2f7;
+  font-weight: 600;
+}
+
+.post-html code span.dt,
+.post-html code span.bu,
+.post-html code span.at {
+  color: #7dcfff;
+}
+
+.post-html code span.dv,
+.post-html code span.bn,
+.post-html code span.fl,
+.post-html code span.cn {
+  color: #ff9e64;
+}
+
+.post-html code span.st,
+.post-html code span.vs,
+.post-html code span.ch {
+  color: #9ece6a;
+}
+
+.post-html code span.co {
+  color: #7f8ea3;
+  font-style: italic;
+}
+
+.post-html code span.fu,
+.post-html code span.ot {
+  color: #bb9af7;
+}
+
+.post-html code span.op,
+.post-html code span.pp,
+.post-html code span.sc {
+  color: #c0caf5;
+}
+
+.post-html code span.er,
+.post-html code span.wa {
+  color: #f7768e;
+}
